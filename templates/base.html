@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="{{ url_for('static', filename='vendor/bootstrap/css/bootstrap.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/clean-blog.min.css') }}" type="text/css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}" type="text/css">
+    <title>Hello Flask</title>
+</head>
+<body>
+
+	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+		<div class="container">
+			<a class="navbar-brand" href="{{ url_for('index') }}">Thorin &amp; Company</a>
+			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+	        Menu
+	        <i class="fas fa-bars"></i>
+	      </button>
+			<div class="collapse navbar-collapse" id="navbarResponsive">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url_for('index') }}">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url_for('about') }}">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url_for('contact') }}">Contact Us</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="{{ url_for('careers') }}">Careers</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	
+	<!-- Page Header -->
+	<header class="masthead" style="background-image: url('https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/fadc668e-5f6a-4648-9d27-e91eb6973da7/d5nay7b-9991c1db-0f4a-4f3f-a95a-0b53947a14f9.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2ZhZGM2NjhlLTVmNmEtNDY0OC05ZDI3LWU5MWViNjk3M2RhN1wvZDVuYXk3Yi05OTkxYzFkYi0wZjRhLTRmM2YtYTk1YS0wYjUzOTQ3YTE0ZjkucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.eknvKAWOPVaW_j6s7cbG6EKi-TGwolEaaTetCmjNYUA')">
+		<div class="overlay"></div>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-10 mx-auto">
+					<div class="site-heading">
+						<h1>Thorin &amp; Company</h1>
+						<span class="subheading">Thorin and his company of dwarves</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+	
+	<!-- Main Content -->
+	<div class="container">
+
+        {% block content %}
+        {% endblock %}
+
+	</div>
+	
+	<hr>
+	
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-md-10 mx-auto">
+					<ul class="list-inline text-center">
+						<li class="list-inline-item">
+							<a href="#">
+								<span class="fa-stack fa-lg">
+	                  <i class="fas fa-circle fa-stack-2x"></i>
+	                  <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+	                </span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#">
+								<span class="fa-stack fa-lg">
+	                  <i class="fas fa-circle fa-stack-2x"></i>
+	                  <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+	                </span>
+							</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#">
+								<span class="fa-stack fa-lg">
+	                  <i class="fas fa-circle fa-stack-2x"></i>
+	                  <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+	                </span>
+							</a>
+						</li>
+					</ul>
+					<p class="copyright text-muted">Copyright &copy; Your Website <span id="copyright"></span></p>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+	<!-- Bootstrap core JavaScript -->
+	<script src="{{ url_for('static', filename='vendor/jquery/jquery.min.js') }}"></script>
+	<script src="{{ url_for('static', filename='vendor/bootstrap/js/bootstrap.bundle.min.js') }}"></script>
+	
+	<!-- Custom scripts for this template -->
+	<script src="{{ url_for('static', filename='js/clean-blog.min.js') }}"></script>
+    <script>$("#copyright").text(new Date().getFullYear());</script>
+
+</body>
+</html>
