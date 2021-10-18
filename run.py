@@ -18,11 +18,12 @@ def about():
     data = []
     with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
-    return render_template("about.html", page_title="Hello and Welcome to The Review",
-     company=data)
+    return render_template("about.html", page_title="Hello and Welcome to The Review", company=data)
+
 """
 All the text is copied from https://www.bookbrowse.com/. 
 """
+
 
 @app.route("/about/<member_name>")
 def about_member(member_name):
