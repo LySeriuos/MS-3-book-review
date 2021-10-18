@@ -1,48 +1,51 @@
 {% extends "base.html" %}
 {% block content %}
-   
+
     <h2>{{ page_title}}</h2>
-    <h4>Our Mission</h4>
-    <p>The Review is your guide to exceptional books, providing you with all you need to know about the books that
-        matter.
-        For more than two decades, The Review has provided a curated resource of the best in contemporary fiction and
-        nonfiction, with an emphasis on books that not only engage and entertain but also deepen our understanding of
-        ourselves and the world around us. We offer free and premium content - with subscription options for individuals
-        and libraries (so that all patrons and staff can access.)
-        Because there are far too many books published for you to read about all of them, let alone read them all, we
-        seek out and recommend only the best of the best. Then, we give you all the information you need to decide which
-        books are just right for you. Among much else, The Review provides in-depth reviews and "beyond the book"
-        articles; hand-selected read-alike recommendations for thousands of books and authors; the ability to browse by
-        genre, time period, setting and a wide range of themes; previews of notable books publishing soon; and extensive
-        resources for book clubs.
-        We also publish four free newsletters (The Review Highlights, Publishing This Week, Book Club News and Librarian
-        News) and, for our members, a twice-monthly e-magazine, The Review.
-        </p>
+    <p>The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest
+        in recapturing his long lost family inheritance. (Thorin's grandfather had been the king of the Lonely Mountain
+	    rash action. The superstitious Dwarves also considered thirteen to be an unlucky number, and as Gandalf had
+        planned to leave on other business, welcomed a fourteenth to fill into their party.</p>
 
-    <h4>The BookBrowse Story</h4>  
-    <p> In the years before children, one of our greatest pleasures was going together to browse the shelves in the
-        bookstore or library, taking our time to pick out books that looked interesting and browsing a few pages to
-        decide which we wanted to take home. But after the arrival of our two children, lengthy visits to anything other
-        than the kid's section became rare.
-        Back in 1997, we arrived home from a far from relaxing visit to the bookstore (because the four year old wanted
-        to go off exploring and the two year old decided that an afternoon nap wasn't on the agenda after all). Surely,
-        we thought, there must be another way, and perhaps this newfangled thing called the world wide web was the
-        answer? So, we dialed up our internet connection and started to search for information on books - but it was so
-        limited - even at Amazon, all that was available was the book jacket description.
-        We asked ourselves, why can't we browse through a few pages of a book online just as we can in the bookstore or
-        library? And, finding we could not, we resolved to create a website that would bring booklovers excerpts of
-        books. But that was just the start...
-    </p> 
-
-    <h4>Browse the Best - Ignore the Rest!</h4>  
-    <p> Fast forward to the early 2000s. The internet was growing exponentially, as was the number of books published -
-        far more than anyone could read, or even read about! So we became increasingly selective about the books we
-        listed - only featuring books that we could wholeheartedly stand behind.
-        For a book to capture our interest, then and now, it has to do more than just tell a good story, it also needs
-        to give us a window to explore the lives of others, or a mirror to reflect on our own experiences. In short, it
-        needs to not just entertain and engage, but also inform, leaving us knowing something new. Such books aren't
-        limited to any individual genre, so we feature books from a wide range of genres, both fiction and nonfiction.
-    </p> 
+        {% for member in company %}
 
 
-{% endblock %}        
+        <div class="row featurette">
+
+            {%if loop.index % 2 !=0 %}
+
+
+            <div class="col-md-7">
+                <h3><a href="/about/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
+                <p>{{member.description}}</p>
+            </div>
+            <div class="col-md-5">
+                <img src="{{member.image_source}}" alt="" class="featurette-image image-responsive">
+            </div>
+
+            {% else %}
+
+
+            <div class="col-md-5">
+                <img src="{{ member.image_source }}" alt="" class="featurette-image image-responsive">
+            </div>
+            <div class="col-md-7">
+                <h3><a href="/about/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
+                <p>{{member.description}}</p>
+            </div>
+
+
+            {% endif %}
+
+        </div>
+
+        {% if loop.index != loop.length %}
+
+
+        <hr class="featurette-divider"> 
+        {% endif %}
+
+
+    {% endfor %}
+
+{% endblock %}  

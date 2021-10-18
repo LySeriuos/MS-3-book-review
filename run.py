@@ -1,16 +1,24 @@
 import os
 import json
-from flask import Flask, render_template, request, flash
+from flask import Flask, render_template, request, flash, url_for, redirect
+from werkzeug.wrappers import Request, Response
+from flask_pymongo import PyMongo
 if os.path.exists("env.py"):
     import env
 
 app = Flask(__name__)
 app.secret_key = os.environ.get("SECRET_KEY")
+app.config["MONGO_URI"] = "mongodb://localhost:27017/myDatabase"
+mongo = PyMongo(app)
 
 
 @app.route("/")
 def index():
     return render_template("index.html")
+
+@app.route("/")
+def index_for_members():
+    return render_template("index-for-members.html")    
 
 
 @app.route("/about")
@@ -41,12 +49,22 @@ def contact():
     if request.method == "POST":
         flash("Thanks {}, We recieved your message!".format
         (request.form.get("name")))
-    return render_template("contact.html", page_title="Contact")
+    return render_template("contact.html", page_title="About Us")
 
 
-@app.route("/careers")
-def careers():
-    return render_template("careers.html", page_title="Careers")
+
+
+
+# Route for handling the login page logic
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    error = None
+    if request.method == 'POST':
+        if request.form['username'] != 'admin' or request.form['password'] != 'admin':
+            error = 'Invalid Credentials. Please try again.'
+        else:
+            return redirect(url_for('index'))
+    return render_template('login.html', page_title="Log In", error=error)    
 
 
 # this is only if on test. It shouldn't be on normal basis
