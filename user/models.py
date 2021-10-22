@@ -1,7 +1,8 @@
 from flask import Flask, jsonify
 
-class User:
 
+class User:
+    
     def signup(self):
         user = {
             "_id": "",

@@ -1,0 +1,50 @@
+{% extends "base.html" %}
+{% block content %}
+   
+    <h2>{{ page_title}}</h2>
+
+
+ <div class ="conatiner">
+     <h1 class="center">Create your account</h1>
+
+     <form name="signup_form">
+
+        <!-- Email input -->
+
+ <div class="form-outline mb-4">
+    <label for="name">Name</label> 
+    <input type="text" name="name" id="form3Example3" class="form-control form-control-lg field" required
+      placeholder="Enter your name" />    
+  </div>
+
+   <div class="form-outline mb-4">
+    <label for="email">Email</label> 
+    <input type="email" name="email" id="form3Example3" class="form-control form-control-lg field" required
+      placeholder="Enter your name" />    
+  </div>
+
+  <!-- Password input -->
+  <div class="form-outline mb-4">
+    <label for="password">Password</label> 
+    <input type="password" name="password" id="form3Example3" class="form-control form-control-lg field" required
+      placeholder="Enter your name" />    
+  </div>
+ 
+  <p class="error error--hidden"></p>
+
+  <input type="submit" value="Sign Up" class="btn btn-primary btn-lg">
+
+     </form>
+
+
+
+ </div>
+ 
+ 
+ 
+ 
+ {% if error %}
+        <p class="error"><strong>Error:</strong> {{ error }}
+      {% endif %}
+    </div>
+  {% endblock %}
