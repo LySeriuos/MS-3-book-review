@@ -1,44 +1,51 @@
 {% extends "base.html" %}
 {% block content %}
-   
+
     <h2>{{ page_title}}</h2>
+    <p>The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest
+        in recapturing his long lost family inheritance. (Thorin's grandfather had been the king of the Lonely Mountain
+	    rash action. The superstitious Dwarves also considered thirteen to be an unlucky number, and as Gandalf had
+        planned to leave on other business, welcomed a fourteenth to fill into their party.</p>
 
-<div class="row featurette">
-
-    {%if loop.index % 2 !=0 %}
-
-
-    <div class="col-md-7">
-        <h3><a href="/contact/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
-        <p>{{member.description}}</p>
-    </div>
-    <div class="col-md-5">
-        <img src="{{member.image_source}}" alt="" class="featurette-image image-responsive">
-    </div>
-
-    {% else %}
+        {% for member in company %}
 
 
-    <div class="col-md-5">
-        <img src="{{ member.image_source }}" alt="" class="featurette-image image-responsive">
-    </div>
-    <div class="col-md-7">
-        <h3><a href="/contact/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
-        <p>{{member.description}}</p>
-    </div>
-    
+        <div class="row featurette">
 
-    {% endif %}
-
-</div>
-
-{% if loop.index != loop.length %}
+            {%if loop.index % 2 !=0 %}
 
 
-<hr class="featurette-divider"> 
-{% endif %}
+            <div class="col-md-7">
+                <h3><a href="/about/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
+                <p>{{member.description}}</p>
+            </div>
+            <div class="col-md-5">
+                <img src="{{member.image_source}}" alt="" class="featurette-image image-responsive">
+            </div>
+
+            {% else %}
 
 
-{% endfor %}
+            <div class="col-md-5">
+                <img src="{{ member.image_source }}" alt="" class="featurette-image image-responsive">
+            </div>
+            <div class="col-md-7">
+                <h3><a href="/about/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
+                <p>{{member.description}}</p>
+            </div>
 
-{% endblock %} 
+
+            {% endif %}
+
+        </div>
+
+        {% if loop.index != loop.length %}
+
+
+        <hr class="featurette-divider"> 
+        {% endif %}
+
+
+    {% endfor %}
+
+{% endblock %}  
