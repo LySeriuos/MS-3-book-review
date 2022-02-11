@@ -29,12 +29,12 @@ def belenkas():
     return render_template("/signup.html")
 
 
-@app.route("/about")
-def about():
+@app.route("/reviews")
+def reviews():
     data = []
     with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
-    return render_template("about.html", page_title="Hello and Welcome to The Review", company=data)
+    return render_template("reviews.html", page_title="Hello and Welcome to The Review", company=data)
 
 
 """
@@ -42,8 +42,8 @@ All the text is copied from https://www.bookbrowse.com/.
 """
 
 
-@app.route("/about/<member_name>")
-def about_member(member_name):
+@app.route("/reviews/<member_name>")
+def reviews_member(member_name):
     member = {}
     with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
@@ -53,12 +53,9 @@ def about_member(member_name):
     return render_template("member.html", member=member)
 
 
-@app.route("/contact", methods=["GET", "POST"])
-def contact():
-    if request.method == "POST":
-        flash("Thanks {}, We recieved your message!".format
-        (request.form.get("name")))
-    return render_template("contact.html", page_title="About Us")
+@app.route("/about")
+def about():
+    return render_template("/about.html")
 
 
 
