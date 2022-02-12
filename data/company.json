@@ -1,80 +1,202 @@
 [
     {
-      "name": "Thorin Oakenshield",
-      "description": "Thorin II, also called the Oakenshield, King under the Mountain or the Mountain King, was the son of Thráin II, the older brother of Frerin and Dís, the grandson of King Thrór and the uncle of Fíli and Kíli. Thorin was best known for his deeds as leader of a company that infiltrated the lost Kingdom under the Mountain to take it back from Smaug and for leading an alliance of Men, Dwarves, and Elves in the Battle of the Five Armies.",
-      "image_source": "https://static.wikia.nocookie.net/lotr/images/e/ec/1400193_695248260488487_320403599_o.jpg",
-      "url": "thorin"
+      "name": "Anthem",
+      "rating": "",
+      "year": "2022",
+      "genre": "Thriller, Suspense",
+      "author": "Noah Hawley",
+      "description": "Noah Hawley submits his bid for most interesting novel of the new year. In Anthem, the earth is heating up, as is global anxiety. Guns and opioids are everywhere. Political strife and financial inequality have driven our country to the breaking point. Sound familiar? Hawley has turned up the dial on the problems that we all know exist in this world, bravely (and depending on your world view, perhaps divisively) combing through them and explicating while he builds a story that gathers momentum along the way. Anyone who has seen the television series Fargo (which he created and writes) or who has read his previous novels (particularly his last book Before the Fall) knows that Hawley is a unique talent. He is also a deep thinker. In Anthem, a pandemic of mass suicide among young people is the jumping off point for the story—and in the end, it is young people who will take their future into their own hands. You will recognize much in terms of people and issues here, but you will also be pulled into an adventure that only a few authors could write so well. ",
+      "image_source": "static/img/books-img/Anthem-by-Noah-Hawley.jpg",
+      "url": "anthem"
     },
     {
-      "name": "Kili & Fili",
-      "description": "Fíli and Kíli were the two most active dwarves of Thorin's company, and apart from Balin, and possibly Bombur, they appeared more frequently as 'individual' characters in Tolkien's novel than the rest of Thorin's companions, who were most often named only in 'group' references to the entire company.",
-      "image_source": "http://www.filmofilia.com/wp-content/uploads/2011/07/hobbit_0.jpg",
-      "url": "kili-and-fili"
+      "name": "Olga Dies Dreaming",
+      "rating": "",
+      "year": "2021",
+      "genre": "Domestic Fiction",
+      "author": "Xochitl Gonzalez",
+      "description": "A debut that has the heart, the comedy, the complexity, and glittering vivacity that make it easy to imagine as a TV series, which it will soon be. Olga is a successful wedding planner to the rich and soon-to-be-famous and her brother Pietro is a congressman—both have come a long way from their Brooklyn childhood when they were abandoned by their mother, a radical Puerto Rican activist. But when Hurricane Maria strikes, Olga and Pietro are forced to confront their past and their futures. In Olga Dies Dreaming there are family secrets, grievances, and the feeling of being caught between two worlds, which Xochitl Gonzalez renders with such clarity and zeal that it’s nearly impossible to not read this in one sitting. ",
+      "image_source": "static/img/books-img/Olga-Diez-Dreaming-by-Xochitl-Gonzalez.jpg",
+      "url": "olga dies dreaming"
     },
     {
-      "name": "Óin",
-      "description": "Óin was the older brother of Glóin, cousin of Dwalin and Balin, and uncle of Gimli. He usually wore a brown-hooded cloak when travelling. Óin fought in the Battle of Azanulbizar along with Thorin Oakenshield, and in TA 2941 joined with Thorin and Company on the quest to reclaim the Lonely Mountain wearing a brown hood. Óin was one of the Dwarves who bet that Bilbo would come along with them to reclaim the Lonely Mountain. Óin and his brother Glóin were usually in charge of preparing the fire for the Company. He fought in and survived the Battle of the Five Armies, and later settled in the Lonely Mountain along with many other of the Dwarves of The Company of Thorin such as Bombur.",
-      "image_source": "https://images.tvnz.co.nz/tvnz_images/hobbit_news/2012/10/dwarf_oin_hobbit_E1.jpg",
-      "url": "oin"
+      "name": "Boyfriend Material",
+      "rating": "",
+      "year": "2021",
+      "genre": "Romance Novel, New Adult Fiction",
+      "author": "Alexis Hall",
+      "description": "Boyfriend Material had two of my favorite romance book tropes wrapped into one book. It was an opposites attract love story set off with a fake relationship. That was hook enough to have me want to read my first Alexis Hall book. Overall, it delivered with a few hiccups, but it’s worth a read for fans of these romance tropes. Let me be honest and say that Luc O’Donnell is a bit of a train wreck. He’s been burned (pretty badly) in the past and has had to live in the quasi-famous limelight cast by his famous rock star parents. Since his father is trying to re-invent himself and make a comeback, Luc’s every move is all the more scrutinized (and falsely embellished) in the tabloids. One compromising photo too many however puts his job at a non-profit in jeopardy when donors start backing out of a high-profile event. His one chance at redemption turns out to be a fake relationship with a respectable boyfriend to clean up his image. That “job” falls to Oliver Blackwood, a barrister, who is the opposite of Luc in every way.",
+      "image_source": "static/img/books-img/Boyfriend-Material.jpg",
+      "url": "boyfriend material"
     },
     {
-      "name": "Gloin",
-      "description": "In TA 2799, Glóin was known to have fought in the Battle of Azanulbizar, the last battle of the War of the Dwarves and Orcs. In TA 2941, Glóin and his brother Óin, along with his cousins Dwalin and Balin, were among the Dwarves accompanying Thorin and Company during their quest to the Lonely Mountain to recapture it from the Dragon Smaug. He was noted for his skills with a tinderbox, and, along with his brother Óin, was usually the one told to get a fire started whenever the Dwarves made camp. Gloin also fought in the Battle of the Five Armies. After the battle, he settled in the Lonely Mountain.",
-      "image_source": "https://vignette.wikia.nocookie.net/lotr/images/f/fc/Gloin_2.jpg/revision/latest/scale-to-width-down/350?cb=20120908171710",
-      "url": "gloin"
+      "name": "How Civil Wars Start",
+      "rating": "",
+      "year": "2022",
+      "genre": "Historical Fiction",
+      "author": "Barbara F. Walter",
+      "description": "Political scientist Walter (Committing to Peace) issues a stark and deeply informed warning that the U.S. may be headed for another civil war. Drawing on her extensive studies of foreign conflicts, Walter highlights factors that make countries susceptible to sectarian violence, including a government that is neither democratic nor totalitarian, loss of status by a historically dominant ethnic group, and the closing of political avenues for change. Explaining how social media foments political instability, Walter notes that Facebook and other companies showed little inclination to police calls to violence and ethnic cleansing in Myanmar, while providing a platform for anti-democratic political organizing even in countries with deep democratic traditions, such as Sweden. Drawing incisive parallels to societies in which ethnic grievances have been harnessed to mobilize armed forces for civil war, Walter notes the increasing visibility of right-wing militias in the U.S. Such groups—financed and abetted by white nationalists in other countries and America’s geopolitical rivals—could eventually engage in armed struggle against the government. To avoid civil war, Walter writes, America needs to improve its democratic institutions by making elections freer and more open and increasing civics education. Distinguished by its lucid analysis and global perspective, this wake-up call rings clear. ",
+      "image_source": "static/img/books-img/How-Civil-Wars-Start-by-Barbara-F.-Walter.jpg",
+      "url": "how civil wars start"
     },
     {
-      "name": "Balin",
-      "description": "Balin was a Dwarf, son of Fundin, and likely born in the Lonely Mountain before the coming of Smaug the Dragon. He had a younger brother named Dwalin and was one of those driven from their homes when the dragon Smaug attacked the Lonely Mountain. Afterwards he may have lived in Dunland as a refugee. He fought in the War of the Dwarves and Orcs. Many years later, in approximately TA 2841, he accompanied Thráin II, the father of Thorin, when he attempted to go back to the Lonely Mountain himself, but Thráin was captured and lost.",
-      "image_source": "https://vignette2.wikia.nocookie.net/lotr/images/5/52/Balin.jpg/revision/latest?cb=20120911171656",
-      "url": "balin"
+      "name": "How High We Go in the Dark",
+      "rating": "",
+      "year": "2022",
+      "genre": "Science fiction, Dystopian Fiction",
+      "author": "Sequoia Nagamatsu",
+      "description": "In 2030, a grieving archeologist arrives in the Arctic Circle to continue the work of his recently deceased daughter at the Batagaika Crater, where researchers are studying long-buried secrets now revealed in melting permafrost, including the perfectly preserved remains of a girl who appears to have died of an ancient virus. Once unleashed, the Arctic plague will reshape life on Earth for generations to come, quickly traversing the globe, forcing humanity to devise a myriad of moving and inventive ways to embrace possibility in the face of tragedy. In a theme park designed for terminally ill children, a cynical employee falls in love with a mother desperate to hold on to her infected son. A heartbroken scientist searching for a cure finds a second chance at fatherhood when one of his test subjects—a pig—develops the capacity for human speech. A widowed painter and her teenaged granddaughter embark on a cosmic quest to locate a new home planet. From funerary skyscrapers to hotels for the dead to interstellar starships, Sequoia Nagamatsu takes readers on a wildly original and compassionate journey, spanning continents, centuries, and even celestial bodies to tell a story about the resilience of the human spirit, our infinite capacity to dream, and the connective threads that tie us all together in the universe.",
+      "image_source": "static/img/books-img/How-High-We-Go-in-the-Dark-by-Sequoia-Nagamatsu.jpg",
+      "url": "how high we go in the dark"
     },
     {
-      "name": "Dwalin",
-      "description": "Born in TA 2772, two years after the dragon Smaug had come to Erebor and took over the Kingdom, Dwalin was the son of Fundin and younger brother of Balin. After fighting in the Battle of Azanulbizar at the age of 27, Dwalin accompanied Thrain the Second and Thorin Oakenshield to settle peacefully in the northern Ered Luin.",
-      "image_source": "https://vignette2.wikia.nocookie.net/lotr/images/1/1c/Dwalin.jpg/revision/latest?cb=20120911200601",
-      "url": "dwalin"
+      "name": "Crime Fiction, Psychological Fiction",
+      "rating": "",
+      "year": "2022",
+      "genre": "Novel",
+      "author": "Deckle Edge",
+      "description": "Ansel Packer is scheduled to die in twelve hours. He knows what he’s done, and now awaits execution, the same chilling fate he forced on those girls, years ago. But Ansel doesn’t want to die; he wants to be celebrated, understood. Through a kaleidoscope of women—a mother, a sister, a homicide detective—we learn the story of Ansel’s life. We meet his mother, Lavender, a seventeen-year-old girl pushed to desperation; Hazel, twin sister to Ansel’s wife, inseparable since birth, forced to watch helplessly as her sister’s relationship threatens to devour them all; and finally, Saffy, the detective hot on his trail, who has devoted herself to bringing bad men to justice but struggles to see her own life clearly. As the clock ticks down, these three women sift through the choices that culminate in tragedy, exploring the rippling fissures that such destruction inevitably leaves in its wake. Blending breathtaking suspense with astonishing empathy, Notes on an Execution presents a chilling portrait of womanhood as it simultaneously unravels the familiar narrative of the American serial killer, interrogating our system of justice and our cultural obsession with crime stories, asking readers to consider the false promise of looking for meaning in the psyches of violent men.",
+      "image_source": "static/img/books-img/Notes-on-an-Execution-by-Danya-Kukafka.jpg",
+      "url": "notes on an execution"
     },
     {
-      "name": "Ori",
-      "description": "Ori lived in Thorin's home in the Northern Blue Mountains for many years. In the year TA 2941, Ori became a member of Thorin and Company and travelled with the company on the quest for the Lonely Mountain and the death of Smaug. Finally, he and the other Dwarves of Thorin and Company fought in the Battle of the Five Armies, and he survived it.",
-      "image_source": "https://vignette.wikia.nocookie.net/lotr/images/8/81/Ori.jpeg",
-      "url": "ori"
+      "name": "South to America: A Journey Below the Mason-Dixon to Understand the Soul of a Nation",
+      "rating": "",
+      "year": "2022",
+      "genre": "Autobiography",
+      "author": "Imani Perry",
+      "description": "We all think we know the South. Even those who have never lived there can rattle off a list of signifiers: the Civil War, Gone with the Wind, the Ku Klux Klan, plantations, football, Jim Crow, slavery. But the idiosyncrasies, dispositions, and habits of the region are stranger and more complex than much of the country tends to acknowledge. In South to America, Imani Perry shows that the meaning of American is inextricably linked with the South, and that our understanding of its history and culture is the key to understanding the nation as a whole. This is the story of a Black woman and native Alabaman returning to the region she has always called home and considering it with fresh eyes. Her journey is full of detours, deep dives, and surprising encounters with places and people. She renders Southerners from all walks of life with sensitivity and honesty, sharing her thoughts about a troubling history and the ritual humiliations and joys that characterize so much of Southern life. Weaving together stories of immigrant communities, contemporary artists, exploitative opportunists, enslaved peoples, unsung heroes, her own ancestors, and her lived experiences, Imani Perry crafts a tapestry unlike any other. With uncommon insight and breathtaking clarity, South to America offers an assertion that if we want to build a more humane future for the United States, we must center our concern below the Mason-Dixon Line.  ",
+      "image_source": "static/img/books-img/South-to-America-by-Imani-Perry.jpg",
+      "url": "south to america: a journey below the mason-dixon to understand the soul of a nation"
     },
     {
-      "name": "Dori",
-      "description": "Before The Quest of Erebor, Dori lived in Thorin's home in the northern Blue Mountains with his two brothers. In TA 2941, Dori and his two brothers became part of Thorin and Company befriending Bilbo Baggins and travel with him in search of Smaug's treasure caverns in the Lonely Mountain.",
-      "image_source": "https://vignette.wikia.nocookie.net/lotr/images/2/27/Mark_Hadlow_as_Dori.jpg/revision/latest?cb=20121030113353",
-      "url": "dori"
+      "name": "To Paradise",
+      "rating": "",
+      "year": "2022",
+      "genre": "Historical Fiction, Dystopian Fiction",
+      "author": "Hanya Yanagihara",
+      "description": "In an alternate version of 1893 America, New York is part of the Free States, where people may live and love whomever they please (or so it seems). The fragile young scion of a distinguished family resists betrothal to a worthy suitor, drawn to a charming music teacher of no means. In a 1993 Manhattan besieged by the AIDS epidemic, a young Hawaiian man lives with his much older, wealthier partner, hiding his troubled childhood and the fate of his father. And in 2093, in a world riven by plagues and governed by totalitarian rule, a powerful scientist’s damaged granddaughter tries to navigate life without him—and solve the mystery of her husband’s disappearances. These three sections are joined in an enthralling and ingenious symphony, as recurring notes and themes deepen and enrich one another: A townhouse in Washington Square Park in Greenwich Village; illness, and treatments that come at a terrible cost; wealth and squalor; the weak and the strong; race; the definition of family, and of nationhood; the dangerous righteousness of the powerful, and of revolutionaries; the longing to find a place in an earthly paradise, and the gradual realization that it can’t exist. What unites not just the characters, but these Americas, are their reckonings with the qualities that make us human: Fear. Love. Shame. Need. Loneliness. To Paradise is a findesiecle novel of marvelous literary effect, but above all it is a work of emotional genius.  The great power of this remarkable novel is driven by Yanagihara’s understanding of the aching desire to protect those we love—partners, lovers, children, friends, family and even our fellow citizens—and the pain that ensues when we cannot.",
+      "image_source": "static/img/books-img/To-Paradise-by-Hanya-Yanagihara.jpg",
+      "url": "to paradise"
     },
     {
-      "name": "Nori",
-      "description": "Nori was the brother of Dori and Ori. Both Nori and Dori were capable flutists, and seem to have carried their flutes with them. Both these apparent brothers also shared Bilbo's liking for regular meals. Before the Quest for the Lonely Mountain, Nori lived in Thorin's home in the northern Blue Mountains with his two brothers.",
-      "image_source": "https://atolkienistperspective.files.wordpress.com/2013/08/n1.jpg",
-      "url": "nori"
+      "name": "Vladimir",
+      "rating": "",
+      "year": "2022",
+      "genre": "Literary Fiction",
+      "author": "Julia May Jonas",
+      "description": "And so we are introduced to our deliciously incisive narrator: a popular English professor whose charismatic husband at the same small liberal arts college is under investigation for his inappropriate relationships with his former students. The couple have long had a mutual understanding when it comes to their extra-marital pursuits, but with these new allegations, life has become far less comfortable for them both. And when our narrator becomes increasingly infatuated with Vladimir, a celebrated, married young novelist who’s just arrived on campus, their tinder box world comes dangerously close to exploding. With this bold, edgy, and uncommonly assured debut, author Julia May Jonas takes us into charged territory, where the boundaries of morality bump up against the impulses of the human heart. Propulsive, darkly funny, and wildly entertaining, Vladimir perfectly captures the personal and political minefield of our current moment, exposing the nuances and the grey area between power and desire.",
+      "image_source": "static/img/books-img/Vladimir-by-Julia-May-Jonas.jpg",
+      "url": "vladimir"
     },
     {
-      "name": "Bifur",
-      "description": "Bifur, a descendant of the Dwarves of Khazad-dûm, but was not of Durin's Folk. His parents are unknown, and most of his familial relations are unclear but he and his family were driven out of their home in the Lonely Mountain by the Dragon Smaug. Forced to live in exile, the Dwarf warrior worked as a toy maker. Following Thorin II Oakenshield to a new life in the Blue Mountains, he continued his life as a toy maker.",
-      "image_source": "http://3.bp.blogspot.com/-VcKDsohCNkM/ULfdv7o8l7I/AAAAAAAABtk/j9ZNGzxAGH0/s1600/Bifur+dwarf+The+Hobbit+Wallpaper.jpg",
-      "url": "bifur"
+      "name": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+      "rating": "",
+      "year": "2018",
+      "genre": "Biography, Autobiography",
+      "author": "David Goggins",
+      "description": "For David Goggins, childhood was a nightmare - poverty, prejudice, and physical abuse colored his days and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed himself from a depressed, overweight young man with no future into a U.S. Armed Forces icon and one of the world's top endurance athletes. The only man in history to complete elite training as a Navy SEAL, Army Ranger, and Air Force Tactical Air Controller, he went on to set records in numerous endurance events, inspiring Outside magazine to name him The Fittest (Real) Man in America. In this curse-word-free edition of Can't Hurt Me, he shares his astonishing life story and reveals that most of us tap into only 40% of our capabilities. Goggins calls this The 40% Rule, and his story illuminates a path that anyone can follow to push past pain, demolish fear, and reach their full potential.",
+      "image_source": "static/img/books-img/cant-hurt-me-david-goggins.jpg",
+      "url": "can't hurt me: master your mind and defy the odds"
     },
     {
-      "name": "Bofur",
-      "description": "Bofur was a descendant(related) of the Dwarves of Khazad-dûm, but was not of Durin's Folk. He and his family hailed from the Blue Mountains. As such, they felt less strongly about the quest to reclaim the Lonely Mountain from the dragon Smaug, more interested in the adventure than a home they'd never seen.",
-      "image_source": "https://atolkienistperspective.files.wordpress.com/2013/08/bofur-1.jpg",
-      "url": "bofur"
+      "name": "How Beautiful We Were",
+      "rating": "",
+      "year": "2021",
+      "genre": "Literary Fiction",
+      "author": "By Imbolo Mbue",
+      "description": "So begins Imbolo Mbue’s powerful second novel, How Beautiful We Were. Set in the fictional African village of Kosawa, it tells the story of a people living in fear amidst environmental degradation wrought by an American oil company. Pipeline spills have rendered farmlands infertile. Children are dying from drinking toxic water. Promises of clean-up and financial reparations to the villagers are made—and ignored. The country’s government, led by a brazen dictator, exists to serve its own interest. Left with few choices, the people of Kosawa decide to fight back. Their struggle would last for decades and come at a steep price. Told through the perspective of a generation of children and the family of a girl named Thula who grows up to become a revolutionary, How Beautiful We Were is a masterful exploration of what happens when the reckless drive for profit, coupled with the ghost of colonialism, comes up against one community’s determination to hold onto its ancestral land and a young woman’s willingness to sacrifice everything for the sake of her people’s freedom.",
+      "image_source": "static/img/books-img/how-beautiful-we-were-imbolo-mbue.jpg",
+      "url": "how beautiful we were"
     },
     {
-      "name": "Bombur",
-      "description": "Bombur's parentage is unknown; the only familial connections mentioned are his brother Bofur and his cousin Bifur. Bombur was not of Durin's line although he was descended from dwarves of Moria. His birth year is also unknown. However, from Bilbo Baggins' account from the quest to Erebor it is known that the brothers Fíli and Kíli were the youngest of the 13 'by some fifty years' and that after Thorin had been captured, Balin was 'the eldest left'. Since Fíli was born in T.A. 2859 and Balin was born in 2763, this would put Bombur's birth between 2763 and 2809, and he would have been between 132 and 178 years old during the quest to Erebor. Prior to the quest Bombur probably lived in the Blue Mountains with Thorin after the loss of Thráin The II.",
-      "image_source": "https://atolkienistperspective.files.wordpress.com/2013/08/bombur-1.jpg",
-      "url": "bombur"
+      "name": "Intimacies",
+      "rating": "",
+      "year": "2021",
+      "genre": "Psychological Fiction",
+      "author": "Katie Kitamura",
+      "description": "In Kitamura’s fourth novel, an unnamed court translator in The Hague is tasked with intimately vanishing into the voices and stories of war criminals whom she alone can communicate with; falling meanwhile into a tumultuous entanglement with a man whose marriage may or may not be over for good. Kitamura’s sleek and spare prose elegantly breaks grammatical convention, mirroring the book’s concern with the bleeding lines between intimacies — especially between the sincere and the coercive. Like her previous novel, “A Separation,” “Intimacies” scrutinizes the knowability of those around us, not as an end in itself but as a lens on grand social issues from gentrification to colonialism to feminism. The path a life cuts through the world, this book seems to say, has its greatest significance in the effect it has on others.",
+      "image_source": "static/img/books-img/intimacies-katie-kitamura.jpg",
+      "url": "intimacies"
     },
     {
-      "name": "Gandalf",
-      "description": "Originally called Olórin, he was accounted as the wisest of the Maiar. He was a Maia of Manwë and Varda. He also served under two other Valar, such as Irmo and Nienna. When the Valar decided to send the order of the Istari (also known as Wizards) to Middle-earth, to counsel and assist all those in Middle-earth who opposed the Dark Lord Sauron, Manwë and Varda decided to include Olórin among the five who were sent.",
-      "image_source": "https://vignette.wikia.nocookie.net/lotr/images/8/8d/Gandalf-2.jpg/revision/latest?cb=20130209172436",
-      "url": "gandalf"
+      "name": "Cleanness",
+      "rating": "",
+      "year": "2020",
+      "genre": "Erotic literature, Gay Fiction, Psychological Fiction",
+      "author": "Garth Greenwell",
+      "description": "In Kitamura’s fourth novel, an unnamed court translator in The Hague is tasked with intimately vanishing into the voices and stories of war criminals whom she alone can communicate with; falling meanwhile into a tumultuous entanglement with a man whose marriage may or may not be over for good. Kitamura’s sleek and spare prose elegantly breaks grammatical convention, mirroring the book’s concern with the bleeding lines between intimacies — especially between the sincere and the coercive. Like her previous novel, “A Separation,” “Intimacies” scrutinizes the knowability of those around us, not as an end in itself but as a lens on grand social issues from gentrification to colonialism to feminism. The path a life cuts through the world, this book seems to say, has its greatest significance in the effect it has on others.",
+      "image_source": "static/img/books-img/cleanness-Greenwell.jpg",
+      "url": "cleanness"
+    },
+    {
+      "name": "Stranger Faces",
+      "rating": "",
+      "year": "2020",
+      "genre": "Biography, Film Criticism",
+      "author": "Namwali Serpell",
+      "description": "In an age of totalizing theories, it’s nice to watch someone expertly pull a single idea through a needle’s eye. “Stranger Faces,” by Namwali Serpell, is one such exercise. The book’s catalytic inquiry—“what counts as a face and why?”—means to undermine the face, the way its expressive capabilities give it the cast of truth. We seek meaning in a shallow arrangement of eyes, nose, cheeks, and mouth, despite how often faces lie, or how often they cloak the world-ordering phenomena of race, gender, and class. Rather than depress or shame readers with these facts, Serpell delights in them. Unencumbered by truth, the face becomes interesting, motile—a work of art. (“Unruly faces” are especially intriguing, according to Serpell, because they invite viewers to sever ties with the placidity of an ideal.) Serpell, a Harvard professor and critic capable of close-reading people just as well as novels or films, includes a dancing range of examples. Her first essay considers the moniker given to Joseph Merrick, the Elephant Man, whose features aren’t, in fact, so elephantine; another essay, on Werner Herzog’s “Grizzly Man,” becomes a study of Keanu Reeves’s himbo appeal. Serpell can reanimate any subject, be it Hitchcock or emojis, and her bright, brainy collection is a model for how to surface the fun in a critical question. ",
+      "image_source": "static/img/books-img/Stranger-Faces-Serpell.jpg",
+      "url": "stranger faces"
+    },
+    {
+      "name": "Want",
+      "rating": "",
+      "year": "2020",
+      "genre": "Anti-White-Savior Novel",
+      "author": "Lynn Steger Strong",
+      "description": "New York novels are as various as the city they describe. But “Want,” a subtly glorious new entry in the genre by Lynn Steger Strong, is set in a town whose qualities—unaffordable, unrelenting, unquittable—many readers will recognize. The book’s narrator is a writer who lives with her husband and two young daughters in a cramped Brooklyn apartment; to keep them in it, she teaches at a charter school by day and in an M.F.A. writing program by evening, though her half-hearted hustling doesn’t stop the family from capsizing into bankruptcy. (The husband quit a job in finance to become an artisanal carpenter, a phrase that would fit nicely on a Green-Wood Cemetery tombstone.) The virtue of this life is its being defiantly chosen. To counteract the claustrophobic privacy of subway commutes, and the slights of rubbing up against the city’s rich and oblivious, we get sticky memories of Florida, where the narrator grew up in a repressive, bourgeois household. There, her closest friend was Sasha, a beautiful, daring girl a year older, whose fate has been uncomfortably linked with hers ever since. Strong uses the friendship as a tether, returning to it to mark time’s passing; her technique is so sophisticated that the murk of the present and the sharply remembered past hold seamlessly together. Her biggest triumph is the transmission of consciousness. I loved the tense pleasure of staying pressed close to her narrator’s mind, with its beguiling lucidity of thought and rawness of feeling. There is much anxiety and ache to be found here—but also, when it is most needed, radiance, humor, love, and joy.",
+      "image_source": "static/img/books-img/want-lynn-steger.jpg",
+      "url": "want"
+    },
+    {
+      "name": "On Anger",
+      "rating": "",
+      "year": "2020",
+      "genre": "Philosophy",
+      "author": "Agnes Callard",
+      "description": "Unless you’re dealing with a hard-line Stoic, most philosophers tend to consider anger a morally justifiable response to being wronged—though too much anger, for too long, they might say, could start to hurt you or your community. In the explosive essay that kicks off this anthology, the philosopher Agnes Callard writes that such caveats defang the very point of anger. If anger is a valid response to being wronged, she argues, and if none of the ways we hold people accountable for wronging us—apologies, restitution, etc.—actually erase the original act, doesn’t it follow that “once you have a reason to be angry, you have a reason to be angry forever”? Cue the clamor of a dozen-plus philosophers debating the cause, function, and value of our most jagged emotion. There’s Myisha Cherry, whose work is always so marvelously elegant, on the irrelevance of virtue to the anger that fuels the anti-racist struggle—an anger she describes as “Lordean rage,” after the poet and writer Audre Lorde. Elsewhere, we get Judith Butler on anger as a medium: “[W]e view rage as an uncontrollable impulse that needs to come out in unmediated forms. But people craft rage, they cultivate rage, and not just as individuals. Communities craft their rage. Artists craft rage all the time.” I’m resistant to the idea that moral philosophy is just self-help dressed in tweed, but as this year lurched from one outrage to the next, and as I found myself becoming hoarse (metaphorically, but often literally) from what felt like shouting into a void, this collection became something of a workbook: a tool for parsing the more unwieldy parts of myself, and my loved ones, and the world.",
+      "image_source": "static/img/books-img/on-angerCallard.jpg",
+      "url": "on anger"
+    },
+    {
+      "name": "Mexican Gothic",
+      "rating": "",
+      "year": "2020",
+      "genre": "Horror Fiction, Gothic Fiction, Fantasy Fiction, Historical Fantasy",
+      "author": "Silvia Moreno-Garcia",
+      "description": "In the fall, I cracked open Silvia Moreno-Garcia’s “Mexican Gothic” in the bath and found myself reading until the water turned cold. “Mexican Gothic” is Moreno-Garcia’s sixth novel but the first to break through as a major hit. (It has already been optioned for television.) This is a function both of its timing and of its addictive prose, which is as easy to slurp down as a poisoned cordial. The book follows a glamorous young socialite with champagne taste named Noemí Taboada, who lives in Mexico City, in the nineteen-fifties, when women were not yet able to vote. Noemí intends to study at university, but her father has other plans: he wants her to check up on a distant cousin, Catalina, who’s living in a crumbling manse with a British man, in a small village, called El Triunfo, where the family operates a silver mine. Catalina has written a distressing note claiming that the house is suffocating her; the family assumes that she’s hysterical, but Noemí is meant to investigate the situation. What she finds is more shocking than she ever expected—the house is an entropic catastrophe, where something sinister (that I won’t spoil here) is literally growing under the baseboards. What makes “Mexican Gothic” so fresh is not only its cramped, crawly ambience—comparisons to “Jane Eyre” are not too generous—but also the fact that it’s steeped in a deep colonial history that haunts the narrative. Is the house in El Triunfo really sick? Or is it just tainted by colonizers who want to strip the land down to its bones? Moreno-Garcia deftly raises these questions and then brings them all together in a gory, monstrous, and utterly satisfying twist. ",
+      "image_source": "static/img/books-img/mexican-gothic-MorenoGarcia.jpg",
+      "url": "mexican gothic"
+    },
+    {
+      "name": "The Old Drift",
+      "rating": "",
+      "year": "2019",
+      "genre": "Novel, Science Fiction, Historical Fiction",
+      "author": "Namwali Serpell",
+      "description": "Staggering in its complexity, The Old Drift resists easy categorization. It is, in some measure, all of the following: historical epic, surrealist adventure, interpersonal (and interspecies) study, dystopian warning, anthropological commentary. It is also, most impressively, a story that grips the reader from its first pages. The debut novel from the Zambian author Namwali Serpell, The Old Drift follows three families across several generations, zigzagging through time as it tracks their lives (and how their outcomes differ across demographic lines). The novel’s characters ache and pine; they rail against an acute awareness of their own bodies. Serpell is a tremendously gifted writer who can retain narrative cohesion even as she weds stories of love and terror to casual observations about the state of the world. A favorite: “Progress is just the word we use to disguise power doing its thing.",
+      "image_source": "static/img/books-img/the-old-drift-namwali.jpg",
+      "url": "the old drift"
+    },
+    {
+      "name": "Music: A Subversive History",
+      "rating": "",
+      "year": "2019",
+      "genre": "Music criticism",
+      "author": "Ted Gioia",
+      "description": "How’s this for spicy music criticism? “Disciples of the new school … dismember melodies with hockets and sing lugubrious discants. … They know not what upon they build.” So griped Pope John XXII in an early-14th-century edict blasting polyphony, which was on its way to becoming the defining sound of Catholic music. Such papal pitchforking is just one of the many amusing examples of elite distrust marshaled in Ted Gioia’s survey of an art form in perpetual rebellion. Across millennia, sonically adventurous courtesans, slaves, monks, gang members, and other marginalized folks offended polite society before conquering it. The book goes beyond asserting that every form of music was the punk of its day, though. Feistily and authoritatively, Gioia draws out cross-cultural axioms to rewire the reader’s ear. Music’s ability to heal gets dissected in scientific, sociological, and even supernatural terms, but so does its link with violence—a link that might explain why new sounds have been so often met with fear.",
+      "image_source": "static/img/books-img/music-subversime-history-ted-gioia.jpg",
+      "url": "music: a subversive history"
+    },
+    {
+      "name": "Say Nothing, A True Story of Murder and Memory in Northern Ireland",
+      "rating": "",
+      "year": "2019",
+      "genre": "True Crime",
+      "author": "Patrick Radden Keefe",
+      "description": "One of my oddest memories growing up in London was hearing, one morning as I lay in bed, a sound that even an 8-year-old could identify as an explosion. A mile from where I lived, the Irish Republican Army had left a bomb at Clapham Junction train station, one of 25 the paramilitary group detonated that month. Life in England in the 1980s and ’90s was colored in all kinds of ways by the conflict in Northern Ireland, but I never understood it until I read Say Nothing, the New Yorker writer Patrick Radden Keefe’s epic analysis of the period known as the Troubles, and the people whose lives (and deaths) were anchored to it. By framing his narrative around human stories—like that of Jean McConville, the mother of 10 who was taken from her home in 1972, never to return—Keefe makes the atrocities committed more comprehensible. He also examines the obsessive tribalism that can turn ordinary men and women into murderers, and deftly unpacks the trauma they leave in their wake.",
+      "image_source": "static/img/books-img/say-nothing-patrick-raggen.jpg",
+      "url": "say nothing"
     }
   ]

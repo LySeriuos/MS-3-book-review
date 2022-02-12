@@ -2,12 +2,10 @@
 {% block content %}
 
     <h2>{{ page_title}}</h2>
-    <p>The formation of the group grew out of a meeting Gandalf had with Thorin in Bree which kindled Thorin's interest
-        in recapturing his long lost family inheritance. (Thorin's grandfather had been the king of the Lonely Mountain
-	    rash action. The superstitious Dwarves also considered thirteen to be an unlucky number, and as Gandalf had
-        planned to leave on other business, welcomed a fourteenth to fill into their party.</p>
+    <p>Here you can search for book reviews! We hope that it will help you to find the One.
+         Use search to find book by name or filter to explore All Reviews.</p>
 
-        {% for member in company %}
+        {% for book in company %}
 
 
         <div class="row featurette">
@@ -16,22 +14,28 @@
 
 
             <div class="col-md-7">
-                <h3><a href="/reviews/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
-                <p>{{member.description}}</p>
+                <h3><a href="/reviews/{{ book.url }}">{{ loop.index }}. {{ book.name }} by {{ book.author }}</a></h3>
+                <p>Rating: {{book.rating}}</p>
+                <p>Year: {{book.year}}</p>
+                <p>Genre: {{book.genre}}</p>
+                <p>{{book.description}}</p>
             </div>
             <div class="col-md-5">
-                <img src="{{member.image_source}}" alt="" class="featurette-image image-responsive">
+                <img src="{{book.image_source}}" alt="" class="featurette-image image-responsive">
             </div>
 
             {% else %}
 
 
             <div class="col-md-5">
-                <img src="{{ member.image_source }}" alt="" class="featurette-image image-responsive">
+                <img src="{{ book.image_source }}" alt="" class="featurette-image image-responsive">
             </div>
             <div class="col-md-7">
-                <h3><a href="/reviews/{{ member.url }}">{{ loop.index }}. {{ member.name }}</a></h3>
-                <p>{{member.description}}</p>
+                <h3><a href="/reviews/{{ book.url }}">{{ loop.index }}. {{ book.name }} by {{ book.author }}</a></h3>
+                <p>Rating: {{book.rating}}</p>
+                <p>Year: {{book.year}}</p>
+                <p>Genre: {{book.genre}}</p>
+                <p>{{book.description}}</p>
             </div>
 
 

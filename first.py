@@ -42,15 +42,15 @@ All the text is copied from https://www.bookbrowse.com/.
 """
 
 
-@app.route("/reviews/<member_name>")
-def reviews_member(member_name):
-    member = {}
+@app.route("/reviews/<book_name>")
+def reviews_book(book_name):
+    book = {}
     with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
         for obj in data:
-            if obj["url"] == member_name:
-                member = obj
-    return render_template("member.html", member=member)
+            if obj["url"] == book_name:
+                book = obj
+    return render_template("book.html", book=book)
 
 
 @app.route("/about")
