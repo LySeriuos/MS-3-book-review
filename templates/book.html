@@ -4,24 +4,36 @@
 
     <div class="row">
         <div class="col-md-5">
-           <img src="{{ book.image_source}}" alt="Profile image for {{ book.name}}"> 
-           <h2 class="col-md-7">{{ book.name}}</h2>
+           <img src="{{ book.image_source }}" alt="Profile image for {{ book.name}}">
+           <h2 class="col-md-7"><a href='{{ book.link}}'>{{ book.name}}</a></h2>           
         </div>
     </div>
 
     <div class="col-md-12">
-        <p>{{ book.description}}</p>
+        <p>{{ book.description}}</p>        
     </div>
+    <div>
     <div class="col-md-12">
         <h4 class="col-md-12">See Critic Reviews:</h4>
-        <p>“Hawley taps into our existential anxiety—and transforms it into a hefty page turner that’s equal parts horrific, catastrophic and, at times, strangely entertaining.”―<b>New York Times Book Review</b></p>
-        <p>“Hawley the fiction writer is at his best when pitching his taut setup and its well-drawn cast of characters.”―USA Today</p>
-        <p>“Anthem is a Great American Novel for these tumultuous times—a provocative work of fiction that sees to the heart of things, cuts through the noise, and asks, 'How can we change, before it’s too late?'"―<b>Esquire</b></p>
-        <p>“A blistering thriller that follows a group of teenagers on an adventure through an apocalyptic America much like our own.”―<b>Entertainment Weekly</b></p>
-        <p>“Terrifying, expertly crafted literary thriller.”―<b>Oprah Daily, “The 50 Most Anticipated Books of 2022”</b></p>
-        <p>“Hawley creates an all-too-plausible dystopia rendered believable through matter-of-fact prose. [He] makes this sing by combining the social commentary of a Margaret Atwood novel with the horrors of a Stephen King book.”―<b>Publisher’s Weekly (Starred Review)</b></p>
-        <p>“The plot-rich, cinematic story moves swiftly and compellingly, exciting reader interest and empathy. Anthem is truly an epic adventure.”―<b>Booklist (Starred Review)</b></p>
-        <p>"[ANTHEM is] perhaps the first must-read novel of 2022, the kind of book that you’ll be urging your friends to pick up throughout the year”―<b>Book Reporter</b></p>
+        <p>{{ book.review1}}<b>{{ book.critic1}}</b></p>
+        <p>{{ book.review2}}<b>{{ book.critic2}}</b></p>
+        <p>{{ book.review3}}<b>{{ book.critic3}}</b></p>
+        <p>{{ book.review4}}<b>{{ book.critic4}}</b></p>
+        <p>{{ book.review5}}<b>{{ book.critic5}}</b></p>
+        <p>{{ book.review6}}<b>{{ book.critic6}}</b></p>
+        <p>{{ book.review7}}<b>{{ book.critic7}}</b></p>
+        <p>{{ book.review8}}<b>{{ book.critic8}}</b></p>        
+    </div>
+    <div class="col-md-12">
+        <h4 class="col-md-12">See Member Reviews:</h4>
+        <p>{{ book.review1}}<b>{{ book.critic1}}</b></p>
+        <p>{{ book.review2}}<b>{{ book.critic2}}</b></p>
+        <p>{{ book.review3}}<b>{{ book.critic3}}</b></p>
+        <p>{{ book.review4}}<b>{{ book.critic4}}</b></p>
+        <p>{{ book.review5}}<b>{{ book.critic5}}</b></p>
+        <p>{{ book.review6}}<b>{{ book.critic6}}</b></p>
+        <p>{{ book.review7}}<b>{{ book.critic7}}</b></p>
+        <p>{{ book.review8}}<b>{{ book.critic8}}</b></p>        
     </div>
         
 

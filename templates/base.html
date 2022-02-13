@@ -13,7 +13,7 @@
 </head>
 <body>
 	<!-- Page Header -->
-	<header class="masthead" style="background-image: url('static/img/alfons-morales-YLSwjSy7stw-unsplash.jpg')">
+	<header class="masthead" style="background-image: url('{{ url_for('static', filename='img/alfons-morales-YLSwjSy7stw-unsplash.jpg') }}')">
 		<div class="overlay"></div>
 		<div class="container">
 			<div class="row">
@@ -48,7 +48,7 @@
 							<a class="nav-link" href="{{ url_for('reviews') }}">Book reviews</a>
 						</li>
 						<li class="nav-item">
-							<a class="nav-link" href="{{ url_for('about') }}">reviews Us</a>
+							<a class="nav-link" href="{{ url_for('about') }}">About Us</a>
 						</li>
 						<li class="nav-item">
 							<a class="nav-link" href="{{ url_for('login') }}">Login</a>
