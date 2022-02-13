@@ -18,6 +18,7 @@ debugpy==1.5.1
 decorator==5.1.1
 defusedxml==0.7.1
 distlib==0.3.4
+dnspython==2.2.0
 docutils==0.18.1
 entrypoints==0.3
 executing==0.8.2
