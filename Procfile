@@ -1,1 +1,1 @@
-web: python first.py
+web: first.py
