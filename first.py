@@ -1,27 +1,38 @@
 import os
 import json
-from flask import Flask, render_template, request, flash, url_for, redirect
+from flask import (
+    Flask, render_template, request,
+    flash, url_for, redirect, session)
 from werkzeug.wrappers import Request, Response
 from flask_pymongo import PyMongo
-
+from bson.objectid import ObjectId
 if os.path.exists("env.py"):
     import env
 
 
 app = Flask(__name__)
 
+app.config["MONGO_DBNAME"] = os.environ.get("MONGO_DBNAME")
+app.config["MONGO_URI"] = os.environ.get("MONGO_URI")
+app.secret_key = os.environ.get("SECRET_KEY")
+
+
+mongo = PyMongo(app)
+
 
 from user import routes
-
-
-app.secret_key = os.environ.get("SECRET_KEY")
-app.config["MONGO_URI"] = "mongodb://localhost:27017/myDatabase"
-mongo = PyMongo(app)
 
 
 @app.route("/")
 def index():
     return render_template("index.html")
+
+
+@app.route("/")
+@app.route("/get_tasks")
+def get_tasks():
+    tasks = mongo.db.tasks.find()
+    return render_template("tasks.html", tasks=tasks)
 
 
 @app.route("/belekas")
@@ -35,11 +46,6 @@ def reviews():
     with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
     return render_template("reviews.html", page_title="Hello and Welcome to The Review", company=data)
-
-
-"""
-All the text is copied from https://www.bookbrowse.com/. 
-"""
 
 
 @app.route("/reviews/<book_name>")
@@ -58,9 +64,7 @@ def about():
     return render_template("/about.html")
 
 
-
-
- # Route for handling the login page logic 
+# Route for handling the login page logic
 @app.route('/login', methods=['GET', 'POST'])
 def login():
     error = None
@@ -77,7 +81,5 @@ def login():
 
 if __name__ == "__main__":
     app.run(host=os.environ.get("IP"),
-            port=os.environ.get('PORT'),
+            port=int(os.environ.get('PORT')),
             debug=os.environ.get('DEBUG'))
-        
-        
