@@ -12,37 +12,32 @@
   
                 <form> 
                   <!-- Username -->   
-                  <div class="form-outline mb-4">
+                  <div class="form-group form-outline mb-4">
                     <input type="text" id="username" name="username" type="text" class="form-control form-control-lg validate" />
                     <label class="form-label" for="username">User Name</label>
                   </div>
 
                   <!-- Email --> 
-                  <div class="form-outline mb-4">
+                  <div class="form-group form-outline mb-4">
                     <input type="email" id="email" name="email" type="text" class="form-control form-control-lg validate" />
                     <label class="form-label" for="email">Your Email</label>
                   </div>
                   
                   <!-- Password --> 
-                  <div class="form-outline mb-4">
+                  <div class="form-group form-outline mb-4">
                     <input type="password" id="password" name="password" type="text" class="form-control form-control-lg validate" />
                     <label class="form-label" for="password">Password</label>
                   </div>
 
                   <!-- Password to repeat -->
-                  <div class="form-outline mb-4">
-                    <input type="password2" id="password2" name="password2" type="text" class="form-control form-control-lg validate" />
-                    <label class="form-label" for="pasword2">Repeat your password</label>
+                  <div class="form-group form-outline mb-4">
+                    <input type="password" id="password2" name="password" type="text" class="form-control form-control-lg validate" />
+                    <label class="form-label" for="password">Repeat your password</label>
                   </div>
   
                   <!-- Check box for terms and conditions -->
                   <div class="form-check justify-content-center mb-5">
-                    <input
-                      class="form-check-input me-2"
-                      type="checkbox"
-                      value=""
-                      id="checkbox"
-                    />
+                    <input class="form-check-input me-2" type="checkbox" id="checkbox" />
                     <label class="form-check-label" for="checkbox">
                       I agree all statements in <a href="#!" class="text-body"><u>Terms of service</u></a>
                     </label>
@@ -50,7 +45,7 @@
 
                   <!-- Register button -->
                   <div class="d-flex justify-content-center">
-                    <button type="button" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
+                    <button type="submit" class="btn btn-success btn-block btn-lg gradient-custom-4 text-body">Register</button>
                   </div>
   
                   <p class="text-center text-muted mt-5 mb-0">Have already an account? <a href="{{ url_for('login') }}" class="fw-bold text-body"><u>Login here</u></a></p>
