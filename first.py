@@ -6,6 +6,7 @@ from flask import (
 from werkzeug.wrappers import Request, Response
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
+from werkzeug.security import generate_password_hash, check_password_hash
 if os.path.exists("env.py"):
     import env
 
@@ -69,6 +70,10 @@ def login():
             return redirect(url_for('index'))
     return render_template('login.html', page_title="Please login", error=error)
 
+
+@app.route("/register", methods=["GET", "POST"])
+def register():
+    return render_template("register.html")
 
 # this is only if on test. It shouldn't be on normal basis
 
