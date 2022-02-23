@@ -80,7 +80,7 @@ def register():
 
         if existing_user:
             flash("Username already exists")
-            return redirect  (url_for("register"))
+            return redirect (url_for("login"))
 
         register = {"username": request.form.get("username").lower(),
         "password": generate_password_hash(request.form.get("password"))
@@ -88,7 +88,8 @@ def register():
         mongo.db.users.insert_one(register)
 
         # put the new user into 'session' cookie
-        
+        session["user"] = request.form.get("username").lower()
+        flash("Registration Successful")
     return render_template("register.html")
 
 # this is only if on test. It shouldn't be on normal basis
