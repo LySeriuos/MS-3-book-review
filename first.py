@@ -28,13 +28,6 @@ def index():
     return render_template("index.html")
 
 
-@app.route("/")
-@app.route("/get_tasks/")
-def get_tasks():
-    tasks = mongo.db.tasks.find()
-    return render_template("tasks.html", tasks=tasks)
-
-
 @app.route("/belekas")
 def belenkas():
     return render_template("/signup.html")
@@ -56,7 +49,8 @@ def reviews_book(book_name):
         for obj in data:
             if obj["url"] == book_name:
                 book = obj
-    return render_template("book.html", book=book)
+    tasks = mongo.db.tasks.find()            
+    return render_template("book.html", book=book, tasks=tasks)
 
 
 @app.route("/about")
