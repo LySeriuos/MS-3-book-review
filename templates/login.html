@@ -13,7 +13,7 @@
                 alt="Sample image">
             </div>
             <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
-              <form>
+              <form method="POST" action="{{ url_for('login') }}">
                 <div class="d-flex flex-row align-items-center justify-content-center justify-content-lg-start">
                   <h4 class="lead fw-normal mb-0 me-3 textsize">Sign in with:  </h4>
                   <button type="button" class="btn btn-primary btn-floating mx-1">
@@ -34,17 +34,15 @@
                 </div>
       
                 <!-- Email input -->
-                <div class="form-outline mb-4">
-                  <input type="email" id="form3Example3" class="form-control form-control-lg"
-                    placeholder="Enter email address" />
-                  
+                <div class="form-group form-outline mb-4">
+                  <input type="text" id="username" name="username" type="text" class="form-control form-control-lg validate" minlength="4" 
+                        maxlength="10" pattern="^[a-zA-Z0-9]{4,10}$" required placeholder="Username"/>                  
                 </div>
       
                 <!-- Password input -->
-                <div class="form-outline mb-3">
-                  <input type="password" id="form3Example4" class="form-control form-control-lg"
-                    placeholder="Enter password" />
-                 
+                <div class="form-group form-outline mb-4">
+                  <input type="password" id="password" name="password" type="text" class="form-control form-control-lg validate" minlength="6" 
+                      maxlength="10" pattern="^[a-zA-Z0-9]{6,10}$" required placeholder="Enter Password"/>
                 </div>
       
                 <div class="d-flex justify-content-between align-items-center">
@@ -59,12 +57,11 @@
                 </div>
       
                 <div class="text-center text-lg-start mt-4 pt-2">
-                  <button type="button" class="btn btn-primary btn-lg"
-                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Login</button>
+                  <button type="submit" class="btn btn-primary btn-lg"
+                    style="padding-left: 2.5rem; padding-right: 2.5rem;">Log In</button>
                   <p class="small fw-bold mt-2 pt-1 mb-0">Don't have an account? <a href="{{ url_for('register') }}"
                       class="link-danger">Register</a></p>
-                </div>
-      
+                </div>      
               </form>
             </div>
           </div>
