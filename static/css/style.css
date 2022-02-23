@@ -37,3 +37,8 @@
 .fab {
     margin-top: 20px;
 }
+
+.flashes {
+  display: flex;
+  underline: solid 1px;
+}
