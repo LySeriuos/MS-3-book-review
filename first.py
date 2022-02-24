@@ -118,8 +118,11 @@ def register():
 @app.route("/member/<username>", methods=["GET", "POST"])
 def member(username):
     # get username from database
-    username = mongo.db.users.find_one({"username": session["user"]})["username"]
-    return render_template("member.html", username=username)
+    username = mongo.db.users.find_one(
+        {"username": session["user"]})["username"]
+    if session["user"]:        
+        return render_template("member.html", username=username)
+    return redirect(url_for("login"))    
 
 # this is only if on test. It shouldn't be on normal basis
 
