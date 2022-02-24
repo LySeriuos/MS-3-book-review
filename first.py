@@ -39,7 +39,8 @@ def reviews():
     data = []
     with open("data/company.json", "r") as json_data:
         data = json.load(json_data)
-    return render_template("reviews.html", page_title="Hello and Welcome to The Review", company=data)
+    return render_template(
+        "reviews.html", page_title="Hello and Welcome to The Review", company=data)
 
 
 @app.route("/reviews/<book_name>")
@@ -60,10 +61,18 @@ def about():
 
 
 # Route for handling the login page logic
+# Route for handling the login page logic
 @app.route("/login", methods=["GET", "POST"])
 def login():
     error = None
     if request.method == 'POST':
+        # check if user existinfg in the db
+        existing_user = mongo.db.users.find_one(
+            {"username": request.form.get("username").lower()})
+
+        if existing_user:
+            # ensure hashed password matches user input
+               
         if request.form['username'] != 'admin' or request.form['password'] != 'admin':
             error = 'Invalid Credentials. Please try again.'
         else:
