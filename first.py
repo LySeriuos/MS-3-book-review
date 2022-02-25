@@ -122,7 +122,15 @@ def member(username):
         {"username": session["user"]})["username"]
     if session["user"]:        
         return render_template("member.html", username=username)
-    return redirect(url_for("login"))    
+    return redirect(url_for("login"))
+
+
+@app.route("/logout")
+def logout():
+    # remove user from cookies session
+    flash("you have been logged out")
+    session.pop("user")
+    return redirect(url_for("login"))
 
 # this is only if on test. It shouldn't be on normal basis
 
