@@ -1,0 +1,22 @@
+<!-- if cookies are used, nav menu changes -->
+{% if session.user %}
+<li class="nav-item">
+    <a class="nav-link" href="{{ url_for('member', username=session['user']) }}">Member Page</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{{ url_for('logout') }}">Logout</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{{ url_for('index') }}">Home</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{{ url_for('reviews') }}">Book reviews</a>
+</li>
+<li class="nav-item">
+    <a class="nav-link" href="{{ url_for('about') }}">About Us</a>
+</li>
+{% else %}
+<li class="nav-item">
+    <a class="nav-link" href="{{ url_for('login') }}">Login</a>
+</li>
+{% endif %}
