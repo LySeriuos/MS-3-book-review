@@ -50,9 +50,8 @@ def reviews_book(book_name):
         data = json.load(json_data)
         for obj in data:
             if obj["url"] == book_name:
-                book = obj
-    tasks = mongo.db.tasks.find()            
-    return render_template("book.html", book=book, tasks=tasks)
+                book = obj                
+    return render_template("book.html", book=book)
 
 
 @app.route("/about")
@@ -120,8 +119,9 @@ def member(username):
     # get username from database
     username = mongo.db.users.find_one(
         {"username": session["user"]})["username"]
-    if session["user"]:        
-        return render_template("member.html", username=username)
+    if session["user"]:
+        tasks = list(mongo.db.tasks.find())
+        return render_template("member.html", username=username, tasks=tasks)
     return redirect(url_for("login"))
 
 

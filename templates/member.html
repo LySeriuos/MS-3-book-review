@@ -31,37 +31,28 @@
         </ul>
       </div>
     </div>
-    <div class="col-8">
-      <ul>
+    <div class="col-8">    
+      <ol>
+        {% for task in tasks %}
         <li>
     <p>
       <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-        Book Nr.1
+        <strong>{{ task.task_name }}</strong> : {{ task.due_date }}
       </a>   
-    </p>
-  </li>
-  <li>
-    <p>
-      <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-        Book Nr.2
-      </a>   
-    </p>
-  </li>
-  <li>
-    <p>
-      <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-        Book Nr.3
-      </a>   
-    </p>
-  </li>
-  </ul>   
+    </p>       
     <div class="collapse" id="collapseExample">
       <div class="card card-body">
-        Some placeholder content for the collapse component. This panel is hidden by default but revealed when the user activates the relevant trigger.
+        <strong> {{ task.category_name }}</strong>
+        {{ task.task_description }}
       </div>
     </div>
+  </li>
+  {% endfor %}
+</ol>     
     </div>
   </div>
 </div>
   
   {% endblock %}
+
+  
