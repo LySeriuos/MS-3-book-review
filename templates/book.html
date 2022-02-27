@@ -5,15 +5,15 @@
            <img src="{{ book.image_source }}" alt="Profile image for {{ book.name}}">                     
         </div>
     <div class="col-md-7">
-        <h2 class="col-md-12">{{ book.name }} by {{ book.author }}</h2>
+        <h2 class="col-md-12" name="book_name">{{ book.name }} by {{ book.author }}</h2>
     <button class="btn btn-primary d-inline"><a href='{{ book.link}}' target="_blank" class="text-white">Buy this book now!</a></button>
         <button class="btn btn-primary d-inline" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
             Add Review
           </button>
+          <!-- To rate the book and leave the review -->
         <div class="collapse" id="collapseExample">
-            <div class="card">
-                                  
-                <div class="rating">                                        
+            <div class="card">                                  
+                <div class="rating" name="rating">                                        
                     <input type="radio" name="rating" value="1" id="1"><label for="1">☆</label> 
                     <input type="radio" name="rating" value="2" id="2"><label for="2">☆</label> 
                     <input type="radio" name="rating" value="3" id="3"><label for="3">☆</label> 
@@ -21,15 +21,17 @@
                     <input type="radio" name="rating" value="5" id="5"><label for="5">☆</label>
                     <p id="rating">Rate the book:</p>
                 </div>           
-        <form method="POST" action="">
+        <form method="POST" action="{{ url_for('add_review') }}">
             <p>Leave your review here:</p>
             <div class="input-group">                
-               <textarea class="form-control" id="task_description" name="task_description" rows="8" aria-label="With textarea"></textarea>                           
-              </div>          
+               <textarea class="form-control" id="review" name="review" rows="8" aria-label="With textarea"></textarea>                           
+              </div> 
+              <!-- Hidden date and time for sorting input data -->         
               <div hidden>
-                <p>Current Date is <input type="text" id="currentDate"></p>
-                <p>Current Time is <input type="text" id="currentTime"></p>
+                <p>Current Date is <input type="text" id="currentDate" name="date"></p>
+                <p>Current Time is <input type="text" id="currentTime" name="time"></p>
               </div>
+              <!-- Buttons to manipulate user's inputs -->
               <div>
               <button class="btn btn-primary" type="submit">Add</button>
               <button class="btn btn-primary" type="submit">Edit</button>
