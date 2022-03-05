@@ -137,7 +137,6 @@ def logout():
 def add_review():
     if request.method == "POST":
         user_review = {
-            "book_name": request.form.get("book_name"),
             "rating": request.form.get("rating"),
             "review": request.form.get("review"),
             "date": request.form.get("date"),
@@ -146,7 +145,7 @@ def add_review():
         }
         mongo.db.tasks.insert_one(user_review)
         flash("Thank you for your review!")
-        return redirect(url_for("reviews_book"))
+        return redirect(url_for("reviews"))
     reviews = mongo.db.reviews.find().sort("review_name")
     return render_template("book.html", reviews=reviews)
 
