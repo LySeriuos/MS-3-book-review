@@ -37,13 +37,18 @@
         <li>
     <p>
       <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-        <strong>{{ task.task_name }}</strong> : {{ task.due_date }}
+        <strong>{{ task.book_name }}</strong>
       </a>   
     </p>       
     <div class="collapse" id="collapseExample">
       <div class="card card-body">
-        <strong> {{ task.category_name }}</strong>
-        {{ task.task_description }}
+        <strong> {{ task.book_name }}</strong>
+       <p>{{ task.rating }}</p>
+       <p>{{ task.review }}</p>
+       <p>{{ task.date }}</p>
+       <p>{{ task.time }}</p>
+       <p>by: {{ task.created_by }}</p>
+
       </div>
     </div>
   </li>

@@ -136,18 +136,20 @@ def logout():
 @app.route("/add_review", methods=["GET", "POST"])
 def add_review():
     if request.method == "POST":
-        user_review = {
+        task = {
+            "book_name": {{ book.name }},
+            "author":  {{ book.author }},
             "rating": request.form.get("rating"),
             "review": request.form.get("review"),
             "date": request.form.get("date"),
             "time": request.form.get("time"),
             "created_by": session["user"]
         }
-        mongo.db.tasks.insert_one(user_review)
+        mongo.db.tasks.insert_one(task)
         flash("Thank you for your review!")
         return redirect(url_for("reviews"))
-    reviews = mongo.db.reviews.find().sort("review_name")
-    return render_template("book.html", reviews=reviews)
+    categories = mongo.db.reviews.find().sort("review_name")
+    return render_template("book.html", categories=categories)
 
 # this is only if on test. It shouldn't be on normal basis
 

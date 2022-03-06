@@ -1,219 +1,676 @@
 [
     {
-      "name": "Anthem",
-      "rating": "",
+      "book_name": "Anthem",
+      "rating": "0",
       "year": "2022",
       "genre": "Thriller, Suspense",
-      "author": "Noah Hawley",
-      "description": "Noah Hawley submits his bid for most interesting novel of the new year. In Anthem, the earth is heating up, as is global anxiety. Guns and opioids are everywhere. Political strife and financial inequality have driven our country to the breaking point. Sound familiar? Hawley has turned up the dial on the problems that we all know exist in this world, bravely (and depending on your world view, perhaps divisively) combing through them and explicating while he builds a story that gathers momentum along the way. Anyone who has seen the television series Fargo (which he created and writes) or who has read his previous novels (particularly his last book Before the Fall) knows that Hawley is a unique talent. He is also a deep thinker. In Anthem, a pandemic of mass suicide among young people is the jumping off point for the story—and in the end, it is young people who will take their future into their own hands. You will recognize much in terms of people and issues here, but you will also be pulled into an adventure that only a few authors could write so well. ",
+      "book_author": "Noah Hawley",
+      "book_description": "Noah Hawley submits his bid for most interesting novel of the new year. In Anthem, the earth is heating up, as is global anxiety. Guns and opioids are everywhere. Political strife and financial inequality have driven our country to the breaking point. Sound familiar? Hawley has turned up the dial on the problems that we all know exist in this world, bravely (and depending on your world view, perhaps divisively) combing through them and explicating while he builds a story that gathers momentum along the way. Anyone who has seen the television series Fargo (which he created and writes) or who has read his previous novels (particularly his last book Before the Fall) knows that Hawley is a unique talent. He is also a deep thinker. In Anthem, a pandemic of mass suicide among young people is the jumping off point for the story—and in the end, it is young people who will take their future into their own hands. You will recognize much in terms of people and issues here, but you will also be pulled into an adventure that only a few authors could write so well. ",
       "image_source": "/static/img/books-img/Anthem-by-Noah-Hawley.jpg",
       "url": "anthem",
-      "link": "https://www.amazon.com/Anthem-Noah-Hawley/dp/1538711516",
-      "review1": "“Hawley taps into our existential anxiety—and transforms it into a hefty page turner that’s equal parts horrific, catastrophic and, at times, strangely entertaining.” ―",
-      "critic1": " New York Times Book Review",
-      "review2": "“Hawley the fiction writer is at his best when pitching his taut setup and its well-drawn cast of characters.” ―",
-      "critic2": " USA Today",
-      "review3": "“Anthem is a Great American Novel for these tumultuous times—a provocative work of fiction that sees to the heart of things, cuts through the noise, and asks, 'How can we change, before it’s too late?' ―",
-      "critic3": " Esquire",
-      "review4": "“A blistering thriller that follows a group of teenagers on an adventure through an apocalyptic America much like our own.” ―",
-      "critic4": " Entertainment Weekly",
-      "review5": "“Terrifying, expertly crafted literary thriller.” ―",
-      "critic5": " Oprah Daily, “The 50 Most Anticipated Books of 2022”",
-      "review6": "“Hawley creates an all-too-plausible dystopia rendered believable through matter-of-fact prose. [He] makes this sing by combining the social commentary of a Margaret Atwood novel with the horrors of a Stephen King book.” ―",
-      "critic6": " Publisher’s Weekly (Starred Review)",
-      "review7": "“The plot-rich, cinematic story moves swiftly and compellingly, exciting reader interest and empathy. Anthem is truly an epic adventure.” ―",
-      "critic7": " Booklist (Starred Review)",
-      "review8": "“[ANTHEM is] perhaps the first must-read novel of 2022, the kind of book that you’ll be urging your friends to pick up throughout the year”” ―",
-      "critic8": " Book Reporter"
+      "buy_link": "https://www.amazon.com/Anthem-Noah-Hawley/dp/1538711516"
     },
     {
-      "name": "Olga Dies Dreaming",
-      "rating": "",
+      "book_name": "How High We Go in the Dark",
+      "book_author": "Sequoia Nagamatsu",
+      
+      "critic_name_1": "New York Times Book Review",
+      "critic_review_1": "“Moving and thought-provoking...offering psychological insights in lyrical prose while seriously exploring speculative conceits.”" ,
+
+      "critic_name_2": "Alan Moore, creator of Watchmen and V for Vendetta",
+      "critic_review_2": "“Haunting and luminous.... Beautiful and lucid science fiction. An astonishing debut.”" ,
+
+      "critic_name_3": "Jennifer Szalai, The New York Times" ,
+      "critic_review_3": "A book of incredible scope and ambition, a polyphonic elegy for the possible, for all that might be won and lost in the many worlds we make together: the world of our families, our civilization and our planet, the planets beyond. Sequoia Nagamatsu’s debut generates fresh wonder at all we are, plus hope for all we might become, in these unforgettable futures yet to be." ,
+
+      "critic_name_4": "MATT BELL, AUTHOR OF APPLESEED",
+      "critic_review_4": "[Barbara F.] Walter’s How Civil Wars Start is the civil-conflict equivalent of How Democracies Die by Steven Levitsky and Daniel Ziblatt—a much-needed warning that uses cross-national research to examine the United States. Given how prescient Levitsky and Ziblatt were, and how expert Walters is (she is a leading scholar of civil wars), it is a warning to heed. I’ve been skeptical of the notion that the United States is on the verge of another civil war. Walter has made me reconsider. . . . This is a book that everyone in power should read immediately.",
+
+      "critic_name_5": "AIMEE BENDER, AUTHOR OF THE COLOR MASTER AND THE BUTTERFLY LAMPSHADE",
+      "critic_review_5": "“A novel that is both grimly timely while also moving past our usual notions of time to reveal a wider view— Sequoia Nagamatsu allows his story to unspool with such a great sense of scope, freedom, and clarity, creating a stunning mosaic of experience and humanness.”" ,
+
+      "critic_name_6": "ALAN MOORE, CREATOR OF WATCHMEN AND V FOR VENDETTA",
+      "critic_review_6": "“Haunting and luminous, How High We Go In The Dark orchestrates its multitude of memorable voices into beautiful and lucid Science Fiction that resembles a fitful future memory of our present. An astonishing debut.”",
+
+      "critic_name_7": "GABRIELLE ZEVIN, NEW YORK TIMES BESTSELLING AUTHOR OF THE STORIED LIFE OF A.J. FIKRY",
+      "critic_review_7": "“How High We Go in the Dark is not a plague novel; it is an after plague novel. Sequoia Nagamatsu nimbly bounds through time, space, and species while tackling the question, Where do we go from here? My favorite kind of speculative fiction—philosophical and hopeful; endlessly inventive, with a beating heart.”",
+
+      "critic_name_8": "ERIKA SWYLER, AUTHOR OF LIGHT FROM OTHER STARS AND THE BOOK OF SPECULATION",
+      "critic_review_8": "“Gorgeous, terrifying, compassionate. With funerary skyscrapers, a generation ship painted with history, and a pyramid of souls reaching for light, How High We Go in the Dark is both powerful and original. Nagamastu elegantly dissects disaster with an eye toward empathy and curiosity. At this book’s center is a great big beautiful heart. An exceptional accomplishment that left me equal parts hope and wonder.”"     
+    },
+    {
+      "book_name": "Olga Dies Dreaming",
+      "rating": "0",
       "year": "2021",
       "genre": "Domestic Fiction",
-      "author": "Xochitl Gonzalez",
-      "description": "A debut that has the heart, the comedy, the complexity, and glittering vivacity that make it easy to imagine as a TV series, which it will soon be. Olga is a successful wedding planner to the rich and soon-to-be-famous and her brother Pietro is a congressman—both have come a long way from their Brooklyn childhood when they were abandoned by their mother, a radical Puerto Rican activist. But when Hurricane Maria strikes, Olga and Pietro are forced to confront their past and their futures. In Olga Dies Dreaming there are family secrets, grievances, and the feeling of being caught between two worlds, which Xochitl Gonzalez renders with such clarity and zeal that it’s nearly impossible to not read this in one sitting. ",
+      "book_author": "Xochitl Gonzalez",
+      "book_description": "A debut that has the heart, the comedy, the complexity, and glittering vivacity that make it easy to imagine as a TV series, which it will soon be. Olga is a successful wedding planner to the rich and soon-to-be-famous and her brother Pietro is a congressman—both have come a long way from their Brooklyn childhood when they were abandoned by their mother, a radical Puerto Rican activist. But when Hurricane Maria strikes, Olga and Pietro are forced to confront their past and their futures. In Olga Dies Dreaming there are family secrets, grievances, and the feeling of being caught between two worlds, which Xochitl Gonzalez renders with such clarity and zeal that it’s nearly impossible to not read this in one sitting. ",
       "image_source": "/static/img/books-img/Olga-Diez-Dreaming-by-Xochitl-Gonzalez.jpg",
-      "url": "olga-dies-dreaming"
+      "url": "olga-dies-dreaming",
+      "date": "2021-12-05",
+      "buy_link": "https://www.amazon.com/Olga-Dies-Dreaming-Xochitl-Gonzalez/dp/1250786177/ref=pd_bxgy_img_2/146-0460769-8208864?pd_rd_w=pbNCO&pf_rd_p=6b3eefea-7b16-43e9-bc45-2e332cbf99da&pf_rd_r=7XXFVE9D3SP0NZZ73YA5&pd_rd_r=732adbe8-41d9-4a3e-ba44-bb8c72afd7b6&pd_rd_wg=pRrbn&pd_rd_i=1250786177&psc=1"
     },
     {
-      "name": "Boyfriend Material",
-      "rating": "",
+      "book_name": "Boyfriend Material",
+      "rating": "0",
       "year": "2021",
       "genre": "Romance Novel, New Adult Fiction",
-      "author": "Alexis Hall",
-      "description": "Boyfriend Material had two of my favorite romance book tropes wrapped into one book. It was an opposites attract love story set off with a fake relationship. That was hook enough to have me want to read my first Alexis Hall book. Overall, it delivered with a few hiccups, but it’s worth a read for fans of these romance tropes. Let me be honest and say that Luc O’Donnell is a bit of a train wreck. He’s been burned (pretty badly) in the past and has had to live in the quasi-famous limelight cast by his famous rock star parents. Since his father is trying to re-invent himself and make a comeback, Luc’s every move is all the more scrutinized (and falsely embellished) in the tabloids. One compromising photo too many however puts his job at a non-profit in jeopardy when donors start backing out of a high-profile event. His one chance at redemption turns out to be a fake relationship with a respectable boyfriend to clean up his image. That “job” falls to Oliver Blackwood, a barrister, who is the opposite of Luc in every way.",
+      "book_author": "Alexis Hall",
+      "book_description": "Boyfriend Material had two of my favorite romance book tropes wrapped into one book. It was an opposites attract love story set off with a fake relationship. That was hook enough to have me want to read my first Alexis Hall book. Overall, it delivered with a few hiccups, but it’s worth a read for fans of these romance tropes. Let me be honest and say that Luc O’Donnell is a bit of a train wreck. He’s been burned (pretty badly) in the past and has had to live in the quasi-famous limelight cast by his famous rock star parents. Since his father is trying to re-invent himself and make a comeback, Luc’s every move is all the more scrutinized (and falsely embellished) in the tabloids. One compromising photo too many however puts his job at a non-profit in jeopardy when donors start backing out of a high-profile event. His one chance at redemption turns out to be a fake relationship with a respectable boyfriend to clean up his image. That “job” falls to Oliver Blackwood, a barrister, who is the opposite of Luc in every way.",
       "image_source": "static/img/books-img/Boyfriend-Material.jpg",
-      "url": "boyfriend-material"
+      "url": "boyfriend-material",
+      "date": "2021-11-30",
+      "buy_link": "https://www.amazon.com/Boyfriend-Material-Alexis-Hall/dp/1728206146/ref=sr_1_1?crid=149VH8C7IR2B0&keywords=Boyfriend+Material&qid=1646581693&s=books&sprefix=boyfriend+material%2Cstripbooks-intl-ship%2C143&sr=1-1"
     },
     {
-      "name": "How Civil Wars Start",
-      "rating": "",
+      "book_name": "How Civil Wars Start",
+      "rating": "0",
       "year": "2022",
       "genre": "Historical Fiction",
-      "author": "Barbara F. Walter",
-      "description": "Political scientist Walter (Committing to Peace) issues a stark and deeply informed warning that the U.S. may be headed for another civil war. Drawing on her extensive studies of foreign conflicts, Walter highlights factors that make countries susceptible to sectarian violence, including a government that is neither democratic nor totalitarian, loss of status by a historically dominant ethnic group, and the closing of political avenues for change. Explaining how social media foments political instability, Walter notes that Facebook and other companies showed little inclination to police calls to violence and ethnic cleansing in Myanmar, while providing a platform for anti-democratic political organizing even in countries with deep democratic traditions, such as Sweden. Drawing incisive parallels to societies in which ethnic grievances have been harnessed to mobilize armed forces for civil war, Walter notes the increasing visibility of right-wing militias in the U.S. Such groups—financed and abetted by white nationalists in other countries and America’s geopolitical rivals—could eventually engage in armed struggle against the government. To avoid civil war, Walter writes, America needs to improve its democratic institutions by making elections freer and more open and increasing civics education. Distinguished by its lucid analysis and global perspective, this wake-up call rings clear. ",
+      "book_author": "Barbara F. Walter",
+      "book_description": "Political scientist Walter (Committing to Peace) issues a stark and deeply informed warning that the U.S. may be headed for another civil war. Drawing on her extensive studies of foreign conflicts, Walter highlights factors that make countries susceptible to sectarian violence, including a government that is neither democratic nor totalitarian, loss of status by a historically dominant ethnic group, and the closing of political avenues for change. Explaining how social media foments political instability, Walter notes that Facebook and other companies showed little inclination to police calls to violence and ethnic cleansing in Myanmar, while providing a platform for anti-democratic political organizing even in countries with deep democratic traditions, such as Sweden. Drawing incisive parallels to societies in which ethnic grievances have been harnessed to mobilize armed forces for civil war, Walter notes the increasing visibility of right-wing militias in the U.S. Such groups—financed and abetted by white nationalists in other countries and America’s geopolitical rivals—could eventually engage in armed struggle against the government. To avoid civil war, Walter writes, America needs to improve its democratic institutions by making elections freer and more open and increasing civics education. Distinguished by its lucid analysis and global perspective, this wake-up call rings clear. ",
       "image_source": "/static/img/books-img/How-Civil-Wars-Start-by-Barbara-F.-Walter.jpg",
-      "url": "how-civil-wars-start"
+      "url": "how-civil-wars-start",
+      "date": "2022-02-01",
+      "buy_link": "https://www.amazon.com/How-Civil-Wars-Start-Stop/dp/0593137787/ref=sr_1_1?crid=1A87XDUHUBZCX&keywords=How+Civil+Wars+Start&qid=1646582217&s=books&sprefix=how+civil+wars+start%2Cstripbooks-intl-ship%2C184&sr=1-1"
     },
     {
-      "name": "How High We Go in the Dark",
-      "rating": "",
+      "book_name": "How High We Go in the Dark",
+      "rating": "0",
       "year": "2022",
       "genre": "Science fiction, Dystopian Fiction",
-      "author": "Sequoia Nagamatsu",
-      "description": "In 2030, a grieving archeologist arrives in the Arctic Circle to continue the work of his recently deceased daughter at the Batagaika Crater, where researchers are studying long-buried secrets now revealed in melting permafrost, including the perfectly preserved remains of a girl who appears to have died of an ancient virus. Once unleashed, the Arctic plague will reshape life on Earth for generations to come, quickly traversing the globe, forcing humanity to devise a myriad of moving and inventive ways to embrace possibility in the face of tragedy. In a theme park designed for terminally ill children, a cynical employee falls in love with a mother desperate to hold on to her infected son. A heartbroken scientist searching for a cure finds a second chance at fatherhood when one of his test subjects—a pig—develops the capacity for human speech. A widowed painter and her teenaged granddaughter embark on a cosmic quest to locate a new home planet. From funerary skyscrapers to hotels for the dead to interstellar starships, Sequoia Nagamatsu takes readers on a wildly original and compassionate journey, spanning continents, centuries, and even celestial bodies to tell a story about the resilience of the human spirit, our infinite capacity to dream, and the connective threads that tie us all together in the universe.",
+      "book_author": "Sequoia Nagamatsu",
+      "book_description": "In 2030, a grieving archeologist arrives in the Arctic Circle to continue the work of his recently deceased daughter at the Batagaika Crater, where researchers are studying long-buried secrets now revealed in melting permafrost, including the perfectly preserved remains of a girl who appears to have died of an ancient virus. Once unleashed, the Arctic plague will reshape life on Earth for generations to come, quickly traversing the globe, forcing humanity to devise a myriad of moving and inventive ways to embrace possibility in the face of tragedy. In a theme park designed for terminally ill children, a cynical employee falls in love with a mother desperate to hold on to her infected son. A heartbroken scientist searching for a cure finds a second chance at fatherhood when one of his test subjects—a pig—develops the capacity for human speech. A widowed painter and her teenaged granddaughter embark on a cosmic quest to locate a new home planet. From funerary skyscrapers to hotels for the dead to interstellar starships, Sequoia Nagamatsu takes readers on a wildly original and compassionate journey, spanning continents, centuries, and even celestial bodies to tell a story about the resilience of the human spirit, our infinite capacity to dream, and the connective threads that tie us all together in the universe.",
       "image_source": "/static/img/books-img/How-High-We-Go-in-the-Dark-by-Sequoia-Nagamatsu.jpg",
-      "url": "how-high-we-go-in-the-dark"
+      "url": "how-high-we-go-in-the-dark",
+      "date": "2022-01-14",
+      "buy_link": "https://www.amazon.com/How-High-We-Go-Dark/dp/B093CJZXM5/ref=sr_1_1?crid=2R3UPJL7UJSWE&keywords=How+High+We+Go+in+the+Dark&qid=1646582250&s=books&sprefix=how+civil+wars+start%2Cstripbooks-intl-ship%2C197&sr=1-1"
     },
     {
-      "name": "Crime Fiction, Psychological Fiction",
-      "rating": "",
+      "book_name": "How High We Go in the Dark",
+      "book_author": "Sequoia Nagamatsu",
+      
+      "critic_name_1": "New York Times Book Review",
+      "critic_review_1": "“Moving and thought-provoking...offering psychological insights in lyrical prose while seriously exploring speculative conceits.”" ,
+
+      "critic_name_2": "Alan Moore, creator of Watchmen and V for Vendetta",
+      "critic_review_2": "“Haunting and luminous.... Beautiful and lucid science fiction. An astonishing debut.”" ,
+
+      "critic_name_3": "Jennifer Szalai, The New York Times" ,
+      "critic_review_3": "A book of incredible scope and ambition, a polyphonic elegy for the possible, for all that might be won and lost in the many worlds we make together: the world of our families, our civilization and our planet, the planets beyond. Sequoia Nagamatsu’s debut generates fresh wonder at all we are, plus hope for all we might become, in these unforgettable futures yet to be." ,
+
+      "critic_name_4": "MATT BELL, AUTHOR OF APPLESEED",
+      "critic_review_4": "[Barbara F.] Walter’s How Civil Wars Start is the civil-conflict equivalent of How Democracies Die by Steven Levitsky and Daniel Ziblatt—a much-needed warning that uses cross-national research to examine the United States. Given how prescient Levitsky and Ziblatt were, and how expert Walters is (she is a leading scholar of civil wars), it is a warning to heed. I’ve been skeptical of the notion that the United States is on the verge of another civil war. Walter has made me reconsider. . . . This is a book that everyone in power should read immediately.",
+
+      "critic_name_5": "AIMEE BENDER, AUTHOR OF THE COLOR MASTER AND THE BUTTERFLY LAMPSHADE",
+      "critic_review_5": "“A novel that is both grimly timely while also moving past our usual notions of time to reveal a wider view— Sequoia Nagamatsu allows his story to unspool with such a great sense of scope, freedom, and clarity, creating a stunning mosaic of experience and humanness.”" ,
+
+      "critic_name_6": "ALAN MOORE, CREATOR OF WATCHMEN AND V FOR VENDETTA",
+      "critic_review_6": "“Haunting and luminous, How High We Go In The Dark orchestrates its multitude of memorable voices into beautiful and lucid Science Fiction that resembles a fitful future memory of our present. An astonishing debut.”",
+
+      "critic_name_7": "GABRIELLE ZEVIN, NEW YORK TIMES BESTSELLING AUTHOR OF THE STORIED LIFE OF A.J. FIKRY",
+      "critic_review_7": "“How High We Go in the Dark is not a plague novel; it is an after plague novel. Sequoia Nagamatsu nimbly bounds through time, space, and species while tackling the question, Where do we go from here? My favorite kind of speculative fiction—philosophical and hopeful; endlessly inventive, with a beating heart.”",
+
+      "critic_name_8": "ERIKA SWYLER, AUTHOR OF LIGHT FROM OTHER STARS AND THE BOOK OF SPECULATION",
+      "critic_review_8": "“Gorgeous, terrifying, compassionate. With funerary skyscrapers, a generation ship painted with history, and a pyramid of souls reaching for light, How High We Go in the Dark is both powerful and original. Nagamastu elegantly dissects disaster with an eye toward empathy and curiosity. At this book’s center is a great big beautiful heart. An exceptional accomplishment that left me equal parts hope and wonder.”"     
+    },
+    {
+      "book_name": "Notes on an Execution",
+      "rating": "0",
       "year": "2022",
       "genre": "Novel",
-      "author": "Deckle Edge",
-      "description": "Ansel Packer is scheduled to die in twelve hours. He knows what he’s done, and now awaits execution, the same chilling fate he forced on those girls, years ago. But Ansel doesn’t want to die; he wants to be celebrated, understood. Through a kaleidoscope of women—a mother, a sister, a homicide detective—we learn the story of Ansel’s life. We meet his mother, Lavender, a seventeen-year-old girl pushed to desperation; Hazel, twin sister to Ansel’s wife, inseparable since birth, forced to watch helplessly as her sister’s relationship threatens to devour them all; and finally, Saffy, the detective hot on his trail, who has devoted herself to bringing bad men to justice but struggles to see her own life clearly. As the clock ticks down, these three women sift through the choices that culminate in tragedy, exploring the rippling fissures that such destruction inevitably leaves in its wake. Blending breathtaking suspense with astonishing empathy, Notes on an Execution presents a chilling portrait of womanhood as it simultaneously unravels the familiar narrative of the American serial killer, interrogating our system of justice and our cultural obsession with crime stories, asking readers to consider the false promise of looking for meaning in the psyches of violent men.",
+      "book_author": "Danya Kukafka",
+      "book_description": "Ansel Packer is scheduled to die in twelve hours. He knows what he’s done, and now awaits execution, the same chilling fate he forced on those girls, years ago. But Ansel doesn’t want to die; he wants to be celebrated, understood. Through a kaleidoscope of women—a mother, a sister, a homicide detective—we learn the story of Ansel’s life. We meet his mother, Lavender, a seventeen-year-old girl pushed to desperation; Hazel, twin sister to Ansel’s wife, inseparable since birth, forced to watch helplessly as her sister’s relationship threatens to devour them all; and finally, Saffy, the detective hot on his trail, who has devoted herself to bringing bad men to justice but struggles to see her own life clearly. As the clock ticks down, these three women sift through the choices that culminate in tragedy, exploring the rippling fissures that such destruction inevitably leaves in its wake. Blending breathtaking suspense with astonishing empathy, Notes on an Execution presents a chilling portrait of womanhood as it simultaneously unravels the familiar narrative of the American serial killer, interrogating our system of justice and our cultural obsession with crime stories, asking readers to consider the false promise of looking for meaning in the psyches of violent men.",
       "image_source": "/static/img/books-img/Notes-on-an-Execution-by-Danya-Kukafka.jpg",
-      "url": "notes-on-an-execution"
+      "url": "notes-on-an-execution",
+      "date": "2022-01-10",
+      "buy_link": "https://www.amazon.com/Notes-Execution-Novel/dp/B092FT43QZ/ref=sr_1_1?crid=RHFDP60FJ7YM&keywords=notes+on+an+execution+a+novel&qid=1646582431&s=audible&sprefix=notes+on+an+ex%2Caudible%2C189&sr=1-1"
     },
     {
-      "name": "South to America: A Journey Below the Mason-Dixon to Understand the Soul of a Nation",
-      "rating": "",
+      "book_name": "Notes on an Execution",
+      "book_author": "Danya Kukafka",
+      
+      "critic_name_1": "New York Times Book Review",
+      "critic_review_1": "“Defiantly populated with living women...beautifully drawn, dense with detail and specificity...Notes on an Execution is nuanced, ambitious, and compelling.”" ,
+
+      "critic_name_2": "Brit Bennett, number one New York Times best-selling author of The Vanishing Half",
+      "critic_review_2": "“A searing portrait of the complicated women caught in the orbit of a serial killer.... Compassionate and thought-provoking.”" ,
+
+      "critic_name_3": "USA Today" ,
+      "critic_review_3": "“Poetic and mesmerizing.... Powerful, important, intensely human, and filled with a unique examination of tragedy, one where the reader is left with a curious emotion: hope.”" ,
+
+      "critic_name_4": "Megan Abbott, author of Dare Me",
+      "critic_review_4": "“Spellbinding and beautifully written. Danya Kukafka's Notes on an Execution is an irresistible, unbearably tense thriller, a poignant, deeply compassionate tale of resilience, and a vital intervention in the way we talk about violent crime, its endless reverberations and foremost its survivors.”",
+
+      "critic_name_5": "Publishers Weekly",
+      "critic_review_5": "“Masterly thriller . . . Kukafka skillfully uses the second-person present tense to heighten the drama, and toward the end she makes devastatingly clear the toll taken by Packer's killings”" ,
+
+      "critic_name_6": "Esquire",
+      "critic_review_6": "“At once blistering with righteous anger and radical empathy, Notes on an Execution is destined to become a contemporary classic.”",
+
+      "critic_name_7": "Gilly McMillan",
+      "critic_review_7": "“Unflinching, mesmerising, heartwrenching and deeply intelligent and compassionate”",
+
+      "critic_name_8": "Good Housekeeping US",
+      "critic_review_8": "“A chilling, surprisingly tender tale of how each tragedy ripples through many lives”"     
+    },
+    {
+      "book_name": "South to America: A Journey Below the Mason-Dixon to Understand the Soul of a Nation",
+      "rating": "0",
       "year": "2022",
       "genre": "Autobiography",
-      "author": "Imani Perry",
-      "description": "We all think we know the South. Even those who have never lived there can rattle off a list of signifiers: the Civil War, Gone with the Wind, the Ku Klux Klan, plantations, football, Jim Crow, slavery. But the idiosyncrasies, dispositions, and habits of the region are stranger and more complex than much of the country tends to acknowledge. In South to America, Imani Perry shows that the meaning of American is inextricably linked with the South, and that our understanding of its history and culture is the key to understanding the nation as a whole. This is the story of a Black woman and native Alabaman returning to the region she has always called home and considering it with fresh eyes. Her journey is full of detours, deep dives, and surprising encounters with places and people. She renders Southerners from all walks of life with sensitivity and honesty, sharing her thoughts about a troubling history and the ritual humiliations and joys that characterize so much of Southern life. Weaving together stories of immigrant communities, contemporary artists, exploitative opportunists, enslaved peoples, unsung heroes, her own ancestors, and her lived experiences, Imani Perry crafts a tapestry unlike any other. With uncommon insight and breathtaking clarity, South to America offers an assertion that if we want to build a more humane future for the United States, we must center our concern below the Mason-Dixon Line.  ",
+      "book_author": "Imani Perry",
+      "book_description": "We all think we know the South. Even those who have never lived there can rattle off a list of signifiers: the Civil War, Gone with the Wind, the Ku Klux Klan, plantations, football, Jim Crow, slavery. But the idiosyncrasies, dispositions, and habits of the region are stranger and more complex than much of the country tends to acknowledge. In South to America, Imani Perry shows that the meaning of American is inextricably linked with the South, and that our understanding of its history and culture is the key to understanding the nation as a whole. This is the story of a Black woman and native Alabaman returning to the region she has always called home and considering it with fresh eyes. Her journey is full of detours, deep dives, and surprising encounters with places and people. She renders Southerners from all walks of life with sensitivity and honesty, sharing her thoughts about a troubling history and the ritual humiliations and joys that characterize so much of Southern life. Weaving together stories of immigrant communities, contemporary artists, exploitative opportunists, enslaved peoples, unsung heroes, her own ancestors, and her lived experiences, Imani Perry crafts a tapestry unlike any other. With uncommon insight and breathtaking clarity, South to America offers an assertion that if we want to build a more humane future for the United States, we must center our concern below the Mason-Dixon Line.  ",
       "image_source": "/static/img/books-img/South-to-America-by-Imani-Perry.jpg",
-      "url": "south-to-america-a-journey-below-the-mason-dixon-to-understand-the-soul-of-a-nation"
+      "url": "south-to-america-a-journey-below-the-mason-dixon-to-understand-the-soul-of-a-nation",
+      "date": "2022-01-03",
+      "buy_link": "https://www.amazon.com/South-America-Journey-Understand-Nation/dp/B08S7V112F/ref=sr_1_1?crid=1FK77RO1ND4KG&keywords=South+to+America%3A+A+Journey+Below+the+Mason-Dixon+to+Understand+the+Soul+of+a+Nation&qid=1646582872&s=audible&sprefix=south+to+america+a+journey+below+the+mason-dixon+to+understand+the+soul+of+a+nation%2Caudible%2C248&sr=1-1"
     },
     {
-      "name": "To Paradise",
-      "rating": "",
+      "book_name": "South to America: A Journey Below the Mason-Dixon to Understand the Soul of a Nation",
+      "book_author": "Imani Perry",
+      
+      "critic_name_1": "Time",
+      "critic_review_1": "“In South to America, Perry shows readers that there is no one archetype of the American South, as she considers everything from immigrant communities to the legacy of slavery to her own ancestral roots.”" ,
+
+      "critic_name_2": "Oprah Daily",
+      "critic_review_2": "“Provocative, perspective-shifting…. Rendered in exquisite detail…. In this vibrant, revelatory book, Perry proves herself to be a radiant storyteller…like Zora Neale Hurston, Alice Walker, and Nina Simone before her.”" ,
+
+      "critic_name_3": "Vulture" ,
+      "critic_review_3": "“Perry is deft and disciplined, her efforts to situate the beauty, oddity, and terror that mark southern life are critical and compelling. As a travel writer, she embraces detours with an eye toward discovery…. Perry asks what it means to be tied to a ‘land of big dreams and bigger lies’ when one is committed to the pursuit of a truth that bursts the nation at its seams.”" ,
+
+      "critic_name_4": "New Yorker",
+      "critic_review_4": "“This history of the American South examines its subject from both personal and sociopolitical perspectives... [Perry] draws connections between the past and contemporary experience.”",
+
+      "critic_name_5": " Garden & Gun",
+      "critic_review_5": "“Breathtaking…. Extraordinary…. In the realm of Southern letters it has no real antecedent. It is that fresh, that vital, that intellectually supercharged, that incandescent.”" ,
+
+      "critic_name_6": "Los Angeles Times",
+      "critic_review_6": "“[Perry] tells rich stories of place while ignoring the borders dividing disciplines and genres, weaving personal experiences with deep history, economics and cultural critique.”",
+
+      "critic_name_7": "Minneapolis Star Tribune",
+      "critic_review_7": "“Engrossing…. [Perry] cannily frames her investigation as a travelogue, moving from Appalachia to the Upper South to the Deep South to outliers like Florida and Cuba…. The book’s pleasures are many…. Her vignettes spark off the page…. An immersive read.”",
+
+      "critic_name_8": "Kiese Laymon, author of Heavy",
+      "critic_review_8": "“South to America marks time like Beloved did. Similarly, we will talk not solely of books about the south, but books generally as before or after South to America. I have known and loved the South for four decades and Imani Perry has shown me that there is so much more in our region’s fleshy folds to know, explore and love. It is simply the most finely crafted and rigorously conceived book about our region, and nation, I have ever read.”"     
+    },
+    {
+      "book_name": "To Paradise",
+      "rating": "0",
       "year": "2022",
       "genre": "Historical Fiction, Dystopian Fiction",
-      "author": "Hanya Yanagihara",
-      "description": "In an alternate version of 1893 America, New York is part of the Free States, where people may live and love whomever they please (or so it seems). The fragile young scion of a distinguished family resists betrothal to a worthy suitor, drawn to a charming music teacher of no means. In a 1993 Manhattan besieged by the AIDS epidemic, a young Hawaiian man lives with his much older, wealthier partner, hiding his troubled childhood and the fate of his father. And in 2093, in a world riven by plagues and governed by totalitarian rule, a powerful scientist’s damaged granddaughter tries to navigate life without him—and solve the mystery of her husband’s disappearances. These three sections are joined in an enthralling and ingenious symphony, as recurring notes and themes deepen and enrich one another: A townhouse in Washington Square Park in Greenwich Village; illness, and treatments that come at a terrible cost; wealth and squalor; the weak and the strong; race; the definition of family, and of nationhood; the dangerous righteousness of the powerful, and of revolutionaries; the longing to find a place in an earthly paradise, and the gradual realization that it can’t exist. What unites not just the characters, but these Americas, are their reckonings with the qualities that make us human: Fear. Love. Shame. Need. Loneliness. To Paradise is a findesiecle novel of marvelous literary effect, but above all it is a work of emotional genius.  The great power of this remarkable novel is driven by Yanagihara’s understanding of the aching desire to protect those we love—partners, lovers, children, friends, family and even our fellow citizens—and the pain that ensues when we cannot.",
+      "book_author": "Hanya Yanagihara",
+      "book_description": "In an alternate version of 1893 America, New York is part of the Free States, where people may live and love whomever they please (or so it seems). The fragile young scion of a distinguished family resists betrothal to a worthy suitor, drawn to a charming music teacher of no means. In a 1993 Manhattan besieged by the AIDS epidemic, a young Hawaiian man lives with his much older, wealthier partner, hiding his troubled childhood and the fate of his father. And in 2093, in a world riven by plagues and governed by totalitarian rule, a powerful scientist’s damaged granddaughter tries to navigate life without him—and solve the mystery of her husband’s disappearances. These three sections are joined in an enthralling and ingenious symphony, as recurring notes and themes deepen and enrich one another: A townhouse in Washington Square Park in Greenwich Village; illness, and treatments that come at a terrible cost; wealth and squalor; the weak and the strong; race; the definition of family, and of nationhood; the dangerous righteousness of the powerful, and of revolutionaries; the longing to find a place in an earthly paradise, and the gradual realization that it can’t exist. What unites not just the characters, but these Americas, are their reckonings with the qualities that make us human: Fear. Love. Shame. Need. Loneliness. To Paradise is a findesiecle novel of marvelous literary effect, but above all it is a work of emotional genius.  The great power of this remarkable novel is driven by Yanagihara’s understanding of the aching desire to protect those we love—partners, lovers, children, friends, family and even our fellow citizens—and the pain that ensues when we cannot.",
       "image_source": "/static/img/books-img/To-Paradise-by-Hanya-Yanagihara.jpg",
-      "url": "to-paradise"
+      "url": "to-paradise",
+      "date": "2022-01-25",
+      "buy_link": "https://www.amazon.com/To-Paradise-A-Novel/dp/B092399NLV/ref=sr_1_1?crid=1JROAISIKM1TY&keywords=To+Paradise&qid=1646582931&s=audible&sprefix=to+paradise%2Caudible%2C191&sr=1-1"
     },
     {
-      "name": "Vladimir",
-      "rating": "",
+      "book_name": "To Paradise",
+      "book_author": "Hanya Yanagihara",
+      
+      "critic_name_1": "Ron Charles, The Washington Post",
+      "critic_review_1": "“Remarkable…The emotional impact of this novel is less visceral than A LITTLE LIFE but only because the author’s scope is so vast and her dexterity so dazzling….TO PARADISE demonstrates the inexhaustible ingenuity of an author who keeps shattering expectations….she explores the dream of freedom that lures all these characters to risk everything for a paradise they desire but can barely envision.  No matter the setting – past present or future – TO PARADISE stems from the hypnotic confluence of Yanagihara’s skills.  She speaks softly, with the urgency of a whisper.  She draws us into the most intimate sympathy with these characters while placing them in crises that feel irresistibly compelling.”" ,
+
+      "critic_name_2": "The Observer",
+      "critic_review_2": "“Sometimes literature takes time to digest momentous events... Occasionally, though, a masterpiece emerges from the white heat of the moment: The Great Gatsby, The Decameron, The Waste Land. There's something miraculous about reading To Paradise while the coronavirus crisis is still playing out around us, the dizzying sense that you're immersed in a novel that will come to represent the age, its obsessions and anxieties. It's rare that you get the opportunity to review a masterpiece, but To Paradise, definitively, is one.”" ,
+
+      "critic_name_3": "Gish Jen, The New York Times Book Review" ,
+      "critic_review_3": "“We are given a patriarch, wealth, children; there is an arranged marriage, an inheritance, a true love, a class divide and a significant twist. Deftly paced and judiciously detailed, the tale makes hay with the conventions of the 19th-century novel. But that’s not all. With breathtaking audacity Yanagihara rewrites America….Yanagihara masterfully repurposes themes, situations and motifs…This ambitious novel tackles major American questions and answers them in an original, engrossing way. It has a major feel. But it is finally in [its] minor moments that Yanagihara shows greatness.”" ,
+
+      "critic_name_4": "Wayne Catan, USA Today",
+      "critic_review_4": "“To Paradise” is a novel of the highest order. Yanagihara writes with elegance, evoking emotion and rendering believable characters who move the plot. Her perceptive eye is evident in the three separate settings, placing the reader in each time frame through multiple narratives, which she orchestrates with great acuity. Themes of love and belonging reign in Book I and Book II. In Book III, fear trumps love for a mimesis of reality, hitting close to home for all of us right now.”",
+
+      "critic_name_5": " Oprah Daily",
+      "critic_review_5": "“Tour de force…Yanagihara changes the novel landscape: What is different, we accept; what is familiar, we recognize. To Paradise resonates because of its exploration of human relationships and the dismantling of preconceived notions. Biases and hatreds lurk and linger, emerging periodically to remind us that while one form of discrimination may have been eliminated, others remain embedded in our institutions, and cannot easily be eradicated; in the end, threads of prejudice bind all three parts. And yet To Paradise is rich with characters that live and love, with few boundaries. Yanagihara asks us to consider an alternative America that could have existed at any point in history if other decisions had been made, and that might still prevail if we do the right thing.”" ,
+
+      "critic_name_6": "Kirkus Reviews",
+      "critic_review_6": "“Gigantic, strange, exquisite, terrifying, and replete with mystery.”",
+
+      "critic_name_7": "The Bookseller",
+      "critic_review_7": "“An extraordinary novel; powerfully imagined and deeply moving.”",
+
+      "critic_name_8": "Vanity Fair",
+      "critic_review_8": "“A tale of manners, family, migration, and political dystopia that reads like Edith Wharton meets Jonathan Franzen meets Mohsin Hamid meets George Orwell.”"     
+    },
+    {
+      "book_name": "Vladimir",
+      "rating": "0",
       "year": "2022",
       "genre": "Literary Fiction",
-      "author": "Julia May Jonas",
-      "description": "And so we are introduced to our deliciously incisive narrator: a popular English professor whose charismatic husband at the same small liberal arts college is under investigation for his inappropriate relationships with his former students. The couple have long had a mutual understanding when it comes to their extra-marital pursuits, but with these new allegations, life has become far less comfortable for them both. And when our narrator becomes increasingly infatuated with Vladimir, a celebrated, married young novelist who’s just arrived on campus, their tinder box world comes dangerously close to exploding. With this bold, edgy, and uncommonly assured debut, author Julia May Jonas takes us into charged territory, where the boundaries of morality bump up against the impulses of the human heart. Propulsive, darkly funny, and wildly entertaining, Vladimir perfectly captures the personal and political minefield of our current moment, exposing the nuances and the grey area between power and desire.",
+      "book_author": "Julia May Jonas",
+      "book_description": "And so we are introduced to our deliciously incisive narrator: a popular English professor whose charismatic husband at the same small liberal arts college is under investigation for his inappropriate relationships with his former students. The couple have long had a mutual understanding when it comes to their extra-marital pursuits, but with these new allegations, life has become far less comfortable for them both. And when our narrator becomes increasingly infatuated with Vladimir, a celebrated, married young novelist who’s just arrived on campus, their tinder box world comes dangerously close to exploding. With this bold, edgy, and uncommonly assured debut, author Julia May Jonas takes us into charged territory, where the boundaries of morality bump up against the impulses of the human heart. Propulsive, darkly funny, and wildly entertaining, Vladimir perfectly captures the personal and political minefield of our current moment, exposing the nuances and the grey area between power and desire.",
       "image_source": "/static/img/books-img/Vladimir-by-Julia-May-Jonas.jpg",
-      "url": "vladimir"
+      "url": "vladimir",
+      "date": "2022-01-11",
+      "buy_link": "https://www.amazon.com/Audible-Vladimir-A-Novel/dp/B099BZXKJ1/ref=sr_1_1?crid=33TEYH0D2HV2&keywords=Vladimir&qid=1646582959&s=audible&sprefix=vladimir%2Caudible%2C165&sr=1-1"
     },
     {
-      "name": "Can't Hurt Me: Master Your Mind and Defy the Odds",
-      "rating": "",
+      "book_name": "Vladimir",
+      "book_author": "Julia May Jonas",
+      
+      "critic_name_1": "Jean Hanff Korelitz, The New York Times",
+      "critic_review_1": "“Delightful…a witty dance with the ghost of Nabokov and a razor-edged commentary on academia at our current fraught moment...by turns, cathartic, devious and terrifically entertaining.”" ,
+
+      "critic_name_2": "Kate Tuttle, The Boston Globe",
+      "critic_review_2": "“Vladimir goes into such outrageous territory that my jaw literally dropped at moments while I was reading it. There’s a rare blend here of depth of character, mesmerizing prose, and fast-paced action.”" ,
+
+      "critic_name_3": "Jessica Ferri, Los Angeles Times" ,
+      "critic_review_3": "“Jonas, with a potent, pumping voice, has drawn a character so powerfully candid that when she does things that are malicious, dangerous and, yes, predatory, we only want her to do them again.”" ,
+
+      "critic_name_4": "Esquire",
+      "critic_review_4": "“A deliciously dark fable of sex and power... Earmark an entire afternoon to devour this propulsive story of obsession, scandal, and transgressive desire.”",
+
+      "critic_name_5": "Entertainment Weekly",
+      "critic_review_5": "“If Netflix’s The Chair, Lisa Taddeo’s best-seller Three Women, and the most compelling passages of Ottessa Moshfegh’s Death in Her Hands had a love child (just go with me here), it would be this fiction debut. With a title character who’s a sought-after young novelist new to a college faculty, Vladimir leaves the reader with more questions than answers—about sex, and sexual politics—in the most delicious way. ”" ,
+
+      "critic_name_6": "The Washington Post",
+      "critic_review_6": "“Jonas’s narrator is a work of art in herself.”",
+
+      "critic_name_7": "People",
+      "critic_review_7": "“Timely, whip-smart, and darkly funny.”",
+
+      "critic_name_8": "USA Today",
+      "critic_review_8": "“[Vladimir] soldiers into charged territory... with an unreliable and at times almost defiantly unlikable narrator at the helm. This woman is no joke. She’s ravenous—for rich and indulgent meals, big sloshing glasses of wine and sneaked cigarettes... In taking this older woman's desire deadly seriously, Vladimir proves seductively subversive.”"     
+    },
+    {
+      "book_name": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+      "rating": "0",
       "year": "2018",
       "genre": "Biography, Autobiography",
-      "author": "David Goggins",
-      "description": "For David Goggins, childhood was a nightmare - poverty, prejudice, and physical abuse colored his days and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed himself from a depressed, overweight young man with no future into a U.S. Armed Forces icon and one of the world's top endurance athletes. The only man in history to complete elite training as a Navy SEAL, Army Ranger, and Air Force Tactical Air Controller, he went on to set records in numerous endurance events, inspiring Outside magazine to name him The Fittest (Real) Man in America. In this curse-word-free edition of Can't Hurt Me, he shares his astonishing life story and reveals that most of us tap into only 40% of our capabilities. Goggins calls this The 40% Rule, and his story illuminates a path that anyone can follow to push past pain, demolish fear, and reach their full potential.",
+      "book_author": "David Goggins",
+      "book_description": "For David Goggins, childhood was a nightmare - poverty, prejudice, and physical abuse colored his days and haunted his nights. But through self-discipline, mental toughness, and hard work, Goggins transformed himself from a depressed, overweight young man with no future into a U.S. Armed Forces icon and one of the world's top endurance athletes. The only man in history to complete elite training as a Navy SEAL, Army Ranger, and Air Force Tactical Air Controller, he went on to set records in numerous endurance events, inspiring Outside magazine to book_name him The Fittest (Real) Man in America. In this curse-word-free edition of Can't Hurt Me, he shares his astonishing life story and reveals that most of us tap into only 40% of our capabilities. Goggins calls this The 40% Rule, and his story illuminates a path that anyone can follow to push past pain, demolish fear, and reach their full potential.",
       "image_source": "/static/img/books-img/cant-hurt-me-david-goggins.jpg",
-      "url": "cant-hurt-me-master-your-mind-and-defy-the-odds"
+      "url": "cant-hurt-me-master-your-mind-and-defy-the-odds",
+      "date": "2018-11-05",
+      "buy_link": "https://www.amazon.com/Cant-Hurt-Me-David-Goggins-audiobook/dp/B07KKP62FW/ref=sr_1_1?crid=25DASDQTIFRNA&keywords=Can%27t+Hurt+Me%3A+Master+Your+Mind+and+Defy+the+Odds&qid=1646582990&s=audible&sprefix=can%27t+hurt+me+master+your+mind+and+defy+the+odds%2Caudible%2C174&sr=1-1"
     },
     {
-      "name": "How Beautiful We Were",
-      "rating": "",
+      "book_name": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+      "book_author": "David Goggins",
+      
+      "critic_name_1": "Joe Rogan, Standup Comedian and Host of the Joe Rogan Experience Podcast",
+      "critic_review_1": "“David Goggins is a being of pure will and inspiration. Just listening to this guy talk makes you want to run up a mountain. I firmly believe people like him can change the course of the world just by inspiring us to push harder and dig deeper in everything we do. His goal to be 'uncommon amongst uncommon people' is something we can all use to propel ourselves to fulfill our true potential. I'm a better man having met him.”" ,
+
+      "critic_name_2": "Marcus Luttrell, Retired Navy SEAL, Author of New York Times Best Seller Lone Survivor",
+      "critic_review_2": "“David Goggins lives out every goal, every dream no matter what. PERIOD. He's unstoppable. There's no limit to him because he doesn't live in a comfort zone. His mental and physical capacity are equal. Goggins proves that your body can handle anything if you let your mind keep up. There's no way to stop something or someone that doesn't understand the concept of being beat.”" ,
+
+      "critic_name_3": "Andrew D. Huberman, PhD, Professor of Neurobiology, Stanford University School of Medicine" ,
+      "critic_review_3": "“Modern neuroscience is teaching us that the path to courage and success arrives through embracing pain and fear, not by avoiding them. If ever there was a real-life example of this, it is the story of David Goggins. In his unrelenting pursuit to self-conquer, Goggins taught himself how to tap into that elusive holy grail of human existence: the ability to rewire one's own brain in order to continually do better and actually become better, regardless of feelings, external conditions, or motivational state. Can't Hurt Me is the remarkable description of that journey and the capacity to leverage and better the mind. More importantly, it also teaches you how.”" ,
+
+      "critic_name_4": "Taya Kyle, Widow of American Sniper Chris Kyle, Author of New York Times Best Seller American Wife",
+      "critic_review_4": "“David Goggins throws the door open on pain, evil, darkness, the worst and yes, the best of humanity, and the strength of the human soul...and that's just in chapter one. If you are looking for a book that will heal, stretch, inspire, and dig into the corners of what it takes to persevere and overcome in a messed-up world, this is your book.”",
+
+      "critic_name_5": "Jim DeFelice, Author of American Sniper",
+      "critic_review_5": "“By the time you finish David Goggins's new book, you'll have kicked your victim mentality in the butt. Where you go from there is entirely up to you--as Goggins makes clear in this entertaining and poignant memoir cum inspirational how-to. As the man with a hole in his heart tells you, there are no excuses in life, only reasons to try harder.”" ,
+
+      "critic_name_6": "Admiral Eric Olson, U.S. Navy (Retired); Former Commander, United States Special Operations Command; Chairman, Special Operations Warrior Foundation",
+      "critic_review_6": "“David Goggins's book is not the first about overcoming severe hardships to achieve success, but it is certainly one of the most compelling. His story of beating the odds, of achieving athletic greatness, of serving his country and his charities, and of mastering his own destiny will inspire all of us to reach a little higher and give a little more. 'I will never quit' is a tenet of the Navy SEAL ethos, and one that David Goggins applies to everything he does.”",
+
+      "critic_name_7": "Kelly Slater, Eleven-Time World Champion Surfer",
+      "critic_review_7": "“I'm inspired that people like this guy exist. Not everyone will live a life like David Goggins, but he is proof that anyone could if given the right headspace within.”",
+
+      "critic_name_8": "Kirkus Reviews",
+      "critic_review_8": "“Guaranteed to galvanize more than a few couch potatoes into action.”"     
+    },
+    {
+      "book_name": "How Beautiful We Were",
+      "rating": "0",
       "year": "2021",
       "genre": "Literary Fiction",
-      "author": "By Imbolo Mbue",
-      "description": "So begins Imbolo Mbue’s powerful second novel, How Beautiful We Were. Set in the fictional African village of Kosawa, it tells the story of a people living in fear amidst environmental degradation wrought by an American oil company. Pipeline spills have rendered farmlands infertile. Children are dying from drinking toxic water. Promises of clean-up and financial reparations to the villagers are made—and ignored. The country’s government, led by a brazen dictator, exists to serve its own interest. Left with few choices, the people of Kosawa decide to fight back. Their struggle would last for decades and come at a steep price. Told through the perspective of a generation of children and the family of a girl named Thula who grows up to become a revolutionary, How Beautiful We Were is a masterful exploration of what happens when the reckless drive for profit, coupled with the ghost of colonialism, comes up against one community’s determination to hold onto its ancestral land and a young woman’s willingness to sacrifice everything for the sake of her people’s freedom.",
+      "book_author": "Imbolo Mbue",
+      "book_description": "So begins Imbolo Mbue’s powerful second novel, How Beautiful We Were. Set in the fictional African village of Kosawa, it tells the story of a people living in fear amidst environmental degradation wrought by an American oil company. Pipeline spills have rendered farmlands infertile. Children are dying from drinking toxic water. Promises of clean-up and financial reparations to the villagers are made—and ignored. The country’s government, led by a brazen dictator, exists to serve its own interest. Left with few choices, the people of Kosawa decide to fight back. Their struggle would last for decades and come at a steep price. Told through the perspective of a generation of children and the family of a girl named Thula who grows up to become a revolutionary, How Beautiful We Were is a masterful exploration of what happens when the reckless drive for profit, coupled with the ghost of colonialism, comes up against one community’s determination to hold onto its ancestral land and a young woman’s willingness to sacrifice everything for the sake of her people’s freedom.",
       "image_source": "/static/img/books-img/how-beautiful-we-were-imbolo-mbue.jpg",
-      "url": "how-beautiful-we-were"
+      "url": "how-beautiful-we-were",
+      "date": "2021-06-03",
+      "buy_link": "https://www.amazon.com/How-Beautiful-We-Were-Novel/dp/B081K5518W/ref=sr_1_1?crid=19P72SXOVCBI9&keywords=How+Beautiful+We+Were&qid=1646583016&s=audible&sprefix=how+beautiful+we+were%2Caudible%2C163&sr=1-1"
     },
     {
-      "name": "Intimacies",
-      "rating": "",
+      "book_name": "How Beautiful We Were",
+      "book_author": "Imbolo Mbue",
+      
+      "critic_name_1": "The New York Times Book Review",
+      "critic_review_1": "“Sweeping and quietly devastating . . . How Beautiful We Were charts the ways repression, be it at the hands of a government or a corporation or a society, can turn the most basic human needs into radical and radicalizing acts. . . . Profoundly affecting.”" ,
+
+      "critic_name_2": "USA Today",
+      "critic_review_2": "“What a stunningly beautiful writer Mbue is, and how lucky we are to have her stories in the world.”" ,
+
+      "critic_name_3": "The Seattle Times" ,
+      "critic_review_3": "“It’s a heartbreaking and relevant story that seeps into your bones, quickly engulfs you and doesn’t let go.”" ,
+
+      "critic_name_4": "Pittsburgh Post-Gazette",
+      "critic_review_4": "“Superb.”",
+
+      "critic_name_5": "Time",
+      "critic_review_5": "“Imbolo Mbue crafts an aching narrative about greed, community and perseverance.”" ,
+
+      "critic_name_6": "Ms",
+      "critic_review_6": "“Mbue’s remarkable storytelling makes this book shine.”",
+
+      "critic_name_7": "Shelf Awareness",
+      "critic_review_7": "“This epic and empathetic saga shines a truthful albeit unflattering light on globalization.”",
+
+      "critic_name_8": "The Philadelphia Inquirer",
+      "critic_review_8": "“Insightful, heart-stirring.”"     
+    },
+    {
+      "book_name": "Intimacies",
+      "rating": "0",
       "year": "2021",
       "genre": "Psychological Fiction",
-      "author": "Katie Kitamura",
-      "description": "In Kitamura’s fourth novel, an unnamed court translator in The Hague is tasked with intimately vanishing into the voices and stories of war criminals whom she alone can communicate with; falling meanwhile into a tumultuous entanglement with a man whose marriage may or may not be over for good. Kitamura’s sleek and spare prose elegantly breaks grammatical convention, mirroring the book’s concern with the bleeding lines between intimacies — especially between the sincere and the coercive. Like her previous novel, “A Separation,” “Intimacies” scrutinizes the knowability of those around us, not as an end in itself but as a lens on grand social issues from gentrification to colonialism to feminism. The path a life cuts through the world, this book seems to say, has its greatest significance in the effect it has on others.",
+      "book_author": "Katie Kitamura",
+      "book_description": "In Kitamura’s fourth novel, an unnamed court translator in The Hague is tasked with intimately vanishing into the voices and stories of war criminals whom she alone can communicate with; falling meanwhile into a tumultuous entanglement with a man whose marriage may or may not be over for good. Kitamura’s sleek and spare prose elegantly breaks grammatical convention, mirroring the book’s concern with the bleeding lines between intimacies — especially between the sincere and the coercive. Like her previous novel, “A Separation,” “Intimacies” scrutinizes the knowability of those around us, not as an end in itself but as a lens on grand social issues from gentrification to colonialism to feminism. The path a life cuts through the world, this book seems to say, has its greatest significance in the effect it has on others.",
       "image_source": "/static/img/books-img/intimacies-katie-kitamura.jpg",
-      "url": "intimacies"
+      "url": "intimacies",
+      "date": "2021-08-13",
+      "buy_link": "https://www.amazon.com/Intimacies-Novel-Katie-Kitamura-ebook/dp/B08NH7S569/ref=sr_1_1?crid=96RLXNVGP0SW&keywords=Intimacies&qid=1646581553&s=books&sprefix=intimacies%2Cstripbooks-intl-ship%2C287&sr=1-1"
     },
     {
-      "name": "Cleanness",
-      "rating": "",
+      "book_name": "Intimacies",
+      "book_author": "Katie Kitamura",
+      
+      "critic_name_1": "The New York Times",
+      "critic_review_1": "“One of the best novels I’ve read in 2021.”" ,
+
+      "critic_name_2": "Dwight Garner, New York Times",
+      "critic_review_2": "“[C]ooly written and casts a spell… One of Kitamura’s gifts… is to inject every scene with a pinprick of dread…. One of the best novels I’ve read in 2021… A taut, moody novel that moves purposefully between worlds.”" ,
+
+      "critic_name_3": "Ron Charles, Washington Post" ,
+      "critic_review_3": "“[I]ntense, unsettling… Intimacies is very much a story that seems to be something familiar but soon morphs into something disorientingly strange…. [W]ith her Jamesian attention to the slightest movement of bodies and words, Kitamura keeps Intimacies rooted to the ordinary domestic experiences of her narrator, her petty jealousies, her passing suspicions. The effect is a kind of emotional intensity that’s gripping because it feels increasingly unsustainable. Who could endure that raw-nerve sensitivity to the power of language to love, to deceive, to promise, to kill? Kitamura pulls us through a rising panic of hyper-awareness until the story’s fever finally breaks with a note of hope and relief. But that can’t quell the novel’s reverberations, which expose something incomprehensible about the moral dimensions of modern life.”" ,
+
+      "critic_name_4": "Lauren Mechling, Vogue",
+      "critic_review_4": "“A master of cool disquiet... Kitamura writes with forceful, direct prose that makes for a bracing read and leaves the reader mesmerized.”",
+
+      "critic_name_5": "Time",
+      "critic_review_5": "“[A] thriller of a novel.... In exploring how one’s proximity to power and violence can hold endless repercussions, Kitamura interrogates how our intimacies can change the course of our lives.”" ,
+
+      "critic_name_6": "Raven Leilani, Vulture",
+      "critic_review_6": "“[A] gorgeous, destabilizing meditation on the power differentials built into language and the gradual distortions of our emotional allegiances.”",
+
+      "critic_name_7": "Elif Shafak",
+      "critic_review_7": "“An amazing book, beautiful and captivating”",
+
+      "critic_name_8": "Chika Unigwe",
+      "critic_review_8": "“In spare and elegant prose, Kitamura limns  her unnamed protagonist's search for home and gifts us a powerful, beautiful book.”"     
+    },
+    {
+      "book_name": "Cleanness",
+      "rating": "0",
       "year": "2020",
       "genre": "Erotic literature, Gay Fiction, Psychological Fiction",
-      "author": "Garth Greenwell",
-      "description": "In Kitamura’s fourth novel, an unnamed court translator in The Hague is tasked with intimately vanishing into the voices and stories of war criminals whom she alone can communicate with; falling meanwhile into a tumultuous entanglement with a man whose marriage may or may not be over for good. Kitamura’s sleek and spare prose elegantly breaks grammatical convention, mirroring the book’s concern with the bleeding lines between intimacies — especially between the sincere and the coercive. Like her previous novel, “A Separation,” “Intimacies” scrutinizes the knowability of those around us, not as an end in itself but as a lens on grand social issues from gentrification to colonialism to feminism. The path a life cuts through the world, this book seems to say, has its greatest significance in the effect it has on others.",
+      "book_author": "Garth Greenwell",
+      "book_description": "In Kitamura’s fourth novel, an unnamed court translator in The Hague is tasked with intimately vanishing into the voices and stories of war criminals whom she alone can communicate with; falling meanwhile into a tumultuous entanglement with a man whose marriage may or may not be over for good. Kitamura’s sleek and spare prose elegantly breaks grammatical convention, mirroring the book’s concern with the bleeding lines between intimacies — especially between the sincere and the coercive. Like her previous novel, “A Separation,” “Intimacies” scrutinizes the knowability of those around us, not as an end in itself but as a lens on grand social issues from gentrification to colonialism to feminism. The path a life cuts through the world, this book seems to say, has its greatest significance in the effect it has on others.",
       "image_source": "/static/img/books-img/cleanness-Greenwell.jpg",
-      "url": "cleanness"
+      "url": "cleanness",
+      "date": "2020-11-03",
+      "buy_link": "https://www.amazon.com/Cleanness-Garth-Greenwell-audiobook/dp/B082WL9H58/ref=sr_1_1?crid=1X8TDXJNHP228&keywords=Cleanness&qid=1646583156&s=audible&sprefix=cleanness%2Caudible%2C157&sr=1-1"
     },
     {
-      "name": "Stranger Faces",
-      "rating": "",
+      "book_name": "Cleanness",
+      "book_author": "Garth Greenwell",
+      
+      "critic_name_1": "Dwight Garner, The New York Times",
+      "critic_review_1": "“Incandescent ... [Greenwell's] writing about sex is altogether scorching. You pick his novels up with asbestos mitts, and set them down upon trivets to protect your table from heat damage ...Greenwell has an uncanny gift, one that comes along rarely.”" ,
+
+      "critic_name_2": "Alex Ross, The New Yorker ",
+      "critic_review_2": "“The casual grandeur of Garth Greenwell’s prose, unfurling in page-long paragraphs and elegantly garrulous sentences, tempts the vulnerable reader into danger zones . . . These stories are masterpieces of radical eroticism, but they wouldn’t have the same impact if they didn’t appear in a gorgeously varied narrative fabric, amid scenes of more wholesome love, finely sketched vistas of political unrest, haunting evocations of a damaged childhood, and moments of mundane rapture. Tenderness, violence, animosity, and compassion are the outer edges of what feels like a total map of the human condition.”" ,
+
+      "critic_name_3": "Ron Charles, Washington Post" ,
+      "critic_review_3": "“Extraordinary ... The overall effect is even more impressive than [What Belongs to You] ... The range in these stories is part of their triumph and part of what makes their existential sorrow so profound ... Incomparably bittersweet ... Brilliant.”" ,
+
+      "critic_name_4": "Jim Zarroli, NPR Books ",
+      "critic_review_4": "“Greenwell is a relentless truth-teller with a poet’s eye for detail and a shimmering prose style that’s reason enough to read the book.”",
+
+      "critic_name_5": "Adrienne Westenfeld, Esquire",
+      "critic_review_5": "“Greenwell is among our finest writers on sex and desire.”" ,
+
+      "critic_name_6": "Annabel Gutterman, TIME ",
+      "critic_review_6": "“An aching examination of intimacy and power.”",
+
+      "critic_name_7": "Martha Ann Toll, NPR Books",
+      "critic_review_7": "“Exquisite ... Greenwell displays a precocious ability to take readers into his narrator's mind and body ... Greenwell submerges readers in the bedroom, sharing his protagonist's intense attractions and doubts ... Greenwell's prose sings, even as much of the music occurs in the rests. This writer understands beauty and loss, sorrow and hope, his fluid writing making the telling seem effortless.”",
+
+      "critic_name_8": "Bethanne Patrick, The Washington Post",
+      "critic_review_8": "“[Cleanness] is, quite simply, a work of genius that will change the way you understand the world and your place in it.”"     
+    },
+    {
+      "book_name": "Stranger Faces",
+      "rating": "0",
       "year": "2020",
       "genre": "Biography, Film Criticism",
-      "author": "Namwali Serpell",
-      "description": "In an age of totalizing theories, it’s nice to watch someone expertly pull a single idea through a needle’s eye. “Stranger Faces,” by Namwali Serpell, is one such exercise. The book’s catalytic inquiry—“what counts as a face and why?”—means to undermine the face, the way its expressive capabilities give it the cast of truth. We seek meaning in a shallow arrangement of eyes, nose, cheeks, and mouth, despite how often faces lie, or how often they cloak the world-ordering phenomena of race, gender, and class. Rather than depress or shame readers with these facts, Serpell delights in them. Unencumbered by truth, the face becomes interesting, motile—a work of art. (“Unruly faces” are especially intriguing, according to Serpell, because they invite viewers to sever ties with the placidity of an ideal.) Serpell, a Harvard professor and critic capable of close-reading people just as well as novels or films, includes a dancing range of examples. Her first essay considers the moniker given to Joseph Merrick, the Elephant Man, whose features aren’t, in fact, so elephantine; another essay, on Werner Herzog’s “Grizzly Man,” becomes a study of Keanu Reeves’s himbo appeal. Serpell can reanimate any subject, be it Hitchcock or emojis, and her bright, brainy collection is a model for how to surface the fun in a critical question. ",
+      "book_author": "Namwali Serpell",
+      "book_description": "In an age of totalizing theories, it’s nice to watch someone expertly pull a single idea through a needle’s eye. “Stranger Faces,” by Namwali Serpell, is one such exercise. The book’s catalytic inquiry—“what counts as a face and why?”—means to undermine the face, the way its expressive capabilities give it the cast of truth. We seek meaning in a shallow arrangement of eyes, nose, cheeks, and mouth, despite how often faces lie, or how often they cloak the world-ordering phenomena of race, gender, and class. Rather than depress or shame readers with these facts, Serpell delights in them. Unencumbered by truth, the face becomes interesting, motile—a work of art. (“Unruly faces” are especially intriguing, according to Serpell, because they invite viewers to sever ties with the placidity of an ideal.) Serpell, a Harvard professor and critic capable of close-reading people just as well as novels or films, includes a dancing range of examples. Her first essay considers the moniker given to Joseph Merrick, the Elephant Man, whose features aren’t, in fact, so elephantine; another essay, on Werner Herzog’s “Grizzly Man,” becomes a study of Keanu Reeves’s himbo appeal. Serpell can reanimate any subject, be it Hitchcock or emojis, and her bright, brainy collection is a model for how to surface the fun in a critical question. ",
       "image_source": "/static/img/books-img/Stranger-Faces-Serpell.jpg",
-      "url": "stranger-faces"
+      "url": "stranger-faces",
+      "date": "2020-03-13",
+      "buy_link": "https://www.amazon.com/Stranger-Undelivered-Lectures-Namwali-Serpell/dp/1945492430/ref=sr_1_1?crid=CWUP4UH5QP4O&keywords=stranger+faces+by+namwali+serpell&qid=1646583198&sprefix=Stranger+Faces+%2Caps%2C172&sr=8-1"
     },
     {
-      "name": "Want",
-      "rating": "",
+      "book_name": "Cleanness",
+      "book_author": "Garth Greenwell",
+      
+      "critic_name_1": "Dwight Garner, The New York Times",
+      "critic_review_1": "“Incandescent ... [Greenwell's] writing about sex is altogether scorching. You pick his novels up with asbestos mitts, and set them down upon trivets to protect your table from heat damage ...Greenwell has an uncanny gift, one that comes along rarely.”" ,
+
+      "critic_name_2": "Alex Ross, The New Yorker ",
+      "critic_review_2": "“The casual grandeur of Garth Greenwell’s prose, unfurling in page-long paragraphs and elegantly garrulous sentences, tempts the vulnerable reader into danger zones . . . These stories are masterpieces of radical eroticism, but they wouldn’t have the same impact if they didn’t appear in a gorgeously varied narrative fabric, amid scenes of more wholesome love, finely sketched vistas of political unrest, haunting evocations of a damaged childhood, and moments of mundane rapture. Tenderness, violence, animosity, and compassion are the outer edges of what feels like a total map of the human condition.”" ,
+
+      "critic_name_3": "Ron Charles, Washington Post" ,
+      "critic_review_3": "“Extraordinary ... The overall effect is even more impressive than [What Belongs to You] ... The range in these stories is part of their triumph and part of what makes their existential sorrow so profound ... Incomparably bittersweet ... Brilliant.”" ,
+
+      "critic_name_4": "Jim Zarroli, NPR Books ",
+      "critic_review_4": "“Greenwell is a relentless truth-teller with a poet’s eye for detail and a shimmering prose style that’s reason enough to read the book.”",
+
+      "critic_name_5": "Adrienne Westenfeld, Esquire",
+      "critic_review_5": "“Greenwell is among our finest writers on sex and desire.”" ,
+
+      "critic_name_6": "Annabel Gutterman, TIME ",
+      "critic_review_6": "“An aching examination of intimacy and power.”",
+
+      "critic_name_7": "Martha Ann Toll, NPR Books",
+      "critic_review_7": "“Exquisite ... Greenwell displays a precocious ability to take readers into his narrator's mind and body ... Greenwell submerges readers in the bedroom, sharing his protagonist's intense attractions and doubts ... Greenwell's prose sings, even as much of the music occurs in the rests. This writer understands beauty and loss, sorrow and hope, his fluid writing making the telling seem effortless.”",
+
+      "critic_name_8": "Bethanne Patrick, The Washington Post",
+      "critic_review_8": "“[Cleanness] is, quite simply, a work of genius that will change the way you understand the world and your place in it.”"     
+    },
+    {
+      "book_name": "Want",
+      "rating": "0",
       "year": "2020",
       "genre": "Anti-White-Savior Novel",
-      "author": "Lynn Steger Strong",
-      "description": "New York novels are as various as the city they describe. But “Want,” a subtly glorious new entry in the genre by Lynn Steger Strong, is set in a town whose qualities—unaffordable, unrelenting, unquittable—many readers will recognize. The book’s narrator is a writer who lives with her husband and two young daughters in a cramped Brooklyn apartment; to keep them in it, she teaches at a charter school by day and in an M.F.A. writing program by evening, though her half-hearted hustling doesn’t stop the family from capsizing into bankruptcy. (The husband quit a job in finance to become an artisanal carpenter, a phrase that would fit nicely on a Green-Wood Cemetery tombstone.) The virtue of this life is its being defiantly chosen. To counteract the claustrophobic privacy of subway commutes, and the slights of rubbing up against the city’s rich and oblivious, we get sticky memories of Florida, where the narrator grew up in a repressive, bourgeois household. There, her closest friend was Sasha, a beautiful, daring girl a year older, whose fate has been uncomfortably linked with hers ever since. Strong uses the friendship as a tether, returning to it to mark time’s passing; her technique is so sophisticated that the murk of the present and the sharply remembered past hold seamlessly together. Her biggest triumph is the transmission of consciousness. I loved the tense pleasure of staying pressed close to her narrator’s mind, with its beguiling lucidity of thought and rawness of feeling. There is much anxiety and ache to be found here—but also, when it is most needed, radiance, humor, love, and joy.",
+      "book_author": "Lynn Steger Strong",
+      "book_description": "New York novels are as various as the city they describe. But “Want,” a subtly glorious new entry in the genre by Lynn Steger Strong, is set in a town whose qualities—unaffordable, unrelenting, unquittable—many readers will recognize. The book’s narrator is a writer who lives with her husband and two young daughters in a cramped Brooklyn apartment; to keep them in it, she teaches at a charter school by day and in an M.F.A. writing program by evening, though her half-hearted hustling doesn’t stop the family from capsizing into bankruptcy. (The husband quit a job in finance to become an artisanal carpenter, a phrase that would fit nicely on a Green-Wood Cemetery tombstone.) The virtue of this life is its being defiantly chosen. To counteract the claustrophobic privacy of subway commutes, and the slights of rubbing up against the city’s rich and oblivious, we get sticky memories of Florida, where the narrator grew up in a repressive, bourgeois household. There, her closest friend was Sasha, a beautiful, daring girl a year older, whose fate has been uncomfortably linked with hers ever since. Strong uses the friendship as a tether, returning to it to mark time’s passing; her technique is so sophisticated that the murk of the present and the sharply remembered past hold seamlessly together. Her biggest triumph is the transmission of consciousness. I loved the tense pleasure of staying pressed close to her narrator’s mind, with its beguiling lucidity of thought and rawness of feeling. There is much anxiety and ache to be found here—but also, when it is most needed, radiance, humor, love, and joy.",
       "image_source": "/static/img/books-img/want-lynn-steger.jpg",
-      "url": "want"
+      "url": "want",
+      "date": "2020-01-24",
+      "buy_link": "https://www.amazon.com/Want-Novel-Lynn-Steger-Strong/dp/1250801079/ref=sr_1_1?crid=2FFIIGT46OBOQ&keywords=want+lynn+steger+strong&qid=1646583247&s=books&sprefix=Want+lynn%2Cstripbooks%2C165&sr=1-1"
     },
     {
-      "name": "On Anger",
-      "rating": "",
+      "book_name": "Want",
+      "book_author": "Lynn Steger Strong",
+      
+      "critic_name_1": "NPR",
+      "critic_review_1": "“Want is so sharp about economic fragility and just how close to the edge people are — even with the seeming safeguard of middle-class jobs and good educations. The narrator's voice is the great draw here: It's tough, smart, semi-reliable, low-level angry. We're mostly cooped up in her head throughout much of the novel, which is a fine and rich place to be.”" ,
+
+      "critic_name_2": "Vulture ",
+      "critic_review_2": "“Lynn Steger Strong’s Want is a defining novel of our age of left-behind families. . . .as if Anne Helen Peterson’s viral burnout article and John Steinbeck’s oeuvre had a baby. . . an ideal sample of how to produce fiction that is timely and timeless.”" ,
+
+      "critic_name_3": "The L.A. Times" ,
+      "critic_review_3": "“To readers it might feel like prophecy — or the surfacing of something invisible. Want, like our current crisis, exposes a system on the verge of collapse. . . .but it's also powerful proof that novels, and novelists, can still speak undeniable truths.”" ,
+
+      "critic_name_4": "The New York Times",
+      "critic_review_4": "“Moving… As a narrator, Elizabeth is smart and funny and literary to the marrow. The books she inhales for sustenance have turned out to be a great addition to my own pandemic pile. (Thank you, Ms. Strong.)”",
+
+      "critic_name_5": "The Today Show",
+      "critic_review_5": "“Through anger and humor, the book tackles the broken American dream and explores the subtle acts of violence that women face as they try to achieve anything of substance.”" ,
+
+      "critic_name_6": "Entertainment Weekly",
+      "critic_review_6": "“A devouring read.”",
+
+      "critic_name_7": "The Wall Street Journal",
+      "critic_review_7": "“The physical grind of economic precarity is palpable in the writing’s rough texture, its bluntness. . . . The Brooklyn novel is a necessarily provincial thing, but Want often feels like something larger, a portrayal of generational dispossession, or of the American Dream moving in reverse.”",
+
+      "critic_name_8": "New York Magazine",
+      "critic_review_8": "“Brilliant”"     
+    },
+    {
+      "book_name": "On Anger",
+      "rating": "0",
       "year": "2020",
       "genre": "Philosophy",
-      "author": "Agnes Callard",
-      "description": "Unless you’re dealing with a hard-line Stoic, most philosophers tend to consider anger a morally justifiable response to being wronged—though too much anger, for too long, they might say, could start to hurt you or your community. In the explosive essay that kicks off this anthology, the philosopher Agnes Callard writes that such caveats defang the very point of anger. If anger is a valid response to being wronged, she argues, and if none of the ways we hold people accountable for wronging us—apologies, restitution, etc.—actually erase the original act, doesn’t it follow that “once you have a reason to be angry, you have a reason to be angry forever”? Cue the clamor of a dozen-plus philosophers debating the cause, function, and value of our most jagged emotion. There’s Myisha Cherry, whose work is always so marvelously elegant, on the irrelevance of virtue to the anger that fuels the anti-racist struggle—an anger she describes as “Lordean rage,” after the poet and writer Audre Lorde. Elsewhere, we get Judith Butler on anger as a medium: “[W]e view rage as an uncontrollable impulse that needs to come out in unmediated forms. But people craft rage, they cultivate rage, and not just as individuals. Communities craft their rage. Artists craft rage all the time.” I’m resistant to the idea that moral philosophy is just self-help dressed in tweed, but as this year lurched from one outrage to the next, and as I found myself becoming hoarse (metaphorically, but often literally) from what felt like shouting into a void, this collection became something of a workbook: a tool for parsing the more unwieldy parts of myself, and my loved ones, and the world.",
+      "book_author": "Agnes Callard",
+      "book_description": "Unless you’re dealing with a hard-line Stoic, most philosophers tend to consider anger a morally justifiable response to being wronged—though too much anger, for too long, they might say, could start to hurt you or your community. In the explosive essay that kicks off this anthology, the philosopher Agnes Callard writes that such caveats defang the very point of anger. If anger is a valid response to being wronged, she argues, and if none of the ways we hold people accountable for wronging us—apologies, restitution, etc.—actually erase the original act, doesn’t it follow that “once you have a reason to be angry, you have a reason to be angry forever”? Cue the clamor of a dozen-plus philosophers debating the cause, function, and value of our most jagged emotion. There’s Myisha Cherry, whose work is always so marvelously elegant, on the irrelevance of virtue to the anger that fuels the anti-racist struggle—an anger she describes as “Lordean rage,” after the poet and writer Audre Lorde. Elsewhere, we get Judith Butler on anger as a medium: “[W]e view rage as an uncontrollable impulse that needs to come out in unmediated forms. But people craft rage, they cultivate rage, and not just as individuals. Communities craft their rage. Artists craft rage all the time.” I’m resistant to the idea that moral philosophy is just self-help dressed in tweed, but as this year lurched from one outrage to the next, and as I found myself becoming hoarse (metaphorically, but often literally) from what felt like shouting into a void, this collection became something of a workbook: a tool for parsing the more unwieldy parts of myself, and my loved ones, and the world.",
       "image_source": "/static/img/books-img/on-angerCallard.jpg",
-      "url": "on-anger"
+      "url": "on-anger",
+      "date": "2020-05-12",
+      "buy_link": "https://www.amazon.com/Anger-Boston-Review-Forum/dp/1946511544/ref=sr_1_1?crid=1NXS1Z18YK0S&keywords=On+Anger&qid=1646583285&s=books&sprefix=on+anger%2Cstripbooks-intl-ship%2C189&sr=1-1"
     },
     {
-      "name": "Mexican Gothic",
-      "rating": "",
+      "book_name": "On Anger",
+      "book_author": "Agnes Callard",
+      
+      "critic_name_1": "Helen Rosner, The New Yorker",
+      "critic_review_1": "“I’m resistant to the idea that moral philosophy is just self-help dressed in tweed, but as this year lurched from one outrage to the next, and as I found myself becoming hoarse (metaphorically, but often literally) from what felt like shouting into a void, this collection became something of a workbook: a tool for parsing the more unwieldy parts of myself, and my loved ones, and the world.”" ,
+ 
+    },
+    {
+      "book_name": "Mexican Gothic",
+      "rating": "0",
       "year": "2020",
       "genre": "Horror Fiction, Gothic Fiction, Fantasy Fiction, Historical Fantasy",
-      "author": "Silvia Moreno-Garcia",
-      "description": "In the fall, I cracked open Silvia Moreno-Garcia’s “Mexican Gothic” in the bath and found myself reading until the water turned cold. “Mexican Gothic” is Moreno-Garcia’s sixth novel but the first to break through as a major hit. (It has already been optioned for television.) This is a function both of its timing and of its addictive prose, which is as easy to slurp down as a poisoned cordial. The book follows a glamorous young socialite with champagne taste named Noemí Taboada, who lives in Mexico City, in the nineteen-fifties, when women were not yet able to vote. Noemí intends to study at university, but her father has other plans: he wants her to check up on a distant cousin, Catalina, who’s living in a crumbling manse with a British man, in a small village, called El Triunfo, where the family operates a silver mine. Catalina has written a distressing note claiming that the house is suffocating her; the family assumes that she’s hysterical, but Noemí is meant to investigate the situation. What she finds is more shocking than she ever expected—the house is an entropic catastrophe, where something sinister (that I won’t spoil here) is literally growing under the baseboards. What makes “Mexican Gothic” so fresh is not only its cramped, crawly ambience—comparisons to “Jane Eyre” are not too generous—but also the fact that it’s steeped in a deep colonial history that haunts the narrative. Is the house in El Triunfo really sick? Or is it just tainted by colonizers who want to strip the land down to its bones? Moreno-Garcia deftly raises these questions and then brings them all together in a gory, monstrous, and utterly satisfying twist. ",
+      "book_author": "Silvia Moreno-Garcia",
+      "book_description": "In the fall, I cracked open Silvia Moreno-Garcia’s “Mexican Gothic” in the bath and found myself reading until the water turned cold. “Mexican Gothic” is Moreno-Garcia’s sixth novel but the first to break through as a major hit. (It has already been optioned for television.) This is a function both of its timing and of its addictive prose, which is as easy to slurp down as a poisoned cordial. The book follows a glamorous young socialite with champagne taste named Noemí Taboada, who lives in Mexico City, in the nineteen-fifties, when women were not yet able to vote. Noemí intends to study at university, but her father has other plans: he wants her to check up on a distant cousin, Catalina, who’s living in a crumbling manse with a British man, in a small village, called El Triunfo, where the family operates a silver mine. Catalina has written a distressing note claiming that the house is suffocating her; the family assumes that she’s hysterical, but Noemí is meant to investigate the situation. What she finds is more shocking than she ever expected—the house is an entropic catastrophe, where something sinister (that I won’t spoil here) is literally growing under the baseboards. What makes “Mexican Gothic” so fresh is not only its cramped, crawly ambience—comparisons to “Jane Eyre” are not too generous—but also the fact that it’s steeped in a deep colonial history that haunts the narrative. Is the house in El Triunfo really sick? Or is it just tainted by colonizers who want to strip the land down to its bones? Moreno-Garcia deftly raises these questions and then brings them all together in a gory, monstrous, and utterly satisfying twist. ",
       "image_source": "/static/img/books-img/mexican-gothic-MorenoGarcia.jpg",
-      "url": "mexican-gothic"
+      "url": "mexican-gothic",
+      "date": "2020-11-11",
+      "buy_link": "https://www.amazon.com/Mexican-Gothic/dp/B082TKH2K7/ref=sr_1_1?crid=2L61VS4142O03&keywords=Mexican+Gothic&qid=1646583313&s=books&sprefix=mexican+gothic%2Cstripbooks-intl-ship%2C193&sr=1-1"
     },
     {
-      "name": "The Old Drift",
-      "rating": "",
+      "book_name": "Mexican Gothic",
+      "book_author": "Silvia Moreno-Garcia",
+      
+      "critic_name_1": "NPR’s Fresh Air",
+      "critic_review_1": "“An inspired mash-up of Jane Eyre, Ann Radcliffe’s The Mysteries of Udolpho, Dracula, Rebecca and that 1958 classic sci-fi movie, The Blob . . . Inventive and smart, [Mexican Gothic is] injecting the Gothic formula with some fresh blood.”" ,
+
+      "critic_name_2": "New York Times",
+      "critic_review_2": "“Stylish and edgy. . . While the book draws inspiration from Gothic classics like Rebecca and Jane Eyre—there is a spunky female protagonist and an ancient house filled with disturbing secrets—its archly intelligent tone and insightful writing make Mexican Gothic an original escape to an eerie world.”" ,
+
+      "critic_name_3": "Los Angeles Times" ,
+      "critic_review_3": "“The author’s postcolonial spin on the gothic tradition evokes the usual suspects: Daphne du Maurier, Emily Brontë, Mary Shelley, even Anne Radcliffe. Like those authors, Moreno-Garcia works in a tradition in which chills and thrills tap into elemental cultural fears—runaway science, carnal passion. But to these she adds a more politically inflected horror, both ancient and timely.”" ,
+
+      "critic_name_4": "Chicago Review of Books",
+      "critic_review_4": "“A new classic of the genre . . . alluring and foreboding, ambiguous and beautiful. And like its heroine Noemí, its ambitious, determined, and well worth getting to know.”",
+
+      "critic_name_5": "Vanity Fair",
+      "critic_review_5": "“[An] irresistibly dark feminist reimagining of the Gothic fantasy novel . . . It’s all wonderfully creepy, blending chilling scenes of horror with classic Gothic tropes for a seductive and subversive tale. A book to devour in a few—very thrilling—sittings.”" ,
+
+      "critic_name_6": "Buzzfeed",
+      "critic_review_6": "“This twisty horror fantasy is engrossing and wonderfully repulsive. . . . This is a must-read for fans of gothic writers like the Brontës, Daphne du Maurier, and Shirley Jackson, and also for those who enjoy the feminist, surreal fiction of Carmen Maria Machado.”",
+
+      "critic_name_7": "Vox",
+      "critic_review_7": "“Deliciously creepy . . . Read it with your lights on—and know that strange dreams might begin to haunt you, as they haunted Noemí.”",
+
+      "critic_name_8": "Victor LaValle, author of The Changeling",
+      "critic_review_8": "“Masterful . . . a gloriously moody adventure, spooky, smart, and wry. Chic, no-nonsense Noemí Taboada is one hell of a tour guide through this world of mystery, scandal and spirits.”"     
+    },
+    {
+      "book_name": "The Old Drift",
+      "rating": "0",
       "year": "2019",
       "genre": "Novel, Science Fiction, Historical Fiction",
-      "author": "Namwali Serpell",
-      "description": "Staggering in its complexity, The Old Drift resists easy categorization. It is, in some measure, all of the following: historical epic, surrealist adventure, interpersonal (and interspecies) study, dystopian warning, anthropological commentary. It is also, most impressively, a story that grips the reader from its first pages. The debut novel from the Zambian author Namwali Serpell, The Old Drift follows three families across several generations, zigzagging through time as it tracks their lives (and how their outcomes differ across demographic lines). The novel’s characters ache and pine; they rail against an acute awareness of their own bodies. Serpell is a tremendously gifted writer who can retain narrative cohesion even as she weds stories of love and terror to casual observations about the state of the world. A favorite: “Progress is just the word we use to disguise power doing its thing.",
+      "book_author": "Namwali Serpell",
+      "book_description": "Staggering in its complexity, The Old Drift resists easy categorization. It is, in some measure, all of the following: historical epic, surrealist adventure, interpersonal (and interspecies) study, dystopian warning, anthropological commentary. It is also, most impressively, a story that grips the reader from its first pages. The debut novel from the Zambian book_author Namwali Serpell, The Old Drift follows three families across several generations, zigzagging through time as it tracks their lives (and how their outcomes differ across demographic lines). The novel’s characters ache and pine; they rail against an acute awareness of their own bodies. Serpell is a tremendously gifted writer who can retain narrative cohesion even as she weds stories of love and terror to casual observations about the state of the world. A favorite: “Progress is just the word we use to disguise power doing its thing.",
       "image_source": "/static/img/books-img/the-old-drift-namwali.jpg",
-      "url": "the-old-drift"
+      "url": "the-old-drift",
+      "date": "2020-09-22",
+      "buy_link": "https://www.amazon.com/The-Old-Drift-Namwali-Serpell-audiobook/dp/B07M8YNBCB/ref=sr_1_1?crid=5B1QCNCH6OJN&keywords=The+Old+Drift&qid=1646583332&s=audible&sprefix=the+old+drift%2Caudible%2C154&sr=1-1"
     },
     {
-      "name": "Music: A Subversive History",
-      "rating": "",
+      "book_name": "The Old Drift",
+      "book_author": "Namwali Serpell",
+      
+      "critic_name_1": "USA Today (5 Books Not to Miss)",
+      "critic_review_1": "“A rich, thick Zambian epic, The Old Drift blends real-life history with magical realism. . . . A striking debut.”" ,
+
+      "critic_name_2": "Minneapolis Star Tribune",
+      "critic_review_2": "“In a novel that spans the breadth of Zambia’s precolonial past to its digital future, Serpell’s unbound imagination is often a thing of beauty. . . . It is in the familial space with its dramas of loves, betrayals, desires and dreams that [Serpell] excels. Her Zambian characters are especially brimming and compelling. In a nod to Leo Tolstoy, she eventually offers her readers a lovely kernel of an overarching theme that binds her characters across the passage of time and encapsulates her confident writing style: ‘Every family is a war but some are more civil than others.”" ,
+
+      "critic_name_3": "The Washington Post" ,
+      "critic_review_3": "“Namwali Serpell’s vibrant, intellectually rich debut novel, The Old Drift, is in keeping in that tradition, and like any good nation-hoovering novel, it too refuses to conform to expectations. . . . This oddball cast of characters simply represents the joys of the picaresque novel, in which the author’s set design is intentionally surreal and ironic. . . . Serpell is a natural social novelist, capable of conjuring a Dickensian range of characters with a painterly eye for detail.”" ,
+
+      "critic_name_4": "San Francisco Chronicle ",
+      "critic_review_4": "“Highly anticipated . . . a boldly sweeping epic . . . The singularly stunning achievement of [The Old Drift]: grappling with grandiose, complex notions, funneled through a kind of worldly knowledge and historical curiosity—all of which is ultimately grounded in an attention to the interiors of individual lives. . . . Serpell’s vision has made The Old Drift among the most buzzed-about books of the year.”",
+
+      "critic_name_5": "The Boston Globe",
+      "critic_review_5": "“In this wonderfully chaotic epic, Namwali Serpell invites us into an indelible world that’s part history, part sci-fi, totally political, and often as heartbreaking as it is weirdly hilarious.”" ,
+
+      "critic_name_6": "The Rumpus",
+      "critic_review_6": "“Serpell creates a stunning narrative that’s voiced as forcefully by her characters as they are by a vociferous swarm of mosquitoes—yes, actual mosquitoes—exploding the dividing lines between categories to tell a new kind of story.”",
+
+      "critic_name_7": "Nylon, (50 Books You’ll Want to Read in 2019)",
+      "critic_review_7": "“It’s hard to believe this is a debut, so assured is its language, so ambitious its reach, and yet The Old Drift is indeed Namwali Serpell’s first novel, and it signifies a great new voice in fiction. Feeling at once ancient and futuristic, The Old Drift is a genre-defying riotous work that spins a startling new creation myth for the African nation of Zambia. . . . Serpell’s voice is lucid and brilliant, and it’s one we can’t wait to read more of in years to come.”",
+
+      "critic_name_8": "Carmen Maria",
+      "critic_review_8": "“In turns charming, heartbreaking, and breathtaking, The Old Drift is a staggeringly ambitious, genre-busting multigenerational saga with moxie for days. . . . I wanted it to go on forever. A worthy heir to Gabriel García Márquez’s One Hundred Years of Solitude.”"     
+    },
+    {
+      "book_name": "Music: A Subversive History",
+      "rating": "0",
       "year": "2019",
       "genre": "Music criticism",
-      "author": "Ted Gioia",
-      "description": "How’s this for spicy music criticism? “Disciples of the new school … dismember melodies with hockets and sing lugubrious discants. … They know not what upon they build.” So griped Pope John XXII in an early-14th-century edict blasting polyphony, which was on its way to becoming the defining sound of Catholic music. Such papal pitchforking is just one of the many amusing examples of elite distrust marshaled in Ted Gioia’s survey of an art form in perpetual rebellion. Across millennia, sonically adventurous courtesans, slaves, monks, gang members, and other marginalized folks offended polite society before conquering it. The book goes beyond asserting that every form of music was the punk of its day, though. Feistily and authoritatively, Gioia draws out cross-cultural axioms to rewire the reader’s ear. Music’s ability to heal gets dissected in scientific, sociological, and even supernatural terms, but so does its link with violence—a link that might explain why new sounds have been so often met with fear.",
+      "book_author": "Ted Gioia",
+      "book_description": "How’s this for spicy music criticism? “Disciples of the new school … dismember melodies with hockets and sing lugubrious discants. … They know not what upon they build.” So griped Pope John XXII in an early-14th-century edict blasting polyphony, which was on its way to becoming the defining sound of Catholic music. Such papal pitchforking is just one of the many amusing examples of elite distrust marshaled in Ted Gioia’s survey of an art form in perpetual rebellion. Across millennia, sonically adventurous courtesans, slaves, monks, gang members, and other marginalized folks offended polite society before conquering it. The book goes beyond asserting that every form of music was the punk of its day, though. Feistily and authoritatively, Gioia draws out cross-cultural axioms to rewire the reader’s ear. Music’s ability to heal gets dissected in scientific, sociological, and even supernatural terms, but so does its link with violence—a link that might explain why new sounds have been so often met with fear.",
       "image_source": "/static/img/books-img/music-subversime-history-ted-gioia.jpg",
-      "url": "music-a-subversive-history"
+      "url": "music-a-subversive-history",
+      "date": "2019-03-03",
+      "buy_link": "https://www.amazon.com/Music-Ted-Gioia-audiobook/dp/B07YVFGKJB/ref=sr_1_1?crid=2AMJ4QEB1RYPC&keywords=Music%3A+A+Subversive+History&qid=1646583354&s=audible&sprefix=music+a+subversive+history%2Caudible%2C155&sr=1-1"
     },
     {
-      "name": "Say Nothing, A True Story of Murder and Memory in Northern Ireland",
-      "rating": "",
+      "book_name": "Music: A Subversive History",
+      "book_author": "Ted Gioia",
+      
+      "critic_name_1": "New York Times Book Review",
+      "critic_review_1": "“[Gioia] uses the familiar scheme of cyclical rejuvenation through transformation as a mechanism to consider the whole history of music, from the sounds of the primordial world to electronic dance music today, in his latest and most ambitious book. . . . Smart but readable.”" ,
+
+      "critic_name_2": "Larry Blumenfeld, Wall Street Journal",
+      "critic_review_2": "“[A] sweeping study. . . . The author aims to subvert our ideas about music history. . . . Gioia challenges notions of progress based solely on aesthetic or stylistic innovation . . . characteriz[ing] music history as a cyclical power struggle with shifting battle lines.”" ,
+
+      "critic_name_3": "The Washington Post" ,
+      "critic_review_3": "“Namwali Serpell’s vibrant, intellectually rich debut novel, The Old Drift, is in keeping in that tradition, and like any good nation-hoovering novel, it too refuses to conform to expectations. . . . This oddball cast of characters simply represents the joys of the picaresque novel, in which the author’s set design is intentionally surreal and ironic. . . . Serpell is a natural social novelist, capable of conjuring a Dickensian range of characters with a painterly eye for detail.”" ,
+
+      "critic_name_4": "San Francisco Chronicle ",
+      "critic_review_4": "“Highly anticipated . . . a boldly sweeping epic . . . The singularly stunning achievement of [The Old Drift]: grappling with grandiose, complex notions, funneled through a kind of worldly knowledge and historical curiosity—all of which is ultimately grounded in an attention to the interiors of individual lives. . . . Serpell’s vision has made The Old Drift among the most buzzed-about books of the year.”",
+
+      "critic_name_5": "The Boston Globe",
+      "critic_review_5": "“In this wonderfully chaotic epic, Namwali Serpell invites us into an indelible world that’s part history, part sci-fi, totally political, and often as heartbreaking as it is weirdly hilarious.”" ,
+
+      "critic_name_6": "The Rumpus",
+      "critic_review_6": "“Serpell creates a stunning narrative that’s voiced as forcefully by her characters as they are by a vociferous swarm of mosquitoes—yes, actual mosquitoes—exploding the dividing lines between categories to tell a new kind of story.”",
+
+      "critic_name_7": "Nylon, (50 Books You’ll Want to Read in 2019)",
+      "critic_review_7": "“It’s hard to believe this is a debut, so assured is its language, so ambitious its reach, and yet The Old Drift is indeed Namwali Serpell’s first novel, and it signifies a great new voice in fiction. Feeling at once ancient and futuristic, The Old Drift is a genre-defying riotous work that spins a startling new creation myth for the African nation of Zambia. . . . Serpell’s voice is lucid and brilliant, and it’s one we can’t wait to read more of in years to come.”",
+
+      "critic_name_8": "Carmen Maria",
+      "critic_review_8": "“In turns charming, heartbreaking, and breathtaking, The Old Drift is a staggeringly ambitious, genre-busting multigenerational saga with moxie for days. . . . I wanted it to go on forever. A worthy heir to Gabriel García Márquez’s One Hundred Years of Solitude.”"     
+    },
+    {
+      "book_name": "Say Nothing, A True Story of Murder and Memory in Northern Ireland",
+      "rating": "0",
       "year": "2019",
       "genre": "True Crime",
-      "author": "Patrick Radden Keefe",
-      "description": "One of my oddest memories growing up in London was hearing, one morning as I lay in bed, a sound that even an 8-year-old could identify as an explosion. A mile from where I lived, the Irish Republican Army had left a bomb at Clapham Junction train station, one of 25 the paramilitary group detonated that month. Life in England in the 1980s and ’90s was colored in all kinds of ways by the conflict in Northern Ireland, but I never understood it until I read Say Nothing, the New Yorker writer Patrick Radden Keefe’s epic analysis of the period known as the Troubles, and the people whose lives (and deaths) were anchored to it. By framing his narrative around human stories—like that of Jean McConville, the mother of 10 who was taken from her home in 1972, never to return—Keefe makes the atrocities committed more comprehensible. He also examines the obsessive tribalism that can turn ordinary men and women into murderers, and deftly unpacks the trauma they leave in their wake.",
+      "book_author": "Patrick Radden Keefe",
+      "book_description": "One of my oddest memories growing up in London was hearing, one morning as I lay in bed, a sound that even an 8-year-old could identify as an explosion. A mile from where I lived, the Irish Republican Army had left a bomb at Clapham Junction train station, one of 25 the paramilitary group detonated that month. Life in England in the 1980s and ’90s was colored in all kinds of ways by the conflict in Northern Ireland, but I never understood it until I read Say Nothing, the New Yorker writer Patrick Radden Keefe’s epic analysis of the period known as the Troubles, and the people whose lives (and deaths) were anchored to it. By framing his narrative around human stories—like that of Jean McConville, the mother of 10 who was taken from her home in 1972, never to return—Keefe makes the atrocities committed more comprehensible. He also examines the obsessive tribalism that can turn ordinary men and women into murderers, and deftly unpacks the trauma they leave in their wake.",
       "image_source": "/static/img/books-img/say-nothing-patrick-raggen.jpg",
-      "url": "say-nothing"
+      "url": "say-nothing",
+      "date": "2019-10-05",
+      "buy_link": "https://www.amazon.com/Say-Nothing-Patrick-Radden-Keefe-audiobook/dp/B07MHXYD12/ref=sr_1_1?crid=DMO991OLBEHH&keywords=Say+Nothing%2C+A+True+Story+of+Murder+and+Memory+in+Northern+Ireland&qid=1646583375&s=audible&sprefix=say+nothing%2C+a+true+story+of+murder+and+memory+in+northern+ireland%2Caudible%2C191&sr=1-1"
+    },
+    {
+      "book_name": "Say Nothing, A True Story of Murder and Memory in Northern Ireland",
+      "book_author": "Patrick Radden Keefe",
+      "critic_name": "",
+      "critic_review": "True Crime"      
     }
+
   ]
