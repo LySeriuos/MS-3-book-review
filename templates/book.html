@@ -2,11 +2,11 @@
 {% block content %}
     <div class="row">
         <div class="col-md-5">
-           <img src="{{ book.image_source }}" alt="Profile image for {{ book.name}}">                     
+           <img src="{{ book.image_source }}" alt="Profile image for {{ book.book_name}}">                     
         </div>
     <div class="col-md-7">
-        <h2 class="col-md-12" name="book_name">{{ book.name }} by {{ book.author }}</h2>
-    <button class="btn btn-primary d-inline"><a href='{{ book.link}}' target="_blank" class="text-white">Buy this book now!</a></button>
+        <h2 class="col-md-12" name="book_name">{{ book.book_name }} by {{ book.book_author }}</h2>
+    <button class="btn btn-primary d-inline"><a href='{{ book.buy_link }}' target="_blank" class="text-white">Buy this book now!</a></button>
         <button class="btn btn-primary d-inline" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
             Add Review
           </button>
@@ -42,7 +42,7 @@
 </div>    
     
     <div> 
-        <p>{{ book.description}}</p> 
+        <p>{{ book.book_description}}</p> 
         </div>   
 </div>
     <div>
@@ -61,13 +61,7 @@
         <h4 class="col-md-12">See Member Reviews:</h4>
         <p>Be first to review this book!</p>
         
-    {% for task in tasks %}
-        {{ task.task_name }}<br>
-        {{ task.category_name }}<br>
-        {{ task.task_description }}<br>
-        {{ task.is_urgent }}<br>
-        {{ task.due_date }}<br>
-    {% endfor %}
+    
 
        
     </div>

@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
 
-    <h2>{{ page_title}}</h2>
+    <h2>{{ page_title }}</h2>
     <p>Here you can search for book reviews! We hope that it will help you to find the One.
          Use search to find book by name or filter to explore All Reviews.</p>
 
-        {% for book in company %}
+        {% for book in books %}
 
 
         <div class="row featurette">
@@ -14,11 +14,11 @@
 
 
             <div class="col-md-7">
-                <h3><a href="/reviews/{{ book.url }}">{{ loop.index }}. {{ book.name }} by {{ book.author }}</a></h3>
+                <h3><a href="/reviews/{{ book.url }}">{{ loop.index }}. {{ book.book_name }} by {{ book.book_author }}</a></h3>
                 <p>Rating: {{book.rating}}</p>
                 <p>Year: {{book.year}}</p>
                 <p>Genre: {{book.genre}}</p>
-                <p>{{book.description}}</p>
+                <p>{{book.book_description}}</p>
             </div>
             <div class="col-md-5">
                 <img src="{{book.image_source}}" alt="" class="featurette-image image-responsive">
@@ -31,11 +31,12 @@
                 <img src="{{ book.image_source }}" alt="" class="featurette-image image-responsive">
             </div>
             <div class="col-md-7">
-                <h3><a href="/reviews/{{ book.url }}">{{ loop.index }}. {{ book.name }} by {{ book.author }}</a></h3>
-                <p>Rating: {{book.rating}}</p>
-                <p>Year: {{book.year}}</p>
-                <p>Genre: {{book.genre}}</p>
-                <p>{{book.description}}</p>
+                <h3><a href="/reviews/{{ book.url }}">{{ loop.index }}. {{ book.book_name }} by {{ book.book_author }}</a></h3>
+                <p>Rating: {{ book.rating }}</p>
+                <p>Year: {{ book.year }}</p>
+                <p>Genre: {{ book.genre }}</p>
+                <p>{{ book.book_description }}</p>
+                
             </div>
 
 
@@ -52,4 +53,4 @@
 
     {% endfor %}
 
-{% endblock %}  
+    {% endblock %}  
