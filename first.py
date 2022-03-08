@@ -45,7 +45,12 @@ def reviews_book(book_name):
     book_name = mongo.db.books.find_one()
     if book_name["url"] == book_name:
         book = book_name
-    return render_template("book.html", book=book)
+    book_critics_reviews = {}
+    critics_reviews = mongo.db.critics_reviews.find_one()
+    print(book_name)
+    if book_name["book_name"] == critics_reviews:
+        book_critics_reviews = critics_reviews
+    return render_template("book.html", book=book_name, book_critics_reviews=critics_reviews)
 
 
 @app.route("/about")

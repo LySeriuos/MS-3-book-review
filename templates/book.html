@@ -1,9 +1,11 @@
 {% extends "base.html" %}
 {% block content %}
+
     <div class="row">
         <div class="col-md-5">
            <img src="{{ book.image_source }}" alt="Profile image for {{ book.book_name}}">                     
         </div>
+       
     <div class="col-md-7">
         <h2 class="col-md-12" name="book_name">{{ book.book_name }} by {{ book.book_author }}</h2>
     <button class="btn btn-primary d-inline"><a href='{{ book.buy_link }}' target="_blank" class="text-white">Buy this book now!</a></button>
@@ -45,24 +47,27 @@
         <p>{{ book.book_description}}</p> 
         </div>   
 </div>
+
     <div>
     <div class="col-md-12">
         <h4 class="col-md-12 m-20">See Critic Reviews:</h4>
-        <p>{{ book.review1}}<b>{{ book.critic1}}</b></p>
-        <p>{{ book.review2}}<b>{{ book.critic2}}</b></p>
-        <p>{{ book.review3}}<b>{{ book.critic3}}</b></p>
-        <p>{{ book.review4}}<b>{{ book.critic4}}</b></p>
-        <p>{{ book.review5}}<b>{{ book.critic5}}</b></p>
-        <p>{{ book.review6}}<b>{{ book.critic6}}</b></p>
-        <p>{{ book.review7}}<b>{{ book.critic7}}</b></p>
-        <p>{{ book.review8}}<b>{{ book.critic8}}</b></p>        
+    {% for critics_review in critics_reviews %}
+        
+        <p>{{ critics_review.critic_review_1}}<b>{{ critics_review.critic_name_1}}</b></p>
+        <p>{{ critics_review.critic_review_2}}<b>{{ critics_review.critic_name_2}}</b></p>
+        <p>{{ critics_review.critic_review_3}}<b>{{ critics_review.critic_name_3}}</b></p>
+        <p>{{ critics_review.critic_review_4}}<b>{{ critics_review.critic_name_4}}</b></p>
+        <p>{{ critics_review.critic_review_5}}<b>{{ critics_review.critic_name_5}}</b></p>
+        <p>{{ critics_review.critic_review_6}}<b>{{ critics_review.critic_name_6}}</b></p>
+        <p>{{ critics_review.critic_review_7}}<b>{{ critics_review.critic_name_7}}</b></p>
+        <p>{{ critics_review.critic_review_8}}<b>{{ critics_review.critic_name_8}}</b></p>
+          
+    {% endfor %}   
     </div>
+     
     <div class="col-md-12">
         <h4 class="col-md-12">See Member Reviews:</h4>
-        <p>Be first to review this book!</p>
-        
-    
-
-       
+        <p>Be first to review this book!</p> 
     </div>
+    
 {% endblock %}
