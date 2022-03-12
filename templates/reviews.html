@@ -14,11 +14,13 @@
 
 
             <div class="col-md-7">
-                <h3><a href="{{ url_for('reviews_book', book_id=book._id ) }}">{{ loop.index }}. {{ book.book_name }} by {{ book.book_author }}</a></h3>
+                <h3><a class= "getName" href="{{ url_for('reviews_book', book_id=book._id ) }}">{{ loop.index }}. {{ book.book_name }} by {{ book.book_author }}</a></h3>
                 <p>Rating: {{book.rating}}</p>
                 <p>Year: {{book.year}}</p>
                 <p>Genre: {{book.genre}}</p>
+                <p>ID : {{book._id}}</p>
                 <p>{{book.book_description}}</p>
+               
             </div>
             <div class="col-md-5">
                 <img src="{{book.image_source}}" alt="" class="featurette-image image-responsive">
@@ -35,7 +37,9 @@
                 <p>Rating: {{ book.rating }}</p>
                 <p>Year: {{ book.year }}</p>
                 <p>Genre: {{ book.genre }}</p>
+                <p>ID: {{book._id}}</p>
                 <p>{{ book.book_description }}</p>
+                
                 
             </div>
 

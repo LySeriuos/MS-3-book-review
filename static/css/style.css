@@ -38,9 +38,21 @@
     margin-top: 20px;
 }
 
+.fa-solid, .fa-book{
+  margin: 0 15px 0 0;
+}
+
 .flashes {
   display: flex;
   text-decoration: underline;
+}
+
+.critics {
+  margin: 30px;
+}
+
+.dash {
+margin: 0 5px 0 5px;
 }
 
 /* users reviews star ratings  */

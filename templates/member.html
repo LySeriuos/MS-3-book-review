@@ -33,21 +33,21 @@
     </div>
     <div class="col-8">    
       <ol>
-        {% for review in reviews %}
+        {% for user_review in user_reviews %}
         <li>
     <p>
       <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-        <strong>{{ review.book_name }}</strong>
+        <strong> {{ user_review.book_name }}</strong> by {{ user_review.author }}
       </a>   
     </p>       
     <div class="collapse" id="collapseExample">
       <div class="card card-body">
-        <strong> {{ review.book_name }}</strong>
-       <p>{{ review.rating }}</p>
-       <p>{{ review.review }}</p>
-       <p>{{ review.date }}</p>
-       <p>{{ review.time }}</p>
-       <p>by: {{ review.created_by }}</p>
+        
+       <p>{{ user_review.rating }}</p>
+       <p>{{ user_review.review }}</p>
+       <p>{{ user_review.date }}</p>
+       <p>{{ user_review.time }}</p>
+       <p>by: {{ user_review.created_by }}</p>
 
       </div>
     </div>

@@ -7,7 +7,10 @@
         </div>
        
     <div class="col-md-7">
-        <h2 class="col-md-12" name="book_name">{{ book_name.book_name }} by {{ book_name.book_author }}</h2>
+        <div class="col-md-12">
+        <h3 id="getBookName">{{ book_name.book_name }}</h3>by 
+        <h2 id="getAuthor">{{ book_name.book_author }}</h2>
+        <p id="getBookId">{{ book_name._id }}</p>
     <button class="btn btn-primary d-inline"><a href='{{ book_name.buy_link }}' target="_blank" class="text-white">Buy this book now!</a></button>
         <button class="btn btn-primary d-inline" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
             Add Review
@@ -30,6 +33,8 @@
               </div> 
               <!-- Hidden date and time for sorting input data -->         
               <div hidden>
+                <p>Current Book is <input type="text" id="currentBookName" name="bookName"></p>
+                <p>Current Author is <input type="text" id="currentAuthor" name="bookAuthor"></p>
                 <p>Current Date is <input type="text" id="currentDate" name="date"></p>
                 <p>Current Time is <input type="text" id="currentTime" name="time"></p>
               </div>
@@ -42,7 +47,7 @@
         </div>
     </form>
 </div>    
-    
+</div>
     <div> 
         <p>{{ book_name.book_description}}</p> 
         </div>   
@@ -51,10 +56,16 @@
     <div>
     <div class="col-md-12">
         <h4 class="col-md-12 m-20">See Critic Reviews:</h4>
-    
-        {{ critics_reviews.critic_review_1 }} {{ critics_reviews.critic_name_1}}
-        
-      
+    <ul class="list-unstyled">
+        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_1 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_1}}</strong><br></li>
+        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_2 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_2}}</strong><br></li>
+        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_3 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_3}}</strong><br></li>
+        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_4 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_4}}</strong><br></li>
+        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_5 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_5}}</strong><br></li>
+        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_6 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_6}}</strong><br></li>
+        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_7 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_7}}</strong><br></li>
+        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_8 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_8}}</strong><br></li>
+    </ul>
     </div>
      
     <div class="col-md-12">
