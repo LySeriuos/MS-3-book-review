@@ -3,12 +3,12 @@
 
     <div class="row">
         <div class="col-md-5">
-           <img src="{{ book.image_source }}" alt="Profile image for {{ book.book_name}}">                     
+           <img src="{{ book_name.image_source }}" alt="Profile image for {{ book_name.book_name}}">                     
         </div>
        
     <div class="col-md-7">
-        <h2 class="col-md-12" name="book_name">{{ book.book_name }} by {{ book.book_author }}</h2>
-    <button class="btn btn-primary d-inline"><a href='{{ book.buy_link }}' target="_blank" class="text-white">Buy this book now!</a></button>
+        <h2 class="col-md-12" name="book_name">{{ book_name.book_name }} by {{ book_name.book_author }}</h2>
+    <button class="btn btn-primary d-inline"><a href='{{ book_name.buy_link }}' target="_blank" class="text-white">Buy this book now!</a></button>
         <button class="btn btn-primary d-inline" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
             Add Review
           </button>
@@ -44,7 +44,7 @@
 </div>    
     
     <div> 
-        <p>{{ book.book_description}}</p> 
+        <p>{{ book_name.book_description}}</p> 
         </div>   
 </div>
 
@@ -53,15 +53,7 @@
         <h4 class="col-md-12 m-20">See Critic Reviews:</h4>
     
         
-        <p>{{ critics_reviews.critic_review_1}}<b>{{ critics_reviews.critic_name_1}}</b></p>
-        <p>{{ critics_reviews.critic_review_2}}<b>{{ critics_reviews.critic_name_2}}</b></p>
-        <p>{{ critics_reviews.critic_review_3}}<b>{{ critics_reviews.critic_name_3}}</b></p>
-        <p>{{ critics_reviews.critic_review_4}}<b>{{ critics_reviews.critic_name_4}}</b></p>
-        <p>{{ critics_reviews.critic_review_5}}<b>{{ critics_reviews.critic_name_5}}</b></p>
-        <p>{{ critics_reviews.critic_review_6}}<b>{{ critics_reviews.critic_name_6}}</b></p>
-        <p>{{ critics_reviews.critic_review_7}}<b>{{ critics_reviews.critic_name_7}}</b></p>
-        <p>{{ critics_reviews.critic_review_8}}<b>{{ critics_reviews.critic_name_8}}</b></p>
-          
+        
       
     </div>
      

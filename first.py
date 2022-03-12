@@ -7,6 +7,7 @@ from flask import (
 from werkzeug.wrappers import Request, Response
 from flask_pymongo import PyMongo
 from bson.objectid import ObjectId
+from pprint import pprint
 from werkzeug.security import generate_password_hash, check_password_hash
 if os.path.exists("env.py"):
     import env
@@ -32,22 +33,39 @@ def belenkas():
     return render_template("/signup.html")
 
 
-@app.route("/reviews")
+@app.route("/reviews/")
 def reviews():
     books = mongo.db.books.find()
     return render_template("reviews.html",
     page_title="Hello and Welcome to The Review", books=books)
+    
+    
+
+# @app.route("/reviews/<book_name>", methods=["GET", "POST"])
+# def reviews_book(book_name):
+#     book = {}
+#     book_name = mongo.db.books.find_one({"_id": ObjectId(book_name)})
+#     if book_name == book_name["url"]:
+#         book = book_name
+#     critics_reviews = mongo.db.critics_reviews.find_one()
+#     print(book_name["url"])
+#     return render_template("book.html", book=book_name, critics_reviews=critics_reviews)
+
+# mongo.db.books.find_one({"_id": ObjectId(book_name)})
+# @app.route("/reviews/<book_name>", methods=["GET", "POST"])
+# def reviews_book(book_name):
+#     book = mongo.db.books.find_one({"book_name": request.form.get("book_name")})
+#     book_name = mongo.db.books.find_one()
+#     print(book_name)
+#     return render_template("book.html", book_name=book_name)
 
 
-@app.route("/reviews/<book_name>", methods=["GET", "POST"])
-def reviews_book(book_name):
-    book = {}
-    book_name = mongo.db.books.find_one({"_id": ObjectId(book_name)})
-    if book_name == book_name["url"]:
-        book = book_name
-    critics_reviews = mongo.db.critics_reviews.find_one()
-    print(book_name["url"])
-    return render_template("book.html", book=book_name, critics_reviews=critics_reviews)
+@app.route("/reviews/<book_id>", methods=["GET", "POST"])
+def reviews_book(book_id):
+    book_name = mongo.db.books.find_one(ObjectId(book_id))
+    print(book_name)
+    
+    return render_template("book.html", book_name=book_name)
 
 
 @app.route("/about")
