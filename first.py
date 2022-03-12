@@ -62,10 +62,16 @@ def reviews():
 
 @app.route("/reviews/<book_id>", methods=["GET", "POST"])
 def reviews_book(book_id):
+    book = {}
     book_name = mongo.db.books.find_one(ObjectId(book_id))
-    print(book_name)
     
-    return render_template("book.html", book_name=book_name)
+    results = mongo.db.critics_reviews.find()
+    for result in results:
+        if result["book_name"] == book_name["book_name"]:
+            critics_reviews = result
+            print(critics_reviews)
+    
+    return render_template("book.html", book_name=book_name, critics_reviews=critics_reviews)
 
 
 @app.route("/about")
