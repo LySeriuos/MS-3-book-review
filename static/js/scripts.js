@@ -2,14 +2,21 @@ $(document).ready(function(){
     var today = new Date();
     var date = today.getFullYear()+'-'+(today.getMonth()+1)+'-'+today.getDate();
     document.getElementById("currentDate").value = date;
+
     var time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds();
     document.getElementById("currentTime").value = time;
+
     let xxx = document.getElementById("getBookId").textContent;
     console.log(xxx);
+
     let bookName = document.getElementById("getBookName").textContent;
     document.getElementById("currentBookName").value = bookName;
+
     let bookAuthor = document.getElementById("getAuthor").textContent;
     document.getElementById("currentAuthor").value = bookAuthor;
+
+    let currentBookId = document.getElementById("getBookId").textContent;
+    document.getElementById("currentBookId").value = currentBookId;
 
     const container = document.querySelector('.rating');
     const items = container.querySelectorAll('.rating-item')
@@ -21,9 +28,14 @@ $(document).ready(function(){
     item => item.classList.remove('active')
     );
     console.log(e.target.getAttribute("data-rate"));
+    let rating = e.target.getAttribute("data-rate");
+    document.getElementById("memberRating").value = rating;
+    console.log(rating);
     elClass.add('active'); // add active class to the clicked star
     }
     };
+
+    
     
 
 

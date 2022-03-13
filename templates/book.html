@@ -36,11 +36,13 @@
                <textarea class="form-control" id="review" name="review" rows="8" aria-label="With textarea"></textarea>                           
               </div> 
               <!-- Hidden date and time for sorting input data -->         
-              <div hidden>
+              <div>
+                <p>Current Rating is <input type="text" id="memberRating" name="memberRating"></p>
                 <p>Current Book is <input type="text" id="currentBookName" name="bookName"></p>
                 <p>Current Author is <input type="text" id="currentAuthor" name="bookAuthor"></p>
                 <p>Current Date is <input type="text" id="currentDate" name="date"></p>
                 <p>Current Time is <input type="text" id="currentTime" name="time"></p>
+                <p>Current Book ID is <input type="text" id="currentBookId" name="currentBookId"></p>
               </div>
               <!-- Buttons to manipulate user's inputs -->
               <div>
@@ -57,7 +59,7 @@
         </div>   
 </div>
 
-    <div>
+    
     <div class="col-md-12">
         <h4 class="col-md-12 m-20">See Critic Reviews:</h4>
     <ul class="list-unstyled">
@@ -71,10 +73,26 @@
         <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_8 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_8}}</strong><br></li>
     </ul>
     </div>
-     
-    <div class="col-md-12">
-        <h4 class="col-md-12">See Member Reviews:</h4>
-        <p>Be first to review this book!</p> 
+    <div>
+        <h4 >See Member Reviews:</h4>
     </div>
-    
+    <div class="container">
+        <div class="row">
+          <div class="col-4">
+              <ul>
+                  <li>Member name: {{ reviews.created_by|upper }}</li>
+                  <li>Member rating: {{ reviews.rating }}</li>
+                  <li>Date: {{ reviews.date }}</li>            
+            </ul>                 
+             </div>
+   
+    <div class="col-md-8">
+        
+        <ul>
+            <li>{{ reviews.review }}</li>
+        </ul>
+    </div>
+</div>
+    </div>
+   
 {% endblock %}

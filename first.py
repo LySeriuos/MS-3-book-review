@@ -38,8 +38,7 @@ def reviews():
     books = mongo.db.books.find()
     return render_template("reviews.html",
     page_title="Hello and Welcome to The Review", books=books)
-    
-    
+
 
 # @app.route("/reviews/<book_name>", methods=["GET", "POST"])
 # def reviews_book(book_name):
@@ -64,10 +63,19 @@ def reviews():
 def reviews_book(book_id):
     book_name = mongo.db.books.find_one(ObjectId(book_id))
     results = mongo.db.critics_reviews.find()
+    member_reviews = mongo.db.user_reviews.find()
+    reviews = {}
     for result in results:
         if result["book_name"] == book_name["book_name"]:
             critics_reviews = result
-    return render_template("book.html", book_name=book_name, critics_reviews=critics_reviews)
+    for member_review in member_reviews:
+        if member_review["book_name"] == book_name["book_name"]:
+             reviews = member_review
+             print(reviews)
+        else:
+            reviews = {}
+            flash("Is empty")
+    return render_template("book.html", book_name=book_name, critics_reviews=critics_reviews, reviews=reviews)
 
 
 @app.route("/about")
@@ -130,9 +138,26 @@ def register():
     return render_template("register.html")
 
 
+# @app.route("/member/<username>", methods=["GET", "POST"])
+# def member(username):
+#     # get username from database
+#     loged_user_reviews = mongo.db.user_reviews.find()
+#     print(loged_user_reviews)
+#     username = mongo.db.members.find_one(
+#         {"username": session["user"]})["username"]
+#     print(username)
+#     for loged_user_review in loged_user_reviews:
+#         if loged_user_review["created_by"] == username:
+#             user_reviews = loged_user_review
+#             print(user_reviews)
+#         return render_template("member.html", username=username, user_reviews=user_reviews)
+#     return redirect(url_for("login"))
+
+
 @app.route("/member/<username>", methods=["GET", "POST"])
 def member(username):
     # get username from database
+    loged_user_review = mongo.db.user_reviews.find()
     username = mongo.db.members.find_one(
         {"username": session["user"]})["username"]
     if session["user"]:
@@ -156,10 +181,11 @@ def add_review():
         review = {
             "book_name": request.form.get("bookName"),
             "author":  request.form.get("bookAuthor"),
-            "rating": request.form.get("rating"),
+            "rating": request.form.get("memberRating"),
             "review": request.form.get("review"),
             "date": request.form.get("date"),
             "time": request.form.get("time"),
+            "current_book_id": request.form.get("currentBookId"),
             "created_by": session["user"]
         }
         mongo.db.user_reviews.insert_one(review)

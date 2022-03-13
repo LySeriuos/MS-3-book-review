@@ -31,29 +31,30 @@
         </ul>
       </div>
     </div>
-    <div class="col-8">    
-      <ol>
-        {% for user_review in user_reviews %}
-        <li>
-    <p>
-      <a class="btn btn-primary" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-        <strong> {{ user_review.book_name }}</strong> by {{ user_review.author }}
-      </a>   
-    </p>       
-    <div class="collapse" id="collapseExample">
-      <div class="card card-body">
-        
-       <p>{{ user_review.rating }}</p>
-       <p>{{ user_review.review }}</p>
-       <p>{{ user_review.date }}</p>
-       <p>{{ user_review.time }}</p>
-       <p>by: {{ user_review.created_by }}</p>
-
-      </div>
-    </div>
-  </li>
-  {% endfor %}
-</ol>     
+    <div class="col-8"> 
+      <div class="accordion {{ loop.cycle('odd', 'even') }}" id="accordionExample">
+        <div class="card">
+          <div class="card-header" id="cardOne">
+            <h2 class="mb-0">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                <strong>{{ user_review.book_name }}</strong> by {{ user_review.author }}
+              </button>
+            </h2>
+          </div>
+      
+          <div id="collapseOne" class="collapse show" aria-labelledby="#collapseOne" data-parent="#accordionExample">
+            <div class="card-body">
+              <ul>
+                <li>Rating: {{ user_review.rating }}</li>
+                <li>Review: {{ user_review.review }}</li>
+                <li>Date: {{ user_review.date }}</li>
+                <li>Time: {{ user_review.time }}</li>
+                <li>Created by: {{ user_review.created_by|upper }}</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>     
     </div>
   </div>
 </div>
