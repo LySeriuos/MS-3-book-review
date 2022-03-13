@@ -59,42 +59,42 @@ margin: 0 5px 0 5px;
 
 .rating {
   display: flex;
-  flex-direction: row-reverse;
-  align-items: center;
-  justify-content: left;
-}
-#rating {
-  margin: 0 15px;
-}
-
-.rating>input {
-  display: none
-}
-
-.rating>label {
-  position: relative;
-  width: 1em;
-  font-size: 32px;
-  color: #FFD600;
-  cursor: pointer
-}
-
-.rating>label::before {
+  padding: 0;
+  margin: 0;
+  }
+  
+  .rating li {
+  list-style-type: none
+  }
+  
+  .rating-item {
+  border: 1px solid #fff;
+  cursor: pointer;
+  font-size:2em;
+  color: rgb(211, 162, 26);
+  }
+  
+  /* initial: make all stars full */
+  .rating-item::before {
   content: "\2605";
-  position: absolute;
-  opacity: 0
-}
+  }
+  
+  /* make until the clicked star (the rest) empty */
+  .rating-item.active ~ .rating-item::before {
+  content: "\2606";
+  }
+  
+  /* on hover make all full */
+  .rating:hover .rating-item::before {
+  content: "\2605";
+  }
+  
+  /* make until the hovered (the rest) empty */
+  .rating-item:hover ~ .rating-item::before {
+  content: "\2606";
+  }
 
-.rating>label:hover:before,
-.rating>label:hover~label:before {
-  opacity: 1 !important
-}
-
-.rating>input:checked~label:before {
-  opacity: 1
-}
-
-.rating:hover>input:checked~label:before {
-  opacity: 0.4
-}
+  #rating p {
+    margin: 10px 0 0 0;
+  }
 
