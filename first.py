@@ -63,7 +63,6 @@ def reviews():
 @app.route("/reviews/<book_id>", methods=["GET", "POST"])
 def reviews_book(book_id):
     book_name = mongo.db.books.find_one(ObjectId(book_id))
-    
     results = mongo.db.critics_reviews.find()
     for result in results:
         if result["book_name"] == book_name["book_name"]:
