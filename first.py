@@ -62,19 +62,15 @@ def reviews():
 @app.route("/reviews/<book_id>", methods=["GET", "POST"])
 def reviews_book(book_id):
     book_name = mongo.db.books.find_one(ObjectId(book_id))
+    something = book_name["_id"]
     results = mongo.db.critics_reviews.find()
-    member_reviews = mongo.db.user_reviews.find()
-    reviews = {}
+    member_reviews = list(mongo.db.user_reviews.find({"current_book_id": book_id}))
+    reviews = member_reviews
+    print(member_reviews)
+    print(something)
     for result in results:
         if result["book_name"] == book_name["book_name"]:
             critics_reviews = result
-    for member_review in member_reviews:
-        if member_review["book_name"] == book_name["book_name"]:
-             reviews = member_review
-             
-        else:
-            reviews = {}
-            flash("Is empty")
     return render_template("book.html", book_name=book_name, critics_reviews=critics_reviews, reviews=reviews)
 
 
@@ -160,7 +156,8 @@ def member(username):
     username = mongo.db.members.find_one(
         {"username": session["user"]})["username"]
     if session["user"]:
-        user_reviews = list(mongo.db.user_reviews.find())
+        user_reviews = list(mongo.db.user_reviews.find(
+            {"created_by": username}))
         # print(user_reviews)
         return render_template("member.html", username=username, user_reviews=user_reviews)
     return redirect(url_for("login"))

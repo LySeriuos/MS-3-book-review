@@ -79,20 +79,23 @@
             </div>
             <div class="row">
           <div class="col-4">
-              <ul>
-                  <li>Member name: {{ reviews.created_by|upper }}</li>
-                  <li>Member rating: {{ reviews.rating }}</li>
-                  <li>Date: {{ reviews.date }}</li>            
+            {% for review in reviews %}
+              <ul >
+                  <li>Member name: {{ review.created_by|upper }}</li>
+                  <li>Member rating: {{ review.rating }}</li>
+                  <li>Date: {{ review.date }}</li>            
             </ul>                 
              </div>
    
     <div class="col-md-8">
         <!-- need loop index -->
         <ul>
-            <li>{{ reviews.review }}</li>
+            <li>{{ review.review }}</li>
         </ul>
     </div>
+    {% endfor %}
 </div>
     </div>
 </div>
+
 {% endblock %}
