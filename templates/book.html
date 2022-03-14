@@ -57,7 +57,7 @@
         </div>   
 </div>
 
-    
+<div class="row">
     <div class="col-md-12">
         <h4 class="col-md-12 m-20">See Critic Reviews:</h4>
     <ul class="list-unstyled">
@@ -71,31 +71,30 @@
         <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_8 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_8}}</strong><br></li>
     </ul>
     </div>
+</div>
     
-    <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h4 >See Member Reviews:</h4>
-            </div>
-            <div class="row">
-          <div class="col-4">
-            {% for review in reviews %}
-              <ul >
-                  <li>Member name: {{ review.created_by|upper }}</li>
-                  <li>Member rating: {{ review.rating }}</li>
-                  <li>Date: {{ review.date }}</li>            
-            </ul>                 
-             </div>
-   
-    <div class="col-md-8">
-        <!-- need loop index -->
+<div class="row">
+    <div class="col-md-12">
+        <h4 class="col-md-12 m-20">See Members Reviews:</h4>   
+    </div>
+</div>
+{% for review in reviews %}
+<div class="row">
+    <div class="col-md-4">
         <ul>
-            <li>{{ review.review }}</li>
-        </ul>
+            <li>Member name: {{ review.created_by|upper }}</li>
+            <li>Member rating: {{ review.rating }}</li>
+            <li>Date: {{ review.date }}</li>            
+      </ul>
     </div>
-    {% endfor %}
+
+<div class="col-md-8">
+    <ul>
+        <li>{{ review.review }}</li>
+    </ul>
 </div>
-    </div>
 </div>
+{% endfor %}
+
 
 {% endblock %}
