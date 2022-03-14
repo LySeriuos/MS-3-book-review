@@ -46,9 +46,7 @@
               </div>
               <!-- Buttons to manipulate user's inputs -->
               <div>
-              <button class="btn btn-primary" type="submit">Add</button>
-              <button class="btn btn-primary" type="submit">Edit</button>
-              <button class="btn btn-primary" type="submit">Delete</button>
+              <button class="btn btn-primary" type="submit">Add</button>              
           </div>
         </div>
     </form>
@@ -73,11 +71,13 @@
         <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_8 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_8}}</strong><br></li>
     </ul>
     </div>
-    <div>
-        <h4 >See Member Reviews:</h4>
-    </div>
+    
     <div class="container">
         <div class="row">
+            <div class="col-md-12">
+                <h4 >See Member Reviews:</h4>
+            </div>
+            <div class="row">
           <div class="col-4">
               <ul>
                   <li>Member name: {{ reviews.created_by|upper }}</li>
@@ -87,12 +87,12 @@
              </div>
    
     <div class="col-md-8">
-        
+        <!-- need loop index -->
         <ul>
             <li>{{ reviews.review }}</li>
         </ul>
     </div>
 </div>
     </div>
-   
+</div>
 {% endblock %}

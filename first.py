@@ -71,7 +71,7 @@ def reviews_book(book_id):
     for member_review in member_reviews:
         if member_review["book_name"] == book_name["book_name"]:
              reviews = member_review
-             print(reviews)
+             
         else:
             reviews = {}
             flash("Is empty")
@@ -157,12 +157,11 @@ def register():
 @app.route("/member/<username>", methods=["GET", "POST"])
 def member(username):
     # get username from database
-    loged_user_review = mongo.db.user_reviews.find()
     username = mongo.db.members.find_one(
         {"username": session["user"]})["username"]
     if session["user"]:
         user_reviews = list(mongo.db.user_reviews.find())
-        print(user_reviews)
+        # print(user_reviews)
         return render_template("member.html", username=username, user_reviews=user_reviews)
     return redirect(url_for("login"))
 

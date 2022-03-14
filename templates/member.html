@@ -32,7 +32,8 @@
       </div>
     </div>
     <div class="col-8"> 
-      <div class="accordion {{ loop.cycle('odd', 'even') }}" id="accordionExample">
+      <div class="accordion" id="accordionExample">
+        {% for user_review in user_reviews %}
         <div class="card">
           <div class="card-header" id="cardOne">
             <h2 class="mb-0">
@@ -50,10 +51,13 @@
                 <li>Date: {{ user_review.date }}</li>
                 <li>Time: {{ user_review.time }}</li>
                 <li>Created by: {{ user_review.created_by|upper }}</li>
+                <a href="" class="btn btn-primary" type="submit">Edit</a>
+              <a href="" class="btn btn-primary" type="submit">Delete</a>
               </ul>
             </div>
           </div>
         </div>
+        {% endfor %}
       </div>     
     </div>
   </div>
