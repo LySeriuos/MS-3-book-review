@@ -31,19 +31,21 @@
         </ul>
       </div>
     </div>
-    <div class="col-8"> 
+   
+    <div class="col-8">
+      {% for user_review in user_reviews %} 
       <div class="accordion" id="accordionExample">
-        {% for user_review in user_reviews %}
+        
         <div class="card">
-          <div class="card-header" id="cardOne">
+          <div class="card-header" id="card{{ loop.index }}">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapse{{ loop.index }}" aria-expanded="true" aria-controls="collapse{{ loop.index }}">
                 <strong>{{ user_review.book_name }}</strong> by {{ user_review.author }}
               </button>
             </h2>
           </div>
       
-          <div id="collapseOne" class="collapse show" aria-labelledby="#collapseOne" data-parent="#accordionExample">
+          <div id="collapse{{ loop.index }}" class="collapse show" aria-labelledby="#collapse{{ loop.index }}" data-parent="#accordionExample">
             <div class="card-body">
               <ul>
                 <li>Rating: {{ user_review.rating }}</li>
@@ -57,9 +59,11 @@
             </div>
           </div>
         </div>
-        {% endfor %}
-      </div>     
+        
+      </div> 
+      {% endfor %}    
     </div>
+   
   </div>
 </div>
   
