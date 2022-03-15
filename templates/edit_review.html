@@ -17,7 +17,12 @@
           </button>
           <!-- To rate the book and leave the review -->
         <div class="collapse" id="collapseExample">
-            <div class="card"> 
+            <div class="card">                
+                     
+        <form method="POST" action="{{ url_for('edit_review', review_id=review._id) }}">
+
+            <p>Leave your review here:</p>
+            <div class="input-group">
                 <div class="row">
                     <div class ="col-4"><p id="rating">Rate the book:</p></div>  
                     <div class ="col-8">                              
@@ -28,11 +33,7 @@
                     <li class="rating-item" data-rate="4"></li>
                     <li class="rating-item" data-rate="5"></li>                    
                     </ul>                   
-                </div> 
-            </div>          
-        <form method="POST" action="{{ url_for('add_review') }}">
-            <p>Leave your review here:</p>
-            <div class="input-group">                
+                </div>                 
                <textarea class="form-control" id="review" name="review" rows="8" aria-label="With textarea"></textarea>                           
               </div> 
               <!-- Hidden date and time for sorting input data -->         
@@ -50,55 +51,11 @@
           </div>
         </div>
     </form>
+</div>
 </div>    
 </div>
     <div> 
         <p>{{ book_name.book_description}}</p> 
         </div>   
 </div>
-
-<div class="row">
-    <div class="col-md-12">
-        <h4 class="col-md-12 m-20">See Critic Reviews:</h4>
-    <ul class="list-unstyled">
-        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_1 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_1}}</strong><br></li>
-        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_2 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_2}}</strong><br></li>
-        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_3 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_3}}</strong><br></li>
-        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_4 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_4}}</strong><br></li>
-        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_5 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_5}}</strong><br></li>
-        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_6 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_6}}</strong><br></li>
-        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_7 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_7}}</strong><br></li>
-        <li class="critics"><i class="fa-solid fa-book"></i>{{ critics_reviews.critic_review_8 }}<em class="dash">—</em><strong>{{ critics_reviews.critic_name_8}}</strong><br></li>
-    </ul>
-    </div>
-</div>
-    
-<div class="row">
-    <div class="col-md-12">
-        <h4 class="col-md-12 m-20">See Members Reviews:</h4>   
-    </div>
-</div>
-{% for review in reviews %}
-<div class="row">
-    <div class="col-md-4">
-        <ul>
-            <li>Member name: {{ review.created_by|upper }}</li>
-            <li>Member rating: {{ review.rating }}</li>
-            <li>Date: {{ review.date }}</li>                  
-      </ul>
-      {% if session.user %}
-      <a href="{{ url_for('edit_review', review_id=review._id) }}" class="btn btn-primary" type="submit">Edit</a>
-      <a href="" class="btn btn-primary" type="submit">Delete</a>
-      {% endif %}	
-    </div>
-
-<div class="col-md-8">
-    <ul>
-        <li>{{ review.review }}</li>
-    </ul>
-</div>
-</div>
-{% endfor %}
-
-
 {% endblock %}

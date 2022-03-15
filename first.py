@@ -175,8 +175,12 @@ def add_review():
 @app.route("/edit_review/<review_id>", methods=["GET", "POST"])
 def edit_review(review_id):
     review = mongo.db.user_reviews.find_one({"_id": ObjectId(review_id)})
+    current_book = review["current_book_id"]
+    book_name = mongo.db.books.find_one({"_id": ObjectId(current_book)})
+    print(current_book)
     print(review)
-    return render_template("member.html", review=review)
+    categories = mongo.db.reviews.find().sort("review_name")
+    return render_template("edit_review.html", categories=categories, review=review, book_name=book_name)
 
 
 # this is only if on test. It shouldn't be on normal basis
