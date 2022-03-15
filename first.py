@@ -80,7 +80,6 @@ def about():
 
 
 # Route for handling the login page logic
-# Route for handling the login page logic
 @app.route("/login", methods=["GET", "POST"])
 def login():
     if request.method == 'POST':
