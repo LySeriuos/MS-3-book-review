@@ -66,8 +66,6 @@ def reviews_book(book_id):
     results = mongo.db.critics_reviews.find()
     member_reviews = list(mongo.db.user_reviews.find({"current_book_id": book_id}))
     reviews = member_reviews
-    print(member_reviews)
-    print(something)
     for result in results:
         if result["book_name"] == book_name["book_name"]:
             critics_reviews = result
@@ -133,22 +131,6 @@ def register():
     return render_template("register.html")
 
 
-# @app.route("/member/<username>", methods=["GET", "POST"])
-# def member(username):
-#     # get username from database
-#     loged_user_reviews = mongo.db.user_reviews.find()
-#     print(loged_user_reviews)
-#     username = mongo.db.members.find_one(
-#         {"username": session["user"]})["username"]
-#     print(username)
-#     for loged_user_review in loged_user_reviews:
-#         if loged_user_review["created_by"] == username:
-#             user_reviews = loged_user_review
-#             print(user_reviews)
-#         return render_template("member.html", username=username, user_reviews=user_reviews)
-#     return redirect(url_for("login"))
-
-
 @app.route("/member/<username>", methods=["GET", "POST"])
 def member(username):
     # get username from database
@@ -188,6 +170,14 @@ def add_review():
         return redirect(url_for("reviews"))
     categories = mongo.db.reviews.find().sort("review_name")
     return render_template("book.html", categories=categories)
+
+
+@app.route("/edit_review/<review_id>", methods=["GET", "POST"])
+def edit_review(review_id):
+    review = mongo.db.user_reviews.find_one({"_id": ObjectId(review_id)})
+    print(review)
+    return render_template("member.html", review=review)
+
 
 # this is only if on test. It shouldn't be on normal basis
 
