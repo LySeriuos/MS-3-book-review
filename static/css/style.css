@@ -56,12 +56,15 @@ margin: 0 5px 0 5px;
 }
 
 /* users reviews star ratings  */
+#rating-extra{
+  font-size: x-small;
+}
 
 .rating {
   display: flex;
   padding: 0;
   margin: 0;
-  }
+     }
   
   .rating li {
   list-style-type: none
