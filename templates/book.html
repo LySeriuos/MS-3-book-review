@@ -56,7 +56,8 @@
         <p>{{ book_name.book_description}}</p> 
         </div>   
 </div>
-
+</div>  
+<div class="container"></div>
 <div class="row">
     <div class="col-md-12">
         <h4 class="col-md-12 m-20">See Critic Reviews:</h4>
@@ -79,7 +80,7 @@
     </div>
 </div>
 {% for review in reviews %}
-<div class="row">
+<div class="row user-reviews">
     <div class="col-md-4">
         <ul>
             <li>Member name: {{ review.created_by|upper }}</li>

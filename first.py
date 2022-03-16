@@ -40,29 +40,9 @@ def reviews():
     page_title="Hello and Welcome to The Review", books=books)
 
 
-# @app.route("/reviews/<book_name>", methods=["GET", "POST"])
-# def reviews_book(book_name):
-#     book = {}
-#     book_name = mongo.db.books.find_one({"_id": ObjectId(book_name)})
-#     if book_name == book_name["url"]:
-#         book = book_name
-#     critics_reviews = mongo.db.critics_reviews.find_one()
-#     print(book_name["url"])
-#     return render_template("book.html", book=book_name, critics_reviews=critics_reviews)
-
-# mongo.db.books.find_one({"_id": ObjectId(book_name)})
-# @app.route("/reviews/<book_name>", methods=["GET", "POST"])
-# def reviews_book(book_name):
-#     book = mongo.db.books.find_one({"book_name": request.form.get("book_name")})
-#     book_name = mongo.db.books.find_one()
-#     print(book_name)
-#     return render_template("book.html", book_name=book_name)
-
-
 @app.route("/reviews/<book_id>", methods=["GET", "POST"])
 def reviews_book(book_id):
     book_name = mongo.db.books.find_one(ObjectId(book_id))
-    something = book_name["_id"]
     results = mongo.db.critics_reviews.find()
     member_reviews = list(mongo.db.user_reviews.find({"current_book_id": book_id}))
     reviews = member_reviews
@@ -155,19 +135,42 @@ def logout():
 @app.route("/add_review", methods=["GET", "POST"])
 def add_review():
     if request.method == "POST":
-        review = {
-            "book_name": request.form.get("bookName"),
-            "author":  request.form.get("bookAuthor"),
-            "rating": request.form.get("memberRating"),
-            "review": request.form.get("review"),
-            "date": request.form.get("date"),
-            "time": request.form.get("time"),
-            "current_book_id": request.form.get("currentBookId"),
-            "created_by": session["user"]
-        }
-        mongo.db.user_reviews.insert_one(review)
-        flash("Thank you for your review!")
-        return redirect(url_for("reviews"))
+        username = mongo.db.members.find_one(
+            {"username": session["user"]})["username"]
+        print(username)
+        user_reviews = list(mongo.db.user_reviews.find(
+                {"created_by": username}))
+        pprint(user_reviews)
+        
+            # current_review = mongo.db.user_reviews.find_one({"current_book_id": request.form.get("currentBookId")})
+            # this_one = current_review["current_book_id"]
+       
+        if user_reviews["current_book_id"] == request.form.get("currentBookId"): 
+            flash("You are already reviewed this book!")
+            return redirect(url_for("reviews"))
+        else:
+            review = {
+                "book_name": request.form.get("bookName"),
+                "author":  request.form.get("bookAuthor"),
+                "rating": request.form.get("memberRating"),
+                "review": request.form.get("review"),
+                "date": request.form.get("date"),
+                "time": request.form.get("time"),
+                "current_book_id": request.form.get("currentBookId"),
+                "created_by": session["user"]
+                }
+            mongo.db.user_reviews.insert_one(review)
+            flash("Thank you for your review!")
+            return redirect(url_for("reviews"))
+        # to check if username exists in db
+    # results = mongo.db.critics_reviews.find()    
+    # current_book = user_reviews["current_book_id"]
+    # book_name = mongo.db.books.find_one({"_id": ObjectId(current_book)})
+    # member_reviews = list(mongo.db.user_reviews.find({"current_book_id": request.form.get("currentBookId")}))
+    # reviews = member_reviews
+    # for result in results:
+    #     if result["book_name"] == book_name["book_name"]:
+    #         critics_reviews = result
     categories = mongo.db.reviews.find().sort("review_name")
     return render_template("book.html", categories=categories)
 
