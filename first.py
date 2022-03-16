@@ -191,11 +191,16 @@ def edit_review(review_id):
     review = mongo.db.user_reviews.find_one({"_id": ObjectId(review_id)})
     current_book = review["current_book_id"]
     book_name = mongo.db.books.find_one({"_id": ObjectId(current_book)})
-    print(current_book)
-    print(review)
     categories = mongo.db.reviews.find().sort("review_name")
     return render_template("edit_review.html", categories=categories, review=review, book_name=book_name)
 
+
+@app.route("/delete_review/<review_id>")
+def delete_review(review_id):
+     mongo.db.user_reviews.delete_one({"_id": ObjectId(review_id)})
+     flash("Review Succesfully Deleted")
+     return redirect(url_for("reviews"))
+    
 
 # this is only if on test. It shouldn't be on normal basis
 
