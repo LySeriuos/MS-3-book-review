@@ -9,7 +9,8 @@
     <div class="col-md-7">
         <div class="col-md-12">
         <h3 id="getBookName">{{ book_name.book_name }}</h3>by 
-        <h2 id="getAuthor">{{ book_name.book_author }}</h2>
+        <h2 id="getAuthor">{{ book_name.book_author }}</h2>        
+        <a href="{{ url_for('reviews') }}">Press here to back to books list</a>
         <p id="getBookId">{{ book_name._id }}</p>
     <button class="btn btn-primary d-inline"><a href='{{ book_name.buy_link }}' target="_blank" class="text-white">Buy this book now!</a></button>
         <button class="btn btn-primary d-inline" type="button" data-toggle="collapse" data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
