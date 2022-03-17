@@ -1,4 +1,3 @@
-from user import routes
 import os
 import json
 from flask import (
@@ -38,6 +37,16 @@ def reviews():
     books = mongo.db.books.find()
     return render_template("reviews.html",
     page_title="Hello and Welcome to The Review", books=books)
+
+
+@app.route("/search", methods=["GET", "POST"])
+def search():
+    query = request.form.get("query")
+    books = mongo.db.books.find(
+        {"$text": {"$search": query}}) 
+    return render_template("reviews.html",
+    page_title="Hello and Welcome to The Review", books=books)
+
 
 
 @app.route("/reviews/<book_id>", methods=["GET", "POST"])
@@ -128,7 +137,7 @@ def member(username):
 def logout():
     # remove user from cookies session
     flash("you have been logged out")
-    session.pop("user")
+    session.pop("user", None) or session.pop("email", None)
     return redirect(url_for("login"))
 
 
@@ -138,30 +147,32 @@ def add_review():
         username = mongo.db.members.find_one(
             {"username": session["user"]})["username"]
         print(username)
-        user_reviews = list(mongo.db.user_reviews.find(
-                {"created_by": username}))
-        pprint(user_reviews)
+        if session["user"]:
+            
+            user_reviews = list(mongo.db.user_reviews.find(
+                    {"created_by": username}))
+            pprint(user_reviews)
         
             # current_review = mongo.db.user_reviews.find_one({"current_book_id": request.form.get("currentBookId")})
             # this_one = current_review["current_book_id"]
        
-        if user_reviews["current_book_id"] == request.form.get("currentBookId"): 
-            flash("You are already reviewed this book!")
-            return redirect(url_for("reviews"))
-        else:
-            review = {
-                "book_name": request.form.get("bookName"),
-                "author":  request.form.get("bookAuthor"),
-                "rating": request.form.get("memberRating"),
-                "review": request.form.get("review"),
-                "date": request.form.get("date"),
-                "time": request.form.get("time"),
-                "current_book_id": request.form.get("currentBookId"),
-                "created_by": session["user"]
+            if user_reviews == request.form.get("currentBookId"):
+                flash("You are already reviewed this book!")
+                return redirect(url_for("reviews"))
+            else:
+                review = {
+                    "book_name": request.form.get("bookName"),
+                    "author":  request.form.get("bookAuthor"),
+                    "rating": request.form.get("memberRating"),
+                    "review": request.form.get("review"),
+                    "date": request.form.get("currentDate"),
+                    "time": request.form.get("currenTime"),
+                    "current_book_id": request.form.get("currentBookId"),
+                    "created_by": username
                 }
-            mongo.db.user_reviews.insert_one(review)
-            flash("Thank you for your review!")
-            return redirect(url_for("reviews"))
+                mongo.db.user_reviews.insert_one(review)
+                flash("Thank you for your review!")
+                return redirect(url_for("reviews"))
         # to check if username exists in db
     # results = mongo.db.critics_reviews.find()    
     # current_book = user_reviews["current_book_id"]
@@ -200,9 +211,9 @@ def edit_review(review_id):
 
 @app.route("/delete_review/<review_id>")
 def delete_review(review_id):
-     mongo.db.user_reviews.delete_one({"_id": ObjectId(review_id)})
-     flash("Review Succesfully Deleted")
-     return redirect(url_for("reviews"))
+    mongo.db.user_reviews.delete_one({"_id": ObjectId(review_id)})
+    flash("Review Succesfully Deleted")
+    return redirect(url_for("reviews"))
     
 
 # this is only if on test. It shouldn't be on normal basis

@@ -1,34 +1,39 @@
 {% extends "base.html" %}
 {% block content %}
 
+
+    
     <h2>{{ page_title }}</h2>
     <p>Here you can search for book reviews! We hope that it will help you to find the One.
          Use search to find book by name or filter to explore All Reviews.</p>
-
+         <div class="row">
+         <form action="{{ url_for('search') }}" method="post">
+             <div class="col-md-6 col-sm-4">
+                <div>
+                 <input type="text" name="query" id="query" minlength="3" class="validate" placeholder="Search here to find the book">
+                 <button class="btn btn-primary" type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                 <a class="btn btn-primary" href="{{url_for('reviews') }}">Reset</a>
+                </div> 
+               </div>
+         </form>
+        </div>
+    </div>
+        
         {% for book in books %}
-
-
         <div class="row featurette">
-
             {%if loop.index % 2 !=0 %}
-
-
-            <div class="col-md-7">
+        <div class="col-md-7">
                 <h3><a class= "getName" href="{{ url_for('reviews_book', book_id=book._id ) }}">{{ loop.index }}. {{ book.book_name }} by {{ book.book_author }}</a></h3>
                 <p>Rating: {{book.rating}}</p>
                 <p>Year: {{book.year}}</p>
                 <p>Genre: {{book.genre}}</p>
                 <p>ID : {{book._id}}</p>
-                <p>{{book.book_description}}</p>
-               
+                <p>{{book.book_description}}</p>               
             </div>
             <div class="col-md-5">
                 <img src="{{book.image_source}}" alt="" class="featurette-image image-responsive">
             </div>
-
             {% else %}
-
-
             <div class="col-md-5">
                 <img src="{{ book.image_source }}" alt="" class="featurette-image image-responsive">
             </div>
@@ -38,23 +43,13 @@
                 <p>Year: {{ book.year }}</p>
                 <p>Genre: {{ book.genre }}</p>
                 <p>ID: {{book._id}}</p>
-                <p>{{ book.book_description }}</p>
-                
-                
-            </div>
-
-
+                <p>{{ book.book_description }}</p>             
+            </div>           
             {% endif %}
-
-        </div>
-
+            </div>
         {% if loop.index != loop.length %}
-
-
         <hr class="featurette-divider"> 
-        {% endif %}
-
-
+        {% endif %}        
     {% endfor %}
-
+   
     {% endblock %}  
