@@ -7,17 +7,8 @@
     <div class="container">
        <div class="row">
          <div class="col-4">
-           {{ username|upper }}'S Profile
-           <div class="kv-avatar">
-            <div class="file-loading">
-                <input id="avatar-1" name="avatar-1" type="file" required>
-            </div>
-        </div>
-        <div class="kv-avatar-hint">
-            <small>Select file < 1500 KB</small>
-        </div>
-         
-        <div>      
+           {{ username|upper }}'S Profile               
+        <!-- <div>      
        <ul class="nav flex-column">
         <li class="nav-item">
           <a class="nav-link active" href="#">Reviewed Books</a>
@@ -29,7 +20,7 @@
           <a class="nav-link" href="#">My Profile</a>
         </li>
         </ul>
-      </div>
+      </div> -->
     </div>
    
     <div class="col-8">
@@ -39,7 +30,7 @@
         <div class="card">
           <div class="card-header" id="card{{ loop.index }}">
             <h2 class="mb-0">
-              <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ loop.index }}" aria-expanded="true" aria-controls="collapse{{ loop.index }}">
+              <button class="btn btn-link btn-block text-center collapsed" type="button" data-toggle="collapse" data-target="#collapse{{ loop.index }}" aria-expanded="true" aria-controls="collapse{{ loop.index }}">
                 <strong>{{ user_review.book_name }}</strong> by {{ user_review.author }}
               </button>
             </h2>

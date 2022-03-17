@@ -1,108 +1,194 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# The Review page
 
-Welcome LySeriuos,
+![The Review page Mockup Images]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+[View the live project here](https://github.com/LySeriuos/MS-3-book-review)
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
+## Table of contents
+1. [`Introduction`](#introduction)
+2. [`UX`](#ux)    
+    1. [`Design`](#design)
+3. [`Features`](#features)
+4. [`Issues and Bugs`](#issues-and-bugs)
+5. [`Technologies Used`](#technologies-Used)
+     1. [`Main Languages Used`](#main-languages-used)    
+     2. [`Frameworks, Libraries & Programs Used`](#frameworks,-libraries-&-programs-Used)
+6. [`Testing`](#automated-testing)
+7. [`Further testing`](#further-testing)    
+8. [`Deployment`](#deployment)    
+9. [`Credits`](#credits)
+     1. [`Audio`](#audio)
+10. [`Acknowledgements`](#acknowledgements)
+[`Back to top ⇧`](#the-review-page)
 
-## Gitpod Reminders
+***
+## Introduction
+---
+* **The Review page** is book lovers place to share their minds with other readers or just to find good professionals reviews to help find The Book. The The Review page fits all ages from arround 13 years old to let's say 99! The main goal is to give best expierence and easy to use web page. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+* The Review page is my third Milestone project and this is 3nd of 4 projects during the Software Developer Program at The Code institute.
 
-`python3 -m http.server`
+[`Back to top ⇧`](#the-review-page)
 
-A blue button should appear to click: _Make Public_,
+### Requirements
+---
+1. HTML, CSS, JavaScript, Python+Flask, MongoDB
+Additional libraries and external APIs.
+2. Users make use of the site to share their own data with the community, and benefit from
+having convenient access to the data provided by all other members.
+The site owner advances their own goals by providing this functionality, potentially by being
+a regular user themselves. The site owner might also benefit from the collection of the
+dataset as a whole.
+3. Documentation: Write a README.md file for your project that explains what the project does and the value that it provides to its users.
+4. Version Control: Use Git & GitHub for version control.
+5. Attribution: Maintain clear separation between code written by you and code from external sources (e.g. libraries or tutorials). Attribute any code from external sources to its source via comments above the code and (for larger dependencies) in the README.
+6. Deployment: Deploy the final version of your code to a hosting platform such as GitHub Pages.
+7. Build a book review and recommendation site.
+8. Find books they would like to read.
+9. Earn money on each book purchased via a link from the site.
 
-Another blue button should appear to click: _Open Browser_.
+[`Back to top ⇧`](#the-review-page)
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
+### UX
 ---
 
-Happy coding!
+The potential user of this The Review page:
+* All ages from 2 years old.
+
+What players are willing to find:
+
+* Fun game, easy to understandt.
+* To Load and Play.
+* To be able to save scores.
+* To compete with friends.
+* To change difficulty levels.
+
+[`Back to top ⇧`](#the-review-page)
+
+## Skeleton 
+---
+Wireframe mockups were created in a [Figma Workspace](https://www.figma.com/file/7fXyHSsH2WbTadTaDyaUsC/The-Review?node-id=0%3A1) for the positive expierence:
+
+Index Page:
+![Index Page Wireframe](assets/read.me/The Review page MS2.png"Index Page Wireframe")
+
+### Design
+---
+* The main idea was to create a stylish page with simple design to be easy understanble and not crowded with function that users do'nt need. The main font is ["Lora"](https://fonts.google.com/?query=lora). As a back up font going to be "Sans Serif". 
+* THe review page meets user with the image wich tells directly what about this page is. 
+* Buttons has slightly different colours: black and white. to bee easy readible. 
+* The main color of the page is white, because it is very importnat to have eyes friendly environment in the page.
+* Middle of the page I gave to the main purpose of the page. To introduce newest books!
+
+[`Back to top ⇧`](#the-review-page)
+
+### Features
+---
+* The The Review page developed as responsive. It can be shown on mobile phones, tablet computers and on big screens.
+* User can register, log in and logout.
+* User can leave their reviews to the each book separatly.
+* All the reviews and user information is saved in the mongo db cloud database.
+* User is able to see his created reviews and member profile page.
+* User can add, delete or edit their reviews.
+* User can search for the books by authos, book name, genre and years.
+
+
+  [`Back to top ⇧`](#the-review-page)  
+
+## Further Testing 
+## Code
+
+
+* The The Review page was tested on Google Chrome, Opera, Mozilla Firefox, Microsoft Edge and Safari, mobile Safari, mobile Chrome browsers.
+* The The Review page was viewed on a variety of devices such as Desktop, Laptop, Android phones, iPhone7, iPhone 8 & iPhone13.
+* Friends and family members were asked to review the game and documentation to point out any bugs and/or user experience issues.
+* Some bugs left to fix.
+
+[`Back to top ⇧`](#the-review-page)
+
+
+### Issues-and-Bugs
+---
+1. When trying to open book page I got this error:
+UnboundLocalError: local variable 'critics_reviews' referenced before assignment.
+Solution: 
+I found mistake in a book name which didn't match with in "critics_reviews" and "books" collections. Fixed name and problem was fixed. 
+2. The picture of the book was not showing in the page. 
+Solution: 
+This erros was because of bad path:
+static/img/books-img/Boyfriend-Material.jpg and it should be /static/img/books-img/Boyfriend-Material.jpg. 
+3. jQuery.Deferred exception: Cannot set properties of null (setting 'value') TypeError: Cannot set properties of null (setting 'value')
+This issue is not fixed because I got results I needed. Adding If statement doesn't helped and removed information from inputs.
+4. ImportError: cannot import name 'app' from partially initialized module 'first' (most likely due to a circular import) (/workspace/MS-3-book-review/first.py).
+Solution:
+Fixed by removing import routes from user.
+
+[`Back to top ⇧`](#the-review-page)
+
+## Automated Testing
+
+### Code Validation
+The [FreeFormatter Validator](https://www.freeformatter.com/html-validator.html) service was used to validate the `HTML` code used.
+The [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) service was used to validate the `CSS` coded used.
+
+
+**Results:**
+
+- Not added at the moment.
+
+
+
+
+[`Back to top ⇧`](#the-review-page)
+
+## Deployment
+
+Information coming soon!
+
+[`Back to top ⇧`](#the-review-page)
+
+## Credits 
+
+### Audio & Media
+
+- All the book images came from [Amazon](https://amazon.com/ "Link to Unsplash") 
+- The text used in the 404 error page was sourced from [CopyAndPasteFonts](https://www.copyandpastefont.com/ "Link to Font editor") and edited by the developer.
+
+# Technologies Used
+### Main Languages Used
+- [HTML5](https://en.wikipedia.org/wiki/HTML5 "Link to HTML Wiki")
+- [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets "Link to CSS Wiki")
+- [Java Script](https://en.wikipedia.org/wiki/JavaScript "Link to JS Wiki")
+
+[`Back to top ⇧`](#the-review-page)
+
+### Frameworks, Libraries & Programs Used
+- [Bootstrap](https://getbootstrap.com/docs/4.4/getting-started/introduction/ "Link to Bootstrap page")
+     - Bootstrap was used to implement the responsiveness of the site, using bootstrap classes.
+- [Google Fonts](https://fonts.google.com/ "Link to Google Fonts")
+    - Google fonts was used to import the fonts "Lora" into the style.css file.
+- [JQuery](https://jquery.com/ "Link to Jquery")
+    - JQuery was used to simplify Java Script code.
+- [Font Awesome](https://fontawesome.com/ "Link to FontAwesome")
+     - Font Awesome was used to import icons mute/unmute.
+- [Git](https://git-scm.com/ "Link to Git homepage")
+     - Git was used for version control by utilizing the GitPod terminal to commit to Git and push to GitHub.
+- [GitHub](https://github.com/ "Link to GitHub")
+     - GitHub was used to store the project after pushing
+- [Figma](https://www.figma.com/ "Link to Figma homepage")
+     - Figma was used to create the wireframes during the design phase of the project.
+- [Am I Responsive?](http://ami.responsivedesign.is/# "Link to Am I Responsive Homepage")
+     - Am I Responsive was used in order to see responsive design throughout the process and to generate mockup imagery to be used.
+
+
+[`Back to top ⇧`](#the-review-page)
+
+## Acknowledgements
+
+- I would like to thank my friends and family for their valued opinions and critic during the process of design and development.
+- I would like to thank my mentor, Seun, for her invaluable help and guidance throughout the process.
+- I would like to thank tutor support for showing me the way with my issues.
+
+[`Back to top ⇧`](#the-review-page)
+
+***

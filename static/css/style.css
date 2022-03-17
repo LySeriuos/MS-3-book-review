@@ -7,6 +7,10 @@
   color: #fff !important;
 }
 
+.hide-info {
+  display: none;
+}
+
 
 .divider:after,
 .divider:before {
