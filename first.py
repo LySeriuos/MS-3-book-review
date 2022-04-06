@@ -219,7 +219,4 @@ def delete_review(review_id):
 # this is only if on test. It shouldn't be on normal basis
 
 
-if __name__ == "__main__":
-    app.run(host=os.environ.get("IP"),
-            port=int(os.environ.get('PORT')),
-            debug=os.environ.get('DEBUG'))
+
