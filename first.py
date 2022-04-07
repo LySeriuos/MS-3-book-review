@@ -43,7 +43,7 @@ def reviews():
 def search():
     query = request.form.get("query")
     books = mongo.db.books.find(
-        {"$text": {"$search": query}}) 
+        {"$text": {"$search": query}})
     return render_template("reviews.html",
     page_title="Hello and Welcome to The Review", books=books)
 
@@ -53,7 +53,8 @@ def search():
 def reviews_book(book_id):
     book_name = mongo.db.books.find_one(ObjectId(book_id))
     results = mongo.db.critics_reviews.find()
-    member_reviews = list(mongo.db.user_reviews.find({"current_book_id": book_id}))
+    member_reviews = list(
+        mongo.db.user_reviews.find({"current_book_id": book_id}))
     reviews = member_reviews
     for result in results:
         if result["book_name"] == book_name["book_name"]:
@@ -102,7 +103,7 @@ def register():
         # to check if username exists in db
         existing_user = mongo.db.members.find_one(
             {"username": request.form.get("username").lower()})
-        
+
         username = mongo.db.members.find_one(
             {"username": session["user"]})["role"]
 
@@ -110,7 +111,8 @@ def register():
             flash("Username already exists")
             return redirect(url_for("login"))
 
-        register = {"username": request.form.get("username").lower(),
+        register = {
+                    "username": request.form.get("username").lower(),
                     "password": generate_password_hash(request.form.get("password")),
                     "email": request.form.get("email"),
                     "role": username
@@ -130,7 +132,7 @@ def member(username):
     # get username from database
     all_user_reviews = list(mongo.db.user_reviews.find())
     all_members = list(mongo.db.members.find())
-    
+
     username = mongo.db.members.find_one(
         {"username": session["user"]})["username"]
     pprint(username)
@@ -138,7 +140,8 @@ def member(username):
         user_reviews = list(mongo.db.user_reviews.find(
             {"created_by": username}))
         # print(user_reviews)
-        return render_template("member.html", username=username, user_reviews=user_reviews, all_user_reviews=all_user_reviews, all_members=all_members)
+        return render_template(
+            "member.html", username=username, user_reviews=user_reviews, all_user_reviews=all_user_reviews, all_members=all_members)
     return redirect(url_for("login"))
 
 
@@ -157,14 +160,15 @@ def add_review():
             {"username": session["user"]})["username"]
         pprint(username)
         if session["user"]:
-            
+
             user_reviews = list(mongo.db.user_reviews.find(
                     {"created_by": username}))
             pprint(user_reviews)
-        
-            # current_review = mongo.db.user_reviews.find_one({"current_book_id": request.form.get("currentBookId")})
+
+            # current_review = mongo.db.user_reviews.find_one(
+            # {"current_book_id": request.form.get("currentBookId")})
             # this_one = current_review["current_book_id"]
-       
+
             if user_reviews == request.form.get("currentBookId"):
                 flash("You are already reviewed this book!")
                 return redirect(url_for("reviews"))
@@ -186,7 +190,8 @@ def add_review():
     # results = mongo.db.critics_reviews.find()    
     # current_book = user_reviews["current_book_id"]
     # book_name = mongo.db.books.find_one({"_id": ObjectId(current_book)})
-    # member_reviews = list(mongo.db.user_reviews.find({"current_book_id": request.form.get("currentBookId")}))
+    # member_reviews = list(mongo.db.user_reviews.find(
+    # {"current_book_id": request.form.get("currentBookId")}))
     # reviews = member_reviews
     # for result in results:
     #     if result["book_name"] == book_name["book_name"]:
@@ -215,7 +220,8 @@ def edit_review(review_id):
     current_book = review["current_book_id"]
     book_name = mongo.db.books.find_one({"_id": ObjectId(current_book)})
     categories = mongo.db.reviews.find().sort("review_name")
-    return render_template("edit_review.html", categories=categories, review=review, book_name=book_name)
+    return render_template(
+        "edit_review.html", categories=categories, review=review, book_name=book_name)
 
 
 @app.route("/delete_review/<review_id>")
