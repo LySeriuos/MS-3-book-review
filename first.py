@@ -103,19 +103,17 @@ def register():
         # to check if username exists in db
         existing_user = mongo.db.members.find_one(
             {"username": request.form.get("username").lower()})
-
-        username = mongo.db.members.find_one(
+        role = mongo.db.members.find_one(
             {"username": session["user"]})["role"]
-
         if existing_user:
             flash("Username already exists")
             return redirect(url_for("login"))
 
         register = {
-                    "username": request.form.get("username").lower(),
-                    "password": generate_password_hash(request.form.get("password")),
-                    "email": request.form.get("email"),
-                    "role": username
+            "username": request.form.get("username").lower(),
+            "password": generate_password_hash(request.form.get("password")),
+            "email": request.form.get("email"),
+            "role": role
                     }
         mongo.db.members.insert_one(register)
 
