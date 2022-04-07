@@ -24,7 +24,7 @@
         
         {% for book in books %}
         <div class="row featurette">
-            {%if loop.index % 2 !=0 %}
+            {% if loop.index % 2 !=0 %}
         <div class="col-md-7">
                 <h3><a class= "getName" href="{{ url_for('reviews_book', book_id=book._id ) }}">{{ loop.index }}. {{ book.book_name }} by {{ book.book_author }}</a></h3>
                 <p>Rating: {{book.rating}}</p>

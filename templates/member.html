@@ -1,8 +1,85 @@
 {% extends "base.html" %}
 {% block content %}
    
-    <h2>{{ page_title }}</h2>
+    
+{% if session.user == "admin" %}
 
+<div class="container">
+  <h3 class="mb-5 text-center">{{ username|upper }}'S Profile </h3>
+  <h5 class="text-center mb-5">Registered Users</h5>
+  <div class="row">    
+    <div class="col-12">      
+    <table class="table">
+      <thead>
+        <tr>
+          <th scope="col">#</th>
+          <th scope="col">Name</th>
+          <th scope="col">Email</th>
+          <th scope="col">Role</th>           
+        </tr>
+      </thead>
+      {% for all_member in all_members %}
+      {% if loop.index %}
+      <tbody>
+        <tr>
+          <th scope="row">{{ loop.index }}</th>
+          <td>{{ all_member.username }}</td>          
+          <td>{{ all_member.email }}</td>
+          <td>{{ all_member.role }}</td>
+        </tr>        
+       </tbody>
+       {% endif %}
+           {% endfor %}
+    </table>
+    <hr class="featurette-divider"> 
+   
+  </div>
+</div>
+<div class="row justify-content-center">  
+    <h5 class="text-center m-5">Members Reviews</h5>  
+  <div class="col-12">      
+  <table class="table">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">User</th>
+        <th scope="col">Book</th>
+        <th scope="col">Author</th>
+        <th scope="col">Review</th>        
+        <th scope="col">Date</th>           
+      </tr>
+    </thead>
+    {% for all_user_review in all_user_reviews %}
+    {% if loop.index %}
+    <tbody>
+      <tr>
+        <th scope="row">{{ loop.index }}</th>
+        <td>{{ all_user_review.created_by }}</td>          
+        <td>{{ all_user_review.book_name }}</td>
+        <td>{{ all_user_review.author }}</td>          
+        <td>{{ all_user_review.review }}<br>
+          <a href="{{ url_for('edit_review', review_id=all_user_review._id) }}" class="btn btn-primary">Edit</a>
+          <a href="{{ url_for('delete_review', review_id=all_user_review._id) }}" class="btn btn-primary">Delete</a>
+        </td>
+        <td>{{ all_user_review.date }}</td>
+      </tr>        
+     </tbody>
+     {% endif %}
+     {% endfor %}
+  </table>
+</div>
+</div>
+</div>
+
+
+
+
+<!-- 
+{{ all_tasks }}
+
+{{ user_tasks }}
+ -->
+{% elif session.user %}
     <br>
     <div class="container">
        <div class="row">
@@ -22,6 +99,8 @@
         </ul>
       </div> -->
     </div>
+
+
    
     <div class="col-8">
       {% for user_review in user_reviews %} 
@@ -57,7 +136,7 @@
    
   </div>
 </div>
-  
+  {% endif %}
   {% endblock %}
 
   

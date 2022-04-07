@@ -102,13 +102,18 @@ def register():
         # to check if username exists in db
         existing_user = mongo.db.members.find_one(
             {"username": request.form.get("username").lower()})
+        
+        username = mongo.db.members.find_one(
+            {"username": session["user"]})["role"]
 
         if existing_user:
             flash("Username already exists")
             return redirect(url_for("login"))
 
         register = {"username": request.form.get("username").lower(),
-                    "password": generate_password_hash(request.form.get("password"))
+                    "password": generate_password_hash(request.form.get("password")),
+                    "email": request.form.get("email"),
+                    "role": username
                     }
         mongo.db.members.insert_one(register)
 
@@ -123,13 +128,17 @@ def register():
 @app.route("/member/<username>", methods=["GET", "POST"])
 def member(username):
     # get username from database
+    all_user_reviews = list(mongo.db.user_reviews.find())
+    all_members = list(mongo.db.members.find())
+    
     username = mongo.db.members.find_one(
         {"username": session["user"]})["username"]
+    pprint(username)
     if session["user"]:
         user_reviews = list(mongo.db.user_reviews.find(
             {"created_by": username}))
         # print(user_reviews)
-        return render_template("member.html", username=username, user_reviews=user_reviews)
+        return render_template("member.html", username=username, user_reviews=user_reviews, all_user_reviews=all_user_reviews, all_members=all_members)
     return redirect(url_for("login"))
 
 
@@ -146,7 +155,7 @@ def add_review():
     if request.method == "POST":
         username = mongo.db.members.find_one(
             {"username": session["user"]})["username"]
-        print(username)
+        pprint(username)
         if session["user"]:
             
             user_reviews = list(mongo.db.user_reviews.find(
